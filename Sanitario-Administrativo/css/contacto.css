@@ -1,0 +1,12 @@
+.ct-card{background:#fff;border-radius:20px;padding:1.5rem;color:var(--text)}
+.ct-card h3{font-weight:700;font-size:20px;margin:0}.ct-sub{font-size:13px;color:var(--text-muted);margin:.25rem 0 1rem}
+.ct-row{display:grid;gap:.3rem;margin-bottom:.9rem}
+.ct-row label,.ct-check label{font-size:13px;font-weight:600}
+.ct-row input,.ct-row select,.ct-row textarea{width:100%;min-height:44px;padding:.65rem .9rem;border:1px solid var(--border-strong);border-radius:14px;font:inherit;font-size:14px;background:#fff;color:var(--text)}
+.ct-row textarea{resize:vertical}
+.ct-row input:focus,.ct-row select:focus,.ct-row textarea:focus{border-color:#1558b0;box-shadow:0 0 0 3px rgba(21,88,176,.18)}
+.ct-check{display:flex;gap:.6rem;align-items:flex-start;margin:.25rem 0 .6rem}.ct-check input{width:22px;height:22px;flex:none;margin-top:.1rem;accent-color:#1558b0}.ct-check label{font-weight:500;line-height:1.4}
+.ct-priv{font-size:11px;line-height:1.5;color:var(--text-muted);margin:0 0 1rem}
+.ct-send{width:100%;min-height:48px;border:0;border-radius:999px;background:#0f172a;color:#fff;font-weight:700;font-size:14px;cursor:pointer}.ct-send:hover{background:#1558b0}.ct-send:disabled{opacity:.6;cursor:wait}
+.ct-status{margin:.75rem 0 0;font-size:13px;font-weight:600;min-height:1.2em}.ct-status.ok{color:#047857}.ct-status.err{color:#b91c1c}
+.ct-hp{display:none}

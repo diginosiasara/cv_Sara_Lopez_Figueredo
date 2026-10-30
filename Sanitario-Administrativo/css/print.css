@@ -19,3 +19,4 @@ main{zoom:.78}
 .text-white,[class*="text-white"]{color:#0f172a!important}
 .fc-h4,.fc-h5{background:#93c5fd!important;color:#0f172a!important}
 a[class*="bg-[#0a66c2]"],#contacto a,#contacto button,#inicio a[class*="rounded-full"],.pj-btn{display:none!important}
+.ct-card{display:none!important}
