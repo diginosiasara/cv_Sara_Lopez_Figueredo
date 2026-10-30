@@ -1,0 +1,177 @@
+/* =========================================================
+   custom.css — estilos propios (tokens, base, accesibilidad, componentes)
+   ========================================================= */
+
+/* 1. Tokens de diseño y base ------------------------------ */
+:root {
+  --primary: #1e3a5f;
+  --primary-dark: #152a45;
+  --primary-light: #e8eef6;
+  --terracotta: #d4764a;
+  --terracotta-light: #fdf0e8;
+  --terracotta-dark: #b85e34;
+  --cream: #fdf8f0;
+  --cream-dark: #f5efe4;
+  --slate-green: #2d5a4a;
+  --slate-green-light: #e6f0ec;
+  --gold: #d4a24a;
+  --gold-light: #fdf6e8;
+  --surface: #fdf8f0;
+  --surface-2: #ffffff;
+  --surface-3: #f5efe4;
+  --text: #1e2e42;
+  --text-muted: #55657a; /* AA: 5.6:1 sobre crema */
+  --text-faint: #5a6a7e; /* AA: 5.2:1 sobre crema */
+  --border: #e8ddd0;
+  --border-strong: #d6c9b8;
+  --shadow-soft: 0 8px 32px rgba(30,58,95,0.08);
+  --shadow-paper: 0 2px 12px rgba(30,58,95,0.06);
+}
+
+* {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+h1,h2,h3 {
+  font-family: 'Fraunces', Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.font-display {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+:root {
+  --safe-area-inset-top: env(safe-area-inset-top, 0px);
+  --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+  --header-h: 72px;
+  color-scheme: light; /* el diseño usa colores claros fijos: evitamos un modo oscuro a medias */
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + var(--safe-area-inset-top) + 16px); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { background: var(--cream); color: var(--text); min-height: 100vh; min-height: 100dvh; padding-top: var(--safe-area-inset-top); overflow-x: clip; }
+img { max-width: 100%; height: auto; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 8px; }
+.paper-texture {
+  background-color: var(--surface-2);
+  background-image: 
+    radial-gradient(at 20% 30%, rgba(212,118,74,0.06) 0px, transparent 50%),
+    radial-gradient(at 80% 70%, rgba(45,90,74,0.05) 0px, transparent 50%),
+    radial-gradient(at 40% 80%, rgba(30,58,95,0.04) 0px, transparent 50%);
+}
+
+.paper-line {
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 27px, rgba(30,58,95,0.04) 28px);
+}
+
+.font-display { font-family: 'Fraunces', Georgia, serif; }
+.font-body { font-family: 'Inter', system-ui, sans-serif; }
+.page { min-height: 100vh; overflow-x: clip; }
+[hidden] { display: none !important; }
+main:focus { outline: none; }
+
+/* 2. Accesibilidad ---------------------------------------- */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.skip-link { position: fixed; left: 12px; top: -64px; z-index: 100; padding: 12px 18px; border-radius: 999px; background: var(--primary); color: #fff; font-weight: 600; text-decoration: none; transition: top .15s; }
+.skip-link:focus { top: calc(12px + var(--safe-area-inset-top)); }
+:focus-visible { outline: 3px solid var(--terracotta-dark); outline-offset: 3px; border-radius: 6px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--terracotta-dark); outline-offset: 3px; }
+.bg-\[var\(--primary\)\]:focus-visible, .filter-btn[aria-pressed="true"]:focus-visible { outline-color: var(--terracotta); box-shadow: 0 0 0 2px #fff; }
+a, button { -webkit-tap-highlight-color: transparent; }
+
+/* Tamaño mínimo de lectura (los diseños con 9–11 px no cumplen WCAG 1.4.4 de forma cómoda) */
+.text-\[9px\], .text-\[10px\] { font-size: 0.75rem; }
+.text-\[11px\] { font-size: 0.8125rem; }
+.text-\[12px\] { font-size: 0.875rem; }
+
+/* Objetivos táctiles >= 44px */
+button, input[type="search"], .site-nav a { min-height: 44px; }
+header a.w-9 { width: 2.75rem; height: 2.75rem; }
+.to-top { min-width: 48px; min-height: 48px; }
+
+/* 3. Componentes ------------------------------------------ */
+header .brand { text-decoration: none; color: inherit; min-width: 0; }
+.site-nav { display: none; gap: .25rem; }
+.site-nav a { display: inline-flex; align-items: center; padding: 0 .9rem; border-radius: 999px; font-size: .8125rem; font-weight: 600; color: var(--primary); text-decoration: none; }
+.site-nav a:hover { background: var(--surface-3); }
+.site-nav a[aria-current="true"] { background: var(--primary); color: #fff; }
+@media (min-width: 1100px) { .site-nav { display: flex; } }
+
+.filter-btn[aria-pressed="true"] { background: var(--primary); color: #fff; border-color: var(--primary); }
+.filter-btn[aria-pressed="true"]:hover { background: var(--primary-dark); }
+input[type="search"] { -webkit-appearance: none; appearance: none; font-size: 1rem; } /* 16px: evita zoom automático en iOS */
+input[type="search"]::-webkit-search-cancel-button { cursor: pointer; }
+
+.copy-status { margin-top: .75rem; display: inline-block; padding: .4rem .9rem; border-radius: 999px; background: var(--slate-green-light); border: 1px solid rgb(45 90 74 / .25); color: #1f4a3a; font-size: .8125rem; }
+.copy-status:empty { display: none; }
+
+.to-top { position: fixed; right: 16px; bottom: calc(16px + var(--safe-area-inset-bottom)); z-index: 40; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: var(--primary); color: #fff; text-decoration: none; font-size: 1.25rem; box-shadow: var(--shadow-soft); }
+.to-top:hover { background: var(--primary-dark); }
+
+@keyframes floatIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+.animate-in { animation: floatIn .7s ease both; }
+
+/* 4. Adaptabilidad ---------------------------------------- */
+@media (max-width: 400px) {
+  img.w-\[180px\] { width: 140px; height: 140px; }
+}
+.ficha-item { display: flex; }
+.ficha-item > article { width: 100%; }
+h1, h2, h3, p, li { overflow-wrap: anywhere; hyphens: auto; }
+@media (min-width: 640px) { h1, h2, h3, p, li { overflow-wrap: break-word; } }
+
+/* 5. Preferencias del usuario ----------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, ::before, ::after { animation: none !important; transition: none !important; }
+  .animate-pulse { animation: none !important; }
+}
+@media (forced-colors: active) {
+  .filter-btn[aria-pressed="true"] { outline: 2px solid Highlight; }
+}
+@media print {
+  .skip-link, .to-top, .site-nav, #fichas-buscar, .filter-btn, #fichas-mas-wrap, header { display: none !important; }
+  .ficha-item[hidden] { display: flex !important; }
+  body { background: #fff; }
+  a { color: inherit; text-decoration: none; }
+}
+
+/* 6. Estilos extraídos de atributos style="" (generados) --- */
+.u1{transform: scale(1.08)}
+.u2{background: rgb(232, 238, 246);border-color: var(--primary)20;color: var(--primary)}
+.u3{background: var(--primary)}
+.u4{background: rgb(230, 240, 236);border-color: rgba(45, 90, 74, 0.125);color: rgb(45, 90, 74)}
+.u5{background: rgb(45, 90, 74)}
+.u6{background: rgb(253, 240, 232);border-color: rgba(212, 118, 74, 0.125);color: rgb(212, 118, 74)}
+.u7{background: rgb(212, 118, 74)}
+.u8{background: rgb(242, 235, 245);border-color: rgba(107, 74, 122, 0.125);color: rgb(107, 74, 122)}
+.u9{background: rgb(107, 74, 122)}
+.ua{border-color: rgb(198, 11, 30)}
+.ub{background: rgb(198, 11, 30)}
+.uc{border-color: var(--primary)}
+.ud{border-color: var(--terracotta)}
+.ue{background: var(--terracotta)}
+.uf{border-color: rgb(45, 90, 74)}
+.ug{width: 72%;background: var(--primary)}
+.uh{width: 24%;background: var(--terracotta)}
+.ui{width: 8%;background: var(--text-muted)}
+.uj{background: rgb(232, 238, 246);border-color: rgb(194, 209, 227)}
+.uk{width: 100%;background: rgb(30, 58, 95)}
+.ul{background: rgb(230, 240, 236);border-color: rgb(189, 208, 197)}
+.um{width: 90%;background: rgb(45, 90, 74)}
+.un{background: rgb(253, 240, 232);border-color: rgb(232, 201, 179)}
+.uo{width: 52%;background: rgb(138, 90, 58)}
+.up{background: rgb(242, 235, 245);border-color: rgb(216, 197, 224)}
+.uq{width: 45%;background: rgb(107, 74, 122)}
+.ur{background: rgb(253, 240, 232);border-color: rgb(232, 197, 176)}
+.us{width: 14%;background: rgb(212, 118, 74)}
+.ut{background:#e8eef6;border-color:#c2d1e3}
+.uu{background:#f2ebf5;border-color:#d8c5e0}
+.uv{background:#fdf0e8;border-color:#e8c5b0}
+.uw{background:#fdf0e8;border-color:#e8c9b3}
+.ux{background:#e6f0ec;border-color:#bdd0c5}
