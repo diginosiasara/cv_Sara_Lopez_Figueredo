@@ -13,3 +13,5 @@
 .cp-card ul.cp-num{list-style:none;padding:0}.cp-num li{display:flex;justify-content:space-between;gap:.5rem;padding:.35rem 0;border-top:1px solid var(--border)}.cp-num b{font-size:12px;white-space:nowrap}
 .xp-subnav{display:flex;flex-wrap:wrap;gap:.5rem .75rem;align-items:center;margin-bottom:1.5rem;font-size:13px}.xp-subnav span{color:var(--text-muted)}.xp-subnav a{display:inline-flex;align-items:center;min-height:44px;padding:0 .9rem;border:1px solid var(--border);border-radius:999px;color:var(--text);text-decoration:none;font-weight:600;background:#fff}
 .fc-sel{padding:.7rem 1rem;border:1px solid var(--border-strong);border-radius:999px;font-size:13px;background:#fff;min-height:44px}.fc-reset{min-height:44px;padding:0 1rem;border-radius:999px;border:1px solid var(--border-strong);background:#fff;font-size:13px;font-weight:600;cursor:pointer}
+.xp-subnav{flex-basis:100%;margin:1rem 0 0}
+.xp-after{max-width:1280px;margin:0 auto;padding:0 1.5rem 3rem}@media(min-width:1024px){.xp-after{padding:0 2.5rem 4rem}}
