@@ -18,3 +18,4 @@ header a[target],header a[aria-label]{display:inline-flex;align-items:center;jus
 .text-\[\#854d0e\]\/80{color:#854d0e}.text-\[\#0078d4\]{color:#005a9e}.text-white\/40{color:rgba(255,255,255,.65)}.text-white\/80{color:rgba(255,255,255,.92)}
 .bg-\[\#8b5cf6\]{background-color:#7c3aed}.bg-\[\#10b981\]{background-color:#047857}.bg-\[\#f97316\]{background-color:#c2410c}.bg-\[\#94a3b8\]{background-color:#64748b}
 .opacity-70{opacity:.88}
+.print-only{display:none}

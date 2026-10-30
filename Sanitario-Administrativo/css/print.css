@@ -1,0 +1,21 @@
+@page{size:A4;margin:14mm 12mm}
+html{font-size:12px}body{background:#fff!important;color:#000!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+*{box-shadow:none!important;animation:none!important;transition:none!important}
+.reveal{opacity:1!important;transform:none!important}
+.print-only{display:block!important;border-bottom:2px solid #000;padding-bottom:6px;margin-bottom:10px;font-size:10px}.print-only p{margin:0}.pr-name{font-size:18px;font-weight:700}
+header,.skip,#estado,[data-print],[data-copy],.fm-srch,.fm-tabs,.xp-subnav,[aria-label="Imagen de cabecera"],.fm-acts,.pj-links,.fc-key{display:none!important}
+section{padding-top:8px!important;padding-bottom:8px!important;min-height:0!important}
+h1,h2,h3,h4{break-after:avoid}
+li,tr,.fm-row,.fc-kpi,.cp-card,.pj-facts,.fm-note,.xp-kpis div{break-inside:avoid}
+.fm-fam,.fm-card,.fc-card,.xp-card,.pj-card{break-inside:auto}
+.fm-chips,.fc-scroll{max-height:none!important;overflow:visible!important}
+a{color:#000!important;text-decoration:none}
+.sr-only{display:none!important}
+.print-resumen details,.print-resumen .fc-list,.print-resumen .fc-grp{display:none!important}
+.print-resumen .fm-chips{display:none!important}
+main{zoom:.78}
+.pj-print{font-size:9px;word-break:break-all;padding:0 1rem 1rem}
+.fm-kpi.dk,.fm-head,.pj-head,[class*="bg-[#0"],[class*="bg-[#1e"],[class*="bg-slate-9"]{background:#e8edf4!important;color:#0f172a!important}
+.text-white,[class*="text-white"]{color:#0f172a!important}
+.fc-h4,.fc-h5{background:#93c5fd!important;color:#0f172a!important}
+a[class*="bg-[#0a66c2]"],#contacto a,#contacto button,#inicio a[class*="rounded-full"],.pj-btn{display:none!important}

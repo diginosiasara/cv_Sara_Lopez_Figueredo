@@ -32,7 +32,18 @@
     }, { rootMargin: '-40% 0px -55% 0px' });
     links.forEach(function (l) { var t = document.getElementById(l.getAttribute('href').slice(1)); if (t) so.observe(t); });
   }
-  document.querySelectorAll('[data-print]').forEach(function (b) { b.addEventListener('click', function () { window.print(); }); });
+  var pmode = 'resumen';
+  document.querySelectorAll('[data-print]').forEach(function (b) { b.addEventListener('click', function () { pmode = b.getAttribute('data-print') || 'resumen'; window.print(); }); });
+  window.addEventListener('beforeprint', function () {
+    var d = document.getElementById('pr-date'); if (d) d.textContent = 'Impreso el ' + new Date().toLocaleDateString('es-ES');
+    document.documentElement.classList.add('print-' + pmode);
+    if (pmode === 'completo') document.querySelectorAll('details').forEach(function (x) { x.setAttribute('data-was', x.open ? '1' : '0'); x.open = true; });
+  });
+  window.addEventListener('afterprint', function () {
+    document.documentElement.classList.remove('print-resumen', 'print-completo');
+    document.querySelectorAll('details[data-was]').forEach(function (x) { x.open = x.getAttribute('data-was') === '1'; x.removeAttribute('data-was'); });
+    pmode = 'resumen';
+  });
   var st = document.getElementById('estado');
   document.querySelectorAll('[data-copy]').forEach(function (b) {
     b.addEventListener('click', function () {
