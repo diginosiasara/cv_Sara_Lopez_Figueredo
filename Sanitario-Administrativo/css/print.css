@@ -20,3 +20,6 @@ main{zoom:.78}
 .fc-h4,.fc-h5{background:#93c5fd!important;color:#0f172a!important}
 a[class*="bg-[#0a66c2]"],#contacto a,#contacto button,#inicio a[class*="rounded-full"],.pj-btn{display:none!important}
 .ct-card{display:none!important}
+.kw-btn,.kw-actions,.kw-combo,.kw-hgrid{display:none!important}
+.kw-card:has(.kw-hgrid){display:none!important}
+.wc{background:#fff!important;border:1px solid #cbd5e1}
