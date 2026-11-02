@@ -19,3 +19,8 @@ header a[target],header a[aria-label]{display:inline-flex;align-items:center;jus
 .bg-\[\#8b5cf6\]{background-color:#7c3aed}.bg-\[\#10b981\]{background-color:#047857}.bg-\[\#f97316\]{background-color:#c2410c}.bg-\[\#94a3b8\]{background-color:#64748b}
 .opacity-70{opacity:.88}
 .print-only{display:none}
+:where(.blk){display:block}
+small{font-size:12px}
+[class*="text-[9"],[class*="text-[0."]{font-size:12px!important}
+.back-top{max-width:1280px;margin:0 auto;padding:1rem 1.5rem 2.5rem;text-align:right}.back-top a{display:inline-flex;align-items:center;min-height:44px;color:#1558b0;font-weight:600;text-decoration:underline}
+@media print{.back-top{display:none!important}}

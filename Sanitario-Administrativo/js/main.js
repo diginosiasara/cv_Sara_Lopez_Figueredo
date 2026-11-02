@@ -49,8 +49,8 @@
     b.addEventListener('click', function () {
       var m = 'Nosia_sl@hotmail.com';
       var done = function () { st.textContent = 'Correo copiado al portapapeles'; setTimeout(function () { st.textContent = ''; }, 3000); };
-      if (navigator.clipboard) navigator.clipboard.writeText(m).then(done);
-      else { var i = document.createElement('input'); i.value = m; document.body.appendChild(i); i.select(); document.execCommand('copy'); i.remove(); done(); }
+      var fb = function () { var i = document.createElement('input'); i.value = m; document.body.appendChild(i); i.select(); try { document.execCommand('copy'); done(); } catch (e) { st.textContent = 'No se pudo copiar. Selecciona el correo y cópialo manualmente.'; } i.remove(); };
+      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(m).then(done, fb); else fb();
     });
   });
 })();
