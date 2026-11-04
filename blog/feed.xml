@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diginosia · Apuntes de trinchera</title>
+    <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/</link>
+    <atom:link href="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Blog de Sara López-Figueredo sobre teleasistencia, documentación sanitaria, CIE-10-ES, arquitectura de software, IA local y embeddings. Notas sin humo.</description>
+    <language>es-ES</language>
+    <item>
+      <title>Mi carrera no ha sido una línea recta, ha sido una evolución estratégica.</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/mi-carrera-no-ha-sido-una-linea-recta-ha-sido-una-evolucion/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/mi-carrera-no-ha-sido-una-linea-recta-ha-sido-una-evolucion/</guid>
+      <pubDate>Sun, 11 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Una trayectoria nacida de la curiosidad por la tecnología: del desarrollo de software y la docencia a la sanidad, los datos y la IA.</description>
+    </item>
+    <item>
+      <title>La gestión de la información en teleasistencia: cuando registrar bien también significa cuidar mejor</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-gestion-de-la-informacion-en-teleasistencia-cuando-registrar-bien/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-gestion-de-la-informacion-en-teleasistencia-cuando-registrar-bien/</guid>
+      <pubDate>Sun, 19 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Registrar, organizar y gestionar bien la información garantiza continuidad, coordinación y calidad asistencial en teleasistencia.</description>
+    </item>
+    <item>
+      <title>La importancia de una llamada bien hecha en los servicios de teleasistencia</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-importancia-de-una-llamada-bien-hecha-en-los-servicios-de/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-importancia-de-una-llamada-bien-hecha-en-los-servicios-de/</guid>
+      <pubDate>Sun, 19 Jul 2026 12:00:00 GMT</pubDate>
+      <description>La llamada como herramienta de prevención y cuidado: protocolos y comunicación que dan seguridad y cercanía.</description>
+    </item>
+    <item>
+      <title>La organización de la jornada de trabajo en Teleasistencia: mucho más que responder llamadas</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-organizacion-de-la-jornada-de-trabajo-en-teleasistencia-mucho-mas/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-organizacion-de-la-jornada-de-trabajo-en-teleasistencia-mucho-mas/</guid>
+      <pubDate>Sun, 19 Jul 2026 12:00:00 GMT</pubDate>
+      <description>La jornada en teleasistencia es mucho más que responder llamadas: planificación, protocolos, herramientas y profesionales cualificados.</description>
+    </item>
+    <item>
+      <title>Enseñar desarrollo web en la era de la IA: cómo mi evolución como ingeniera está transformando mi forma de enseñar</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/ensenar-desarrollo-web-en-la-era-de-la-ia-como-mi-evolucion-como/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/ensenar-desarrollo-web-en-la-era-de-la-ia-como-mi-evolucion-como/</guid>
+      <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Cómo su evolución como ingeniera transforma la forma de enseñar desarrollo web en la era de la IA: del código a la arquitectura y el criterio.</description>
+    </item>
+    <item>
+      <title>¿Puede una IA entender el sarcasmo? Cuando el significado deja de estar en las palabras y pasa a depender de la intención</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/puede-una-ia-entender-el-sarcasmo-cuando-el-significado-deja-de-estar/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/puede-una-ia-entender-el-sarcasmo-cuando-el-significado-deja-de-estar/</guid>
+      <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+      <description>¿Puede una IA entender el sarcasmo? El significado depende de la intención más que de las palabras.</description>
+    </item>
+    <item>
+      <title>Cuando los embeddings dejan de representar palabras y empiezan a capturar significado: una mirada al lenguaje, la cultura y el contexto</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-los-embeddings-dejan-de-representar-palabras-y-empiezan-a/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-los-embeddings-dejan-de-representar-palabras-y-empiezan-a/</guid>
+      <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Cómo un mismo modelo entiende textos en español, japonés o árabe: embeddings multilingües, cultura y contexto.</description>
+    </item>
+    <item>
+      <title>Cuando un vector deja de ser una lista de números: comprender cómo la IA representa el significado</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-un-vector-deja-de-ser-una-lista-de-numeros-comprender-como-la/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-un-vector-deja-de-ser-una-lista-de-numeros-comprender-como-la/</guid>
+      <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Un embedding es mucho más que una lista de números: lo importante es cómo el modelo construye el significado.</description>
+    </item>
+    <item>
+      <title>Del lenguaje a la mente: cuando los embeddings empiezan a representar cómo pensamos</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/del-lenguaje-a-la-mente-cuando-los-embeddings-empiezan-a-representar/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/del-lenguaje-a-la-mente-cuando-los-embeddings-empiezan-a-representar/</guid>
+      <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+      <description>¿Puede una IA representar cómo pensamos? Embeddings, estilo de escritura y ciencia cognitiva.</description>
+    </item>
+    <item>
+      <title>Embeddings en Inteligencia Artificial: ¿todos los vectores representan el significado de la misma forma?</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/embeddings-en-inteligencia-artificial-todos-los-vectores-representan/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/embeddings-en-inteligencia-artificial-todos-los-vectores-representan/</guid>
+      <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Explica que no todos los embeddings se construyen igual y por qué eso condiciona la búsqueda semántica y los resultados de los modelos.</description>
+    </item>
+    <item>
+      <title>Aprender IA no es solo usar herramientas, es cambiar la forma de pensar.</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/aprender-ia-no-es-solo-usar-herramientas-es-cambiar-la-forma-de-pensar/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/aprender-ia-no-es-solo-usar-herramientas-es-cambiar-la-forma-de-pensar/</guid>
+      <pubDate>Fri, 17 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Diferencia entre IA generativa, IA agéntica y agentes de IA, y cómo cambió la arquitectura de una plataforma de procesamiento inteligente de documentos.</description>
+    </item>
+    <item>
+      <title>Cuando un nuevo concepto conecta todas las piezas del puzle</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-un-nuevo-concepto-conecta-todas-las-piezas-del-puzle/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-un-nuevo-concepto-conecta-todas-las-piezas-del-puzle/</guid>
+      <pubDate>Fri, 17 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Segunda parte: cómo la IA local, los pipelines inteligentes y la IA agéntica resultan ser piezas de un mismo puzle.</description>
+    </item>
+    <item>
+      <title>Desarrollar software con IA: cuando el problema ya no es escribir código, sino hacer que todo el sistema funcione</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/desarrollar-software-con-ia-cuando-el-problema-ya-no-es-escribir/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/desarrollar-software-con-ia-cuando-el-problema-ya-no-es-escribir/</guid>
+      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Desarrollar con IA no elimina los problemas de ingeniería: el desafío pasa de escribir código a lograr que todo el sistema funcione.</description>
+    </item>
+    <item>
+      <title>Inteligencia Artificial Local: el reto es la arquitectura, no el modelo</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/inteligencia-artificial-local-el-reto-es-la-arquitectura-no-el-modelo/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/inteligencia-artificial-local-el-reto-es-la-arquitectura-no-el-modelo/</guid>
+      <pubDate>Mon, 13 Jul 2026 12:00:00 GMT</pubDate>
+      <description>Lecciones de dos proyectos (AI Dataset Engine y Fábrica de Captions) para procesar información íntegramente en el equipo del usuario, sin APIs externas ni nube.</description>
+    </item>
+    <item>
+      <title>Arquitectura de software: lo ideal vs la realidad en empresas reales</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/arquitectura-de-software-lo-ideal-vs-la-realidad-en-empresas-reales/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/arquitectura-de-software-lo-ideal-vs-la-realidad-en-empresas-reales/</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
+      <description>La arquitectura en empresas reales no es una escalera ordenada, sino una negociación constante entre lo ideal y lo posible.</description>
+    </item>
+    <item>
+      <title>Arquitectura Evolutiva Escalable: cómo crecer sin reescribir todo</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/arquitectura-evolutiva-escalable-como-crecer-sin-reescribir-todo/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/arquitectura-evolutiva-escalable-como-crecer-sin-reescribir-todo/</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
+      <description>Arquitectura evolutiva: empezar simple pero preparado para crecer, evitando reescribir el proyecto desde cero.</description>
+    </item>
+    <item>
+      <title>De crear interfaces a diseñar arquitectura real</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/de-crear-interfaces-a-disenar-arquitectura-real/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/de-crear-interfaces-a-disenar-arquitectura-real/</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
+      <description>Cómo la programación, la docencia y la escalabilidad cambian la forma de pensar el software: del primer programa en un solo archivo a una arquitectura que crece.</description>
+    </item>
+    <item>
+      <title>Comprendiendo la Codificación CIE-10-ES y su Normativa: Guía para estudiantes de Documentación Sanitaria</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/comprendiendo-la-codificacion-cie-10-es-y-su-normativa-guia-para/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/comprendiendo-la-codificacion-cie-10-es-y-su-normativa-guia-para/</guid>
+      <pubDate>Tue, 10 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Guía para estudiantes de la UF6: cómo aplicar las normativas de codificación CIE-10-ES para registrar bien la información clínica.</description>
+    </item>
+    <item>
+      <title>¿Qué es la codificación clínica y por qué es clave en los sistemas sanitarios?</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/que-es-la-codificacion-clinica-y-por-que-es-clave-en-los-sistemas/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/que-es-la-codificacion-clinica-y-por-que-es-clave-en-los-sistemas/</guid>
+      <pubDate>Fri, 06 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Por qué la codificación clínica estandariza diagnósticos y procedimientos, y qué aporta a la gestión y el análisis del sistema sanitario.</description>
+    </item>
+    <item>
+      <title>Cómo entender la CIE-10-ES de diagnósticos sin volverse loco: guía sencilla</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-entender-la-cie-10-es-de-diagnosticos-sin-volverse-loco-guia/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-entender-la-cie-10-es-de-diagnosticos-sin-volverse-loco-guia/</guid>
+      <pubDate>Fri, 06 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Guía sencilla de la estructura y las reglas básicas de la CIE-10-ES de diagnósticos para estudiantes y profesionales.</description>
+    </item>
+    <item>
+      <title>Cómo Seleccionar Correctamente los Códigos en la CIE: Guía Rápida para Profesionales de la Salud</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-seleccionar-correctamente-los-codigos-en-la-cie-guia-rapida-para/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-seleccionar-correctamente-los-codigos-en-la-cie-guia-rapida-para/</guid>
+      <pubDate>Fri, 06 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Proceso paso a paso para seleccionar el código correcto en la CIE: identificar el episodio asistencial y aplicar las reglas de codificación.</description>
+    </item>
+    <item>
+      <title>La CIE-10 y la codificación clínica: Clave para la gestión de la información sanitaria</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-cie-10-y-la-codificacion-clinica-clave-para-la-gestion-de-la/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-cie-10-y-la-codificacion-clinica-clave-para-la-gestion-de-la/</guid>
+      <pubDate>Fri, 06 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Legislación clave en España y aplicación de la CIE-10 para codificar diagnósticos y procedimientos con calidad y cumplimiento normativo.</description>
+    </item>
+    <item>
+      <title>Cómo Evalúo a Mis Alumnos para Prepararlos al Mundo Laboral</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-evaluo-a-mis-alumnos-para-prepararlos-al-mundo-laboral/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-evaluo-a-mis-alumnos-para-prepararlos-al-mundo-laboral/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Cómo evalúa a su alumnado de certificados de profesionalidad simulando el trabajo en empresas reales: visión, criterios y preparación para el mundo laboral.</description>
+    </item>
+    <item>
+      <title>La Importancia de una Arquitectura de Archivos Bien Organizada en Proyectos Web</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-importancia-de-una-arquitectura-de-archivos-bien-organizada-en/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-importancia-de-una-arquitectura-de-archivos-bien-organizada-en/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Por qué la estructura de archivos es la base de un proyecto web y cómo enseñar buenas prácticas de organización desde el primer día.</description>
+    </item>
+    <item>
+      <title>Sistemas de Información Sanitaria: Clave para la gestión y calidad en salud</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Qué es la información sanitaria y cómo se organiza el SIS para apoyar la toma de decisiones, la planificación y la calidad asistencial.</description>
+    </item>
+    <item>
+      <title>Sistemas de Información y Clasificación Sanitarios: Guía Visual para Estudiantes</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-y-clasificacion-sanitarios-guia-visual-para/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-y-clasificacion-sanitarios-guia-visual-para/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Resumen visual y práctico para estudiantes sobre sistemas de información y clasificación sanitarios.</description>
+    </item>
+    <item>
+      <title>Sistemas de Información y Clasificación Sanitarios: una mirada desde la Documentación Sanitaria</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-y-clasificacion-sanitarios-una-mirada-desde/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-y-clasificacion-sanitarios-una-mirada-desde/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Introducción a la gestión de la información en el sistema sanitario: qué datos se recogen y analizan, historia clínica, CMBD y sistemas de clasificación.</description>
+    </item>
+    <item>
+      <title>Diferencia entre CIE-10-ES Diagnósticos y CIE-10-ES Procedimientos</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/diferencia-entre-cie-10-es-diagnosticos-y-cie-10-es-procedimientos/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/diferencia-entre-cie-10-es-diagnosticos-y-cie-10-es-procedimientos/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Diferencias entre CIE-10-ES Diagnósticos y CIE-10-ES Procedimientos, y entre diagnóstico principal y secundario, explicadas de forma sencilla para estudiantes.</description>
+    </item>
+    <item>
+      <title>Organización Sanitaria</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/organizacion-sanitaria/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/organizacion-sanitaria/</guid>
+      <pubDate>Wed, 04 Mar 2026 12:00:00 GMT</pubDate>
+      <description>Compendio de estudio: evolución del concepto de salud, determinantes (modelo de Lalonde), modelos de sistemas sanitarios, SNS español, niveles de asistencia y documentación sanitaria.</description>
+    </item>
+    <item>
+      <title>Calidad de la Documentación Clínica: Claves para Administrativos y Profesionales Sanitarios</title>
+      <link>https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/calidad-de-la-documentacion-clinica-claves-para-administrativos-y/</link>
+      <guid isPermaLink="true">https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/calidad-de-la-documentacion-clinica-claves-para-administrativos-y/</guid>
+      <pubDate>Wed, 04 Mar 2026 12:00:00 GMT</pubDate>
+      <description>La calidad de las historias clínicas como herramienta de seguridad del paciente: ISO 9000, EFQM, Joint Commission, control de calidad y Comisión de Historias Clínicas.</description>
+    </item>
+  </channel>
+</rss>
