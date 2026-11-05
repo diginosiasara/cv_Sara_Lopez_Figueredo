@@ -1,0 +1,316 @@
+/* Lector de voz accesible · se adapta a las variables del sitio (claro / oscuro) */
+.lector {
+  --lector-bg: var(--surface, var(--card, #ffffff));
+  --lector-texto: var(--text, var(--text-primary, #1a1a1a));
+  --lector-muted: var(--muted, var(--text-secondary, #5c5c5c));
+  --lector-borde: var(--line-strong, var(--line, #cfc6bb));
+  --lector-acento: var(--focus, #2e5a8b);
+  --lector-btn-bg: var(--text, var(--text-primary, #1a1a1a));
+  --lector-btn-texto: var(--bg, #fffcf8);
+
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.6rem;
+  max-width: calc(100vw - 2rem);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--lector-texto);
+}
+
+.lector *,
+.lector *::before,
+.lector *::after {
+  box-sizing: border-box;
+}
+
+.lector [hidden] {
+  display: none !important;
+}
+
+/* ---------- Botón flotante ---------- */
+.lector__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.5rem 1.1rem;
+  border: 2px solid var(--lector-btn-bg);
+  border-radius: 999px;
+  background: var(--lector-btn-bg);
+  color: var(--lector-btn-texto);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.18);
+}
+.lector__toggle:hover {
+  filter: brightness(1.15);
+}
+.lector--abierto .lector__toggle {
+  background: var(--lector-bg);
+  color: var(--lector-texto);
+  border-color: var(--lector-borde);
+}
+
+/* ---------- Panel ---------- */
+.lector__panel {
+  width: min(23rem, calc(100vw - 2rem));
+  max-height: calc(100vh - 6rem);
+  overflow: auto;
+  padding: 0.85rem;
+  border: 1px solid var(--lector-borde);
+  border-radius: 20px;
+  background: var(--lector-bg);
+  color: var(--lector-texto);
+  box-shadow: 0 16px 40px rgb(0 0 0 / 0.22);
+}
+
+.lector__cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+.lector__titulo {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.lector__controles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.4rem;
+}
+
+/* ---------- Botones ---------- */
+.lector__btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  min-height: 56px;
+  min-width: 44px;
+  padding: 0.4rem 0.25rem;
+  border: 1.5px solid var(--lector-borde);
+  border-radius: 14px;
+  background: transparent;
+  color: var(--lector-texto);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.15;
+  cursor: pointer;
+}
+.lector__btn:hover {
+  background: color-mix(in srgb, var(--lector-texto) 8%, transparent);
+}
+.lector__btn--principal {
+  background: var(--lector-btn-bg);
+  border-color: var(--lector-btn-bg);
+  color: var(--lector-btn-texto);
+}
+.lector__btn--principal:hover {
+  background: var(--lector-btn-bg);
+  filter: brightness(1.15);
+}
+.lector__btn--cerrar {
+  flex-direction: row;
+  gap: 0.4rem;
+  min-height: 44px;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.lector__icono {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.lector__btn--principal .lector__ico-play .lector__icono {
+  fill: currentColor;
+}
+.lector__ico-play,
+.lector__ico-pausa {
+  display: inline-flex;
+}
+.lector__btn--principal .lector__txt-play {
+  display: block;
+}
+
+/* ---------- Ajustes ---------- */
+.lector__ajustes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
+.lector__campo {
+  display: grid;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--lector-muted);
+}
+.lector__select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.4rem 0.5rem;
+  border: 1.5px solid var(--lector-borde);
+  border-radius: 12px;
+  background: var(--lector-bg);
+  color: var(--lector-texto);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-overflow: ellipsis;
+}
+
+.lector__info {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 0.6rem;
+  min-height: 1.4em;
+}
+.lector__progreso {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--lector-muted);
+}
+.lector__estado {
+  margin: 0 0 0 auto;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: right;
+}
+.lector__ayuda {
+  margin: 0.4rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--lector-muted);
+}
+.lector__ayuda kbd {
+  padding: 0.05rem 0.35rem;
+  border: 1px solid var(--lector-borde);
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.78rem;
+}
+
+/* ---------- Foco visible (WCAG 2.4.7 / 2.4.11) ---------- */
+.lector button:focus-visible,
+.lector select:focus-visible,
+.lector-salto:focus-visible {
+  outline: 3px solid var(--lector-acento);
+  outline-offset: 3px;
+}
+.lector__btn--principal:focus-visible,
+.lector__toggle:focus-visible {
+  outline-color: var(--lector-acento);
+  box-shadow: 0 0 0 3px var(--lector-bg), 0 0 0 6px var(--lector-acento);
+  outline-offset: 2px;
+}
+
+/* ---------- Enlace de salto ---------- */
+.lector-salto {
+  position: fixed;
+  left: 1rem;
+  top: -5rem;
+  z-index: 1001;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  background: var(--text, var(--text-primary, #1a1a1a));
+  color: var(--bg, #fffcf8);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.lector-salto:focus {
+  top: 1rem;
+}
+
+/* ---------- Texto que se está leyendo ---------- */
+.lector-activo {
+  outline: 3px solid var(--focus, #2e5a8b);
+  outline-offset: 4px;
+  border-radius: 6px;
+  background-color: color-mix(in srgb, var(--focus, #2e5a8b) 14%, transparent);
+  scroll-margin-top: 22vh;
+}
+
+/* ---------- Pantallas pequeñas ---------- */
+@media (max-width: 40rem) {
+  .lector {
+    left: max(0.75rem, env(safe-area-inset-left));
+    right: max(0.75rem, env(safe-area-inset-right));
+    bottom: max(0.75rem, env(safe-area-inset-bottom));
+    max-width: none;
+  }
+  .lector__panel {
+    width: 100%;
+    max-height: 55vh;
+  }
+  .lector__toggle {
+    min-height: 44px;
+    padding: 0.4rem 0.95rem;
+  }
+  .lector__ayuda {
+    display: none;
+  }
+  .lector-activo {
+    scroll-margin-top: 84px;
+  }
+}
+
+/* ---------- Modo de contraste forzado ---------- */
+@media (forced-colors: active) {
+  .lector__toggle,
+  .lector__btn,
+  .lector__panel,
+  .lector__select {
+    border: 2px solid ButtonText;
+    background: ButtonFace;
+    color: ButtonText;
+  }
+  .lector-activo {
+    outline: 3px solid Highlight;
+    background-color: transparent;
+  }
+  .lector button:focus-visible,
+  .lector select:focus-visible,
+  .lector-salto:focus-visible {
+    outline: 3px solid Highlight;
+  }
+}
+
+/* ---------- Impresión ---------- */
+@media print {
+  .lector,
+  .lector-salto {
+    display: none !important;
+  }
+  .lector-activo {
+    outline: none;
+    background: none;
+  }
+}
