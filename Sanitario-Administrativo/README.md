@@ -17,6 +17,9 @@ Proyecto estático (sin build). Abrir `index.html` o servir la carpeta con cualq
 - Los buscadores solo leen `robots.txt` en la raíz del dominio (`diginosiasara.github.io/robots.txt`): copia ese archivo al repositorio `diginosiasara.github.io`. El `sitemap.xml` se declara dentro.
 - GitHub Pages no permite redirecciones 301 propias ni cabeceras HTTP. Las páginas `3xx`, `4xx` y `5xx` son informativas; solo `404.html` la sirve GitHub Pages por sí solo. La canonicalización «www / sin www» solo se configura con un dominio propio (Settings → Pages → Custom domain).
 
+## Lector de voz (páginas de aviso)
+- Cada página de aviso incluye «Escuchar esta página»: usa la voz del navegador (Web Speech API), sin servicios externos. Permite escuchar, pausar, detener y elegir la velocidad; resalta el bloque que se está leyendo. Solo se activa al pulsar el botón y se oculta si el navegador no tiene síntesis de voz.
+
 ## Analítica
 - Google Analytics 4 (`G-10T6SVEZJX`) con Consent Mode v2: todo denegado hasta que la persona acepta. Eventos: clic en correo, LinkedIn, descarga del CV, CodiSalud y envío del formulario.
 - Las personas pueden cambiar su elección en «Preferencias de analítica» (pie de página).

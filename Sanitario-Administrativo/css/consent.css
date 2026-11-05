@@ -5,3 +5,5 @@
 .cc button.ok{background:#fff;color:#0f172a}.cc button:focus-visible{outline:3px solid #facc15;outline-offset:3px}
 .link-btn{background:none;border:0;padding:0;color:inherit;font:inherit;text-decoration:underline;cursor:pointer;min-height:44px;display:inline-flex;align-items:center}
 @media print{.cc,.link-btn{display:none!important}}
+body:has(.cc){padding-bottom:9rem}
+@media(max-width:600px){body:has(.cc){padding-bottom:13rem}}

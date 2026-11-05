@@ -43,3 +43,51 @@
     });
   }
 })();
+
+/* ---- Lector de voz (Web Speech API del navegador) ---- */
+(function () {
+  'use strict';
+  var syn = window.speechSynthesis, box = document.getElementById('err-reader');
+  if (!syn || !box || typeof SpeechSynthesisUtterance === 'undefined') return;
+  box.hidden = false;
+  var play = document.getElementById('rd-play'), stop = document.getElementById('rd-stop'), speed = document.getElementById('rd-speed'), say = document.getElementById('rd-status');
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var blocks = [], idx = 0, state = 'idle', token = 0, voice = null, shown = null;
+  function pick() { var v = syn.getVoices() || []; voice = v.filter(function (x) { return /^es[-_]ES/i.test(x.lang); })[0] || v.filter(function (x) { return /^es/i.test(x.lang); })[0] || null; }
+  pick(); if (syn.onvoiceschanged !== undefined) syn.onvoiceschanged = pick;
+  function announce(t) { if (say) say.textContent = t; }
+  function clean(s) { return s.replace(/\s*\n+\s*/g, '. ').replace(/\s+/g, ' ').replace(/\s*·\s*/g, '. ').replace(/\.?\s*Ir\s*→\.?/g, '.').replace(/([?!])\./g, '$1').replace(/\.\s*\./g, '.').trim(); }
+  function collect() {
+    var out = [], sel = ['.err-eyebrow', 'h1', '.err-lead', '.err-tips li', '.err-sub', '.err-todo li', '.err-flow li', '.err-opts li', '.err-wait:not([hidden]) p'].map(function (s) { return '.err-main ' + s; }).join(',');
+    [].forEach.call(document.querySelectorAll(sel), function (el) {
+      var t = clean(el.classList.contains('err-eyebrow') ? el.textContent : (el.innerText || '')); if (t) out.push({ el: el, text: t });
+    });
+    var acts = [].map.call(document.querySelectorAll('.err-actions .err-btn:not([hidden])'), function (b) { return clean(b.innerText); }).filter(Boolean);
+    if (acts.length) out.push({ el: document.querySelector('.err-actions'), text: 'Acciones disponibles: ' + acts.join(', ') + '.' });
+    return out;
+  }
+  function mark(el) { if (shown) shown.classList.remove('err-reading'); shown = el; if (el) { el.classList.add('err-reading'); try { el.scrollIntoView({ block: 'nearest', behavior: reduce ? 'auto' : 'smooth' }); } catch (e) { /* sin scroll */ } } }
+  function ui() {
+    play.setAttribute('data-state', state === 'playing' ? 'playing' : state === 'paused' ? 'paused' : 'idle');
+    play.textContent = state === 'playing' ? 'Pausar' : state === 'paused' ? 'Continuar' : 'Escuchar';
+    stop.setAttribute('aria-disabled', state === 'idle' ? 'true' : 'false');
+  }
+  function speak() {
+    if (idx >= blocks.length) { finish('Lectura terminada.'); return; }
+    var my = ++token, b = blocks[idx], u = new SpeechSynthesisUtterance(b.text);
+    u.lang = 'es-ES'; if (voice) u.voice = voice; u.rate = parseFloat(speed.value) || 1;
+    u.onstart = function () { if (my === token) mark(b.el); };
+    u.onend = function () { if (my === token && state === 'playing') { idx++; speak(); } };
+    u.onerror = function () { /* cancelaciones propias: se controlan con el estado */ };
+    syn.speak(u);
+  }
+  function finish(msg) { token++; syn.cancel(); state = 'idle'; idx = 0; mark(null); ui(); announce(msg); }
+  play.addEventListener('click', function () {
+    if (state === 'idle') { blocks = collect(); if (!blocks.length) return; idx = 0; state = 'playing'; ui(); announce('Lectura iniciada.'); syn.cancel(); speak(); }
+    else if (state === 'playing') { token++; syn.cancel(); state = 'paused'; ui(); announce('Lectura en pausa.'); }
+    else { state = 'playing'; ui(); announce('Lectura reanudada.'); speak(); }
+  });
+  stop.addEventListener('click', function () { if (state !== 'idle') finish('Lectura detenida.'); });
+  speed.addEventListener('change', function () { if (state === 'playing') { token++; syn.cancel(); speak(); } });
+  window.addEventListener('pagehide', function () { token++; syn.cancel(); });
+})();
