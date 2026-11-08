@@ -1,0 +1,118 @@
+/* Animaciones de lectura de las entradas, 100 % CSS (scroll-driven animations).
+   - Cada tema tiene su propio carácter de movimiento:
+       sage  (salud)         → aparición suave que "respira"
+       terra (teleasistencia)→ aparición cálida con ligero "pop"
+       blue  (tecnología/IA) → deslizamiento lateral, más técnico
+   - Todo vive dentro de @supports + prefers-reduced-motion: sin soporte o con "reducir movimiento", el contenido se ve estático y completo.
+   - Un pequeño script (animaciones-articulo.js) solo actúa como alternativa en navegadores sin soporte. */
+
+@property --p    { syntax: "<number>"; inherits: false; initial-value: 96; }
+@property --line { syntax: "<number>"; inherits: false; initial-value: 1; }
+
+/* Personalidad por tema */
+.post.theme-sage  { --rv: rv-sage;  --pa: var(--sage-strong);  --pb: var(--sage-300); }
+.post.theme-terra { --rv: rv-terra; --pa: var(--terra-strong); --pb: var(--terra-300); }
+.post.theme-blue  { --rv: rv-blue;  --pa: var(--blue-strong);  --pb: var(--blue-300); }
+body:has(.post.theme-sage)  { --bar-a: var(--sage-strong);  --bar-b: var(--sage-300); }
+body:has(.post.theme-terra) { --bar-a: var(--terra-strong); --bar-b: var(--terra-300); }
+body:has(.post.theme-blue)  { --bar-a: var(--blue-strong);  --bar-b: var(--blue-300); }
+
+/* Las animaciones laterales no deben generar scroll horizontal */
+html, body { overflow-x: clip; }
+
+@keyframes rv-sage  { from { opacity: 0; transform: translateY(1.6rem) scale(.985); } to { opacity: 1; transform: none; } }
+@keyframes rv-terra { from { opacity: 0; transform: translateY(1rem) scale(.93); }    to { opacity: 1; transform: none; } }
+@keyframes rv-blue  { from { opacity: 0; transform: translateX(-2rem); }              to { opacity: 1; transform: none; } }
+@keyframes rv-slide { from { opacity: 0; transform: translateX(var(--dx, -2rem)); }   to { opacity: 1; transform: none; } }
+@keyframes bar-grow { from { width: 0; } }
+@keyframes donut-fill { from { --p: 0; } }
+@keyframes line-grow { from { --line: 0; } }
+@keyframes wipe { from { clip-path: inset(0 100% 0 0 round 1.5rem); opacity: .4; } to { clip-path: inset(0 0 0 0 round 1.5rem); opacity: 1; } }
+@keyframes parallax { from { transform: scale(1.12) translateY(-3.5%); } to { transform: scale(1.12) translateY(3.5%); } }
+@keyframes progress { to { transform: scaleX(1); } }
+
+/* Latido del punto del tema (ligado al tipo de contenido, no al scroll) */
+@keyframes dot-sage  { 0%, 100% { scale: 1; box-shadow: 0 0 0 0 var(--accent-line); } 50% { scale: 1.3; box-shadow: 0 0 0 .45rem transparent; } }
+@keyframes dot-terra { 0% { box-shadow: 0 0 0 0 var(--terra-300); } 70%, 100% { box-shadow: 0 0 0 .7rem transparent; } }
+@keyframes dot-blue  { 0%, 45%, 100% { opacity: 1; } 50%, 95% { opacity: .25; } }
+
+.post__kicker a::before, .vz-eyebrow::before {
+  content: ""; display: inline-block; width: .5rem; height: .5rem; margin-right: .55rem; border-radius: 50%;
+  background: var(--accent-dot, var(--pb)); vertical-align: .08em;
+}
+.vz-eyebrow::before { margin-right: 0; flex: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .theme-sage  .post__kicker a::before, .theme-sage  .vz-eyebrow::before { animation: dot-sage 3.4s ease-in-out infinite; }
+  .theme-terra .post__kicker a::before, .theme-terra .vz-eyebrow::before { animation: dot-terra 1.7s ease-out infinite; }
+  .theme-blue  .post__kicker a::before, .theme-blue  .vz-eyebrow::before { animation: dot-blue 2s steps(1) infinite; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+@supports (animation-timeline: view()) {
+
+  /* Barra de progreso de lectura con el color del tema */
+  body::after {
+    content: ""; position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 60; pointer-events: none;
+    background: linear-gradient(90deg, var(--bar-a, var(--sage-strong)), var(--bar-b, var(--sage-300)));
+    transform: scaleX(0); transform-origin: left;
+    animation: progress linear both; animation-timeline: scroll(root);
+  }
+
+  /* Aparición al hacer scroll: bloques de texto y componentes (los contenedores no se animan, sí sus hijos) */
+  .prose > h2, .prose > h3, .prose > p, .prose > ul, .prose > ol, .prose > blockquote, .prose > .prose__figure, .prose > .table-wrap,
+  .prose > .vz:not(.vz-cards):not(.vz-stats):not(.vz-duo):not(.vz-flow):not(.vz-chips):not(.vz-refs),
+  .vz-card, .vz-stat, .vz-panel, .vz-flow > li, .vz-chips > li, .vz-refs > li, .vz-vs__row {
+    animation-name: var(--rv, rv-sage); animation-duration: 1ms; animation-timing-function: cubic-bezier(.2, .7, .2, 1);
+    animation-fill-mode: both; animation-timeline: view(); animation-range: entry 0% entry 38%;
+  }
+
+  /* Escalonado dentro de rejillas */
+  :is(.vz-cards, .vz-stats, .vz-duo, .vz-flow, .vz-chips, .vz-refs) > :nth-child(1) { --k: 0; }
+  :is(.vz-cards, .vz-stats, .vz-duo, .vz-flow, .vz-chips, .vz-refs) > :nth-child(2) { --k: 1; }
+  :is(.vz-cards, .vz-stats, .vz-duo, .vz-flow, .vz-chips, .vz-refs) > :nth-child(3) { --k: 2; }
+  :is(.vz-cards, .vz-stats, .vz-duo, .vz-flow, .vz-chips, .vz-refs) > :nth-child(4) { --k: 3; }
+  :is(.vz-cards, .vz-stats, .vz-duo, .vz-flow, .vz-chips, .vz-refs) > :nth-child(5) { --k: 4; }
+  :is(.vz-cards, .vz-stats, .vz-duo, .vz-flow, .vz-chips, .vz-refs) > :nth-child(n+6) { --k: 5; }
+  .vz-card, .vz-stat, .vz-panel, .vz-flow > li, .vz-chips > li, .vz-refs > li {
+    animation-range: entry calc(var(--k, 0) * 7%) entry calc(38% + var(--k, 0) * 7%);
+  }
+
+  /* Paneles enfrentados: entran desde lados opuestos */
+  .vz-panel { --rv: rv-slide; }
+  .vz-duo > .vz-panel:nth-child(odd)  { --dx: -2.5rem; }
+  .vz-duo > .vz-panel:nth-child(even) { --dx: 2.5rem; }
+
+  /* Citas grandes: barrido de color */
+  .prose blockquote.vz-quote {
+    animation-name: wipe; animation-timing-function: cubic-bezier(.65, 0, .25, 1); animation-range: entry 5% entry 55%;
+  }
+
+  /* Barras y donut se rellenan al verlos */
+  .vz-bar__t > i { animation: bar-grow 1ms linear both; animation-timeline: view(); animation-range: entry 25% cover 40%; }
+  .vz-donut { animation: donut-fill 1ms linear both; animation-timeline: view(); animation-range: entry 20% cover 45%; }
+
+  /* Línea del encabezado de sección que se dibuja */
+  .prose .vz-eyebrow { animation: line-grow 1ms linear both; animation-timeline: view(); animation-range: entry 0% entry 70%; }
+  .prose .vz-eyebrow::after { transform: scaleX(var(--line)); transform-origin: left; }
+
+  /* Paralaje suave en imágenes grandes */
+  .prose__zoom img { animation: parallax 1ms linear both; animation-timeline: view(); animation-range: cover; }
+
+  /* Números 01, 02… de las tarjetas "pop" al entrar */
+  .vz-flow > li::before, .vz-card__n { transform-origin: left center; }
+}
+}
+
+/* Alternativa para navegadores sin scroll-driven animations (la activa animaciones-articulo.js) */
+@media (prefers-reduced-motion: no-preference) {
+@supports not (animation-timeline: view()) {
+  .rv-js .rv { opacity: 0; transform: translateY(1.25rem); transition: opacity .6s ease, transform .75s cubic-bezier(.2, .7, .2, 1); }
+  .rv-js .theme-blue .rv, .rv-js .rv.rv--blue { transform: translateX(-1.5rem); }
+  .rv-js .theme-terra .rv { transform: translateY(.8rem) scale(.94); }
+  .rv-js .rv.is-in { opacity: 1; transform: none; }
+  .rv-js .vz-bars .vz-bar__t > i { width: 0; transition: width 1.2s cubic-bezier(.2, .7, .2, 1) .15s; }
+  .rv-js .vz-bars.is-in .vz-bar__t > i { width: var(--w); }
+  body.rv-js::after, .rv-js body::after { content: ""; position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 60; pointer-events: none; transform-origin: left; transform: scaleX(var(--sp, 0)); background: linear-gradient(90deg, var(--bar-a, var(--sage-strong)), var(--bar-b, var(--sage-300))); }
+}
+}

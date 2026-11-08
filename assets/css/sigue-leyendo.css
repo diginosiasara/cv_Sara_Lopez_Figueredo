@@ -1,0 +1,99 @@
+/* «Sigue leyendo»: diseño y movimiento de la sección de lecturas relacionadas.
+   Todo va acotado a .rel y usa los tokens del sitio (tema sage/terra/blue, modo oscuro).
+   El movimiento solo se activa si el visitante no ha pedido reducirlo. */
+
+.rel { position: relative; overflow: hidden; isolation: isolate; padding-block: clamp(3.5rem, 2rem + 5vw, 6rem); }
+.rel > .container { position: relative; z-index: 1; }
+
+/* Fondo: trama de puntos que se desvanece y un halo del color del tema */
+.rel::before {
+  content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background-image: radial-gradient(circle at 1px 1px, var(--accent-line) 1px, transparent 0);
+  background-size: 22px 22px; opacity: .6;
+  -webkit-mask-image: linear-gradient(to bottom, #000, transparent 65%); mask-image: linear-gradient(to bottom, #000, transparent 65%);
+}
+.rel::after {
+  content: ""; position: absolute; z-index: 0; pointer-events: none;
+  width: 34rem; aspect-ratio: 1; right: -9rem; top: -12rem; border-radius: 50%;
+  background: radial-gradient(closest-side, var(--accent-soft), transparent);
+}
+
+/* Cabecera */
+.rel__head { display: grid; gap: .6rem; margin-bottom: clamp(1.75rem, 1rem + 2vw, 2.75rem); position: relative; padding-bottom: 1.25rem; }
+.rel__eyebrow { margin: 0; display: flex; align-items: center; gap: .65rem; font: 600 var(--fs-xs)/1 var(--font-mono); letter-spacing: .18em; text-transform: uppercase; color: var(--accent-text); }
+.rel__eyebrow::before { content: ""; width: 1.75rem; height: 2px; border-radius: 2px; background: var(--accent-dot); }
+.rel .section__title { margin: 0; font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3rem); line-height: 1.08; }
+.rel .section__title em { color: var(--accent-text); }
+.rel__lead { margin: 0; max-width: 40rem; color: var(--muted); font-size: 1.0625rem; line-height: 1.6; }
+.rel__head::after {
+  content: ""; position: absolute; left: 0; bottom: 0; height: 3px; width: min(11rem, 40%); border-radius: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-dot) 70%, transparent);
+  transform-origin: left; 
+}
+
+/* Tarjetas */
+.rel .post-list { counter-reset: rel; gap: clamp(1rem, .5rem + 1.6vw, 1.75rem); }
+.rel .post-card { counter-increment: rel; background: var(--surface); }
+.rel .post-card::before {
+  content: ""; position: absolute; inset: 0 0 auto 0; height: 4px; z-index: 3; background: linear-gradient(90deg, var(--accent), var(--accent-dot));
+  transform: scaleX(0); transform-origin: left; transition: transform .5s cubic-bezier(.2, .7, .2, 1);
+}
+.rel .post-card:hover::before, .rel .post-card:focus-within::before { transform: scaleX(1); }
+.rel .post-card__labels, .rel .post-card__icon { z-index: 2; }
+.rel .post-card__cover::after {
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; opacity: 0; transition: opacity .45s ease;
+  background: linear-gradient(to top, rgb(0 0 0 / .32), transparent 55%);
+}
+.rel .post-card:hover .post-card__cover::after, .rel .post-card:focus-within .post-card__cover::after { opacity: 1; }
+.rel .post-card__cover img { transition: transform .8s cubic-bezier(.2, .7, .2, 1); will-change: transform; }
+.rel .post-card:hover .post-card__cover img, .rel .post-card:focus-within .post-card__cover img { transform: scale(1.06); }
+.rel .post-card__body { position: relative; }
+.rel .post-card__body::before {
+  content: counter(rel, decimal-leading-zero); position: absolute; top: .85rem; right: 1.35rem;
+  font: 700 2.1rem/1 var(--font-serif); color: var(--accent-line); transition: color .3s, translate .4s cubic-bezier(.2, .7, .2, 1);
+}
+.rel .post-card:hover .post-card__body::before { color: var(--accent-dot); translate: 0 -.15rem; }
+.rel .post-card__title { padding-right: 2.6rem; }
+.rel .post-card__title a { background: linear-gradient(currentColor, currentColor) 0 100% / 0 2px no-repeat; transition: background-size .4s ease, color .3s; padding-bottom: .1em; }
+.rel .post-card:hover .post-card__title a, .rel .post-card:focus-within .post-card__title a { background-size: 100% 2px; color: var(--accent-text); }
+.rel .post-card__cta .btn .icon { transition: translate .3s cubic-bezier(.2, .7, .2, 1); }
+.rel .post-card:hover .post-card__cta .btn .icon, .rel .post-card:focus-within .post-card__cta .btn .icon { translate: .3rem 0; }
+.rel .post-card__cta .btn { transition: filter .25s, box-shadow .25s; }
+.rel .post-card:hover .post-card__cta .btn { box-shadow: 0 6px 16px -6px var(--accent); }
+
+/* Botones inferiores */
+.rel .blog-more { margin-top: clamp(1.75rem, 1rem + 2vw, 2.75rem); }
+.rel .blog-more .btn { transition: translate .25s, background-color .25s, color .25s, border-color .25s; }
+.rel .blog-more .btn:hover { translate: 0 -2px; }
+.rel .blog-more .btn::after { content: "→"; margin-left: .5rem; display: inline-block; transition: translate .3s cubic-bezier(.2, .7, .2, 1); }
+.rel .blog-more .btn:hover::after { translate: .25rem 0; }
+
+/* Móvil y tablet: carrusel con scroll-snap en lugar de columnas minúsculas */
+@media (max-width: 62em) {
+  .rel .post-list--3 {
+    display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+    margin-inline: calc(var(--gutter, 1.25rem) * -1); padding: .25rem var(--gutter, 1.25rem) 1.25rem; scroll-padding-inline: var(--gutter, 1.25rem);
+    scrollbar-width: thin; overscroll-behavior-x: contain;
+  }
+  .rel .post-list--3 > .post-card { flex: 0 0 min(82%, 21rem); scroll-snap-align: start; }
+}
+
+/* Movimiento (solo si no se ha pedido reducirlo) */
+@media (prefers-reduced-motion: no-preference) {
+  .rel::after { animation: rel-drift 22s ease-in-out infinite alternate; }
+  @keyframes rel-drift { to { translate: -3rem 2.5rem; scale: 1.12; } }
+
+  .rel-anim .rel [data-reveal] { opacity: 0; transform: translateY(1.75rem); }
+  .rel-anim .rel [data-reveal].is-in {
+    opacity: 1; transform: none;
+    transition: opacity .7s ease calc(var(--i, 0) * 120ms), transform .8s cubic-bezier(.2, .7, .2, 1) calc(var(--i, 0) * 120ms), box-shadow .25s, translate .25s;
+  }
+  .rel-anim .rel .rel__head::after { transform: scaleX(0); }
+  .rel-anim .rel .rel__head.is-in::after { transform: scaleX(1); transition: transform 1s cubic-bezier(.2, .7, .2, 1) .35s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rel .post-card, .rel .post-card__cover img, .rel .post-card::before, .rel .post-card__cover::after { transition: none; }
+  .rel .post-card:hover .post-card__cover img { transform: none; }
+}
+
+.rel .post-card__byline { padding-right: 3.25rem; }

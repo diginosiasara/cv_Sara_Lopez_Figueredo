@@ -1,0 +1,58 @@
+/* Animaciones de la página CV y del catálogo de formación. 100 % CSS (scroll-driven animations).
+   Paleta azul/amarillo de la página. Dentro de @supports y prefers-reduced-motion: sin soporte o con "reducir movimiento" se ve estático. */
+
+/* Las animaciones laterales no deben generar scroll horizontal */
+html, body { overflow-x: clip; }
+
+@keyframes rv-sage  { from { opacity: 0; transform: translateY(1.6rem) scale(.985); } to { opacity: 1; transform: none; } }
+@keyframes rv-terra { from { opacity: 0; transform: translateY(1rem) scale(.93); }    to { opacity: 1; transform: none; } }
+@keyframes rv-blue  { from { opacity: 0; transform: translateX(-2rem); }              to { opacity: 1; transform: none; } }
+@keyframes rv-pop   { from { opacity: 0; transform: scale(.94); }                     to { opacity: 1; transform: none; } }
+@keyframes rv-slide { from { opacity: 0; transform: translateX(var(--dx, -2rem)); }   to { opacity: 1; transform: none; } }
+@keyframes bar-grow { from { width: 0; } }
+@keyframes progress { to { transform: scaleX(1); } }
+@keyframes hero-in  { from { opacity: 0; transform: translateY(1.4rem); } to { opacity: 1; transform: none; } }
+
+main#contenido > section { --rv: rv-blue; }
+#competencias-digitales { --rv: rv-pop; }
+#formacion, #docencia, #evaluaciones { --rv: rv-sage; }
+
+@media (prefers-reduced-motion: no-preference) {
+  main#contenido > #inicio > * { animation: hero-in .9s cubic-bezier(.2, .7, .2, 1) both; }
+  main#contenido > #inicio > :nth-child(2) { animation-delay: .15s; }
+
+@supports (animation-timeline: view()) {
+  body::after {
+    content: ""; position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 9999; pointer-events: none;
+    background: linear-gradient(90deg, #1558b0, #f2c811); transform: scaleX(0); transform-origin: left;
+    animation: progress linear both; animation-timeline: scroll(root);
+  }
+
+  /* Secciones: el contenido aparece al hacer scroll */
+  main#contenido > section:not(#inicio) > * {
+    animation-name: var(--rv, rv-sage); animation-duration: 1ms; animation-timing-function: cubic-bezier(.2, .7, .2, 1);
+    animation-fill-mode: both; animation-timeline: view(); animation-range: entry 0% entry 38%;
+  }
+
+  /* Catálogo de formación */
+  .fc-kpi, .fc-card, .fc-row, .fc-grp {
+    animation-name: var(--rv, rv-sage); animation-duration: 1ms; animation-timing-function: cubic-bezier(.2, .7, .2, 1);
+    animation-fill-mode: both; animation-timeline: view(); animation-range: entry 0% entry 38%;
+  }
+
+  .fc-kpi { --rv: rv-pop; }
+  .fc-kpis > :nth-child(2) { --k: 1; } .fc-kpis > :nth-child(3) { --k: 2; } .fc-kpis > :nth-child(4) { --k: 3; }
+  .fc-kpi { animation-range: entry calc(var(--k, 0) * 8%) entry calc(38% + var(--k, 0) * 8%); }
+  .fc-row { --rv: rv-slide; --dx: -1.5rem; }
+  .fc-bar > i { animation: bar-grow 1ms linear both; animation-timeline: view(); animation-range: entry 20% cover 45%; }
+}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+@supports not (animation-timeline: view()) {
+  .rv-js .rv { opacity: 0; transform: translateY(1.25rem); transition: opacity .6s ease, transform .75s cubic-bezier(.2, .7, .2, 1); }
+  .rv-js .rv.is-in { opacity: 1; transform: none; }
+  .rv-js .fc-bar > i { transform: scaleX(0); transform-origin: left; transition: transform 1.2s cubic-bezier(.2, .7, .2, 1) .15s; }
+  .rv-js .fc-row.is-in .fc-bar > i { transform: none; }
+}
+}

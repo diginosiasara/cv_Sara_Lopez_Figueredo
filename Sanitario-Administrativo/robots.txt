@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /300.html
+Disallow: /301.html
+Disallow: /400.html
+Disallow: /401.html
+Disallow: /403.html
+Disallow: /404.html
+Disallow: /429.html
+Disallow: /502.html
+Disallow: /503.html
+Disallow: /504.html
+
+Sitemap: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/Sanitario-Administrativo/sitemap.xml

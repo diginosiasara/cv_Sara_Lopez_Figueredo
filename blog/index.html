@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Blog · Apuntes de trinchera | Diginosia</title>
+  <meta name="description" content="Blog de Sara López-Figueredo sobre teleasistencia, documentación sanitaria, CIE-10-ES, arquitectura de software, IA local y embeddings. Notas sin humo.">
+  <link rel="canonical" href="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="alternate" hreflang="es" href="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/">
+  <link rel="alternate" hreflang="x-default" href="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/">
+  <link rel="alternate" type="application/rss+xml" title="Diginosia · Blog" href="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/feed.xml">
+  <meta name="author" content="Sara López-Figueredo">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fffcf8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#12100f" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Diginosia">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:url" content="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/">
+  <meta property="og:title" content="Blog · Apuntes de trinchera">
+  <meta property="og:description" content="Blog de Sara López-Figueredo sobre teleasistencia, documentación sanitaria, CIE-10-ES, arquitectura de software, IA local y embeddings. Notas sin humo.">
+  <meta property="og:image" content="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/assets/img/social/blog/_blog.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Blog de Diginosia: Apuntes de trinchera">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog · Apuntes de trinchera">
+  <meta name="twitter:description" content="Blog de Sara López-Figueredo sobre teleasistencia, documentación sanitaria, CIE-10-ES, arquitectura de software, IA local y embeddings. Notas sin humo.">
+  <meta name="twitter:image" content="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/assets/img/social/blog/_blog.jpg">
+  <meta name="twitter:image:alt" content="Blog de Diginosia: Apuntes de trinchera">
+  <link rel="icon" href="../favicon.ico" sizes="32x32">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/css/main.ASRC5NTH.css">
+  <link rel="stylesheet" href="../assets/css/lector.css">
+  <link rel="stylesheet" href="../assets/css/animaciones-sitio.css">
+  <noscript><link rel="stylesheet" href="../assets/css/noscript.css"></noscript>
+  <script defer src="../assets/js/main.EAHMBMUR.js"></script>
+  <script defer src="../assets/js/lector.js"></script>
+  <script defer src="../assets/js/animaciones-sitio.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Blog","@id":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/#blog","url":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/","name":"Apuntes de trinchera","description":"Blog de Sara López-Figueredo sobre teleasistencia, documentación sanitaria, CIE-10-ES, arquitectura de software, IA local y embeddings. Notas sin humo.","inLanguage":"es-ES","author":{"@id":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/#person"},"publisher":{"@id":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/#person"}},{"@type":"CollectionPage","@id":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/#page","url":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/","name":"Blog · Apuntes de trinchera | Diginosia","isPartOf":{"@id":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/#website"},"inLanguage":"es-ES"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/"}]}]}</script>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+<symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12" /> <line x1="4" x2="20" y1="6" y2="6" /> <line x1="4" x2="20" y1="18" y2="18" /></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18" /> <path d="m6 6 12 12" /></symbol>
+<symbol id="i-book-open" viewBox="0 0 24 24"><path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /></symbol>
+<symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /></symbol>
+<symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" /> <rect width="20" height="14" x="2" y="6" rx="2" /></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></symbol>
+<symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" /> <path d="M9 18c-4.51 2-5-2-7-2" /></symbol>
+<symbol id="i-image" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2" ry="2" /> <circle cx="9" cy="9" r="2" /> <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" /></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" /> <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65" /> <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65" /></symbol>
+<symbol id="i-timer" viewBox="0 0 24 24"><line x1="10" x2="14" y1="2" y2="2" /> <line x1="12" x2="15" y1="14" y2="11" /> <circle cx="12" cy="14" r="8" /></symbol>
+<symbol id="i-brain" viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" /> <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z" /> <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4" /> <path d="M17.599 6.5a3 3 0 0 0 .399-1.375" /> <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" /> <path d="M3.477 10.896a4 4 0 0 1 .585-.396" /> <path d="M19.938 10.5a4 4 0 0 1 .585.396" /> <path d="M6 18a4 4 0 0 1-1.967-.516" /> <path d="M19.967 17.484A4 4 0 0 1 18 18" /></symbol>
+<symbol id="i-code-xml" viewBox="0 0 24 24"><path d="m18 16 4-4-4-4" /> <path d="m6 8-4 4 4 4" /> <path d="m14.5 4-5 16" /></symbol>
+<symbol id="i-shield-check" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /></symbol>
+<symbol id="i-quote" viewBox="0 0 24 24"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" /> <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" /></symbol>
+<symbol id="i-lightbulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" /> <path d="M9 18h6" /> <path d="M10 22h4" /></symbol>
+<symbol id="i-chevron-up" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6" /></symbol>
+<symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" /></symbol>
+<symbol id="i-network" viewBox="0 0 24 24"><rect x="16" y="16" width="6" height="6" rx="1" /> <rect x="2" y="16" width="6" height="6" rx="1" /> <rect x="9" y="2" width="6" height="6" rx="1" /> <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" /> <path d="M12 12V8" /></symbol>
+<symbol id="i-external-link" viewBox="0 0 24 24"><path d="M15 3h6v6" /> <path d="M10 14 21 3" /> <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></symbol>
+<symbol id="i-film" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M7 3v18" /> <path d="M3 7.5h4" /> <path d="M3 12h18" /> <path d="M3 16.5h4" /> <path d="M17 3v18" /> <path d="M17 7.5h4" /> <path d="M17 16.5h4" /></symbol>
+<symbol id="i-scan-eye" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2" /> <path d="M17 3h2a2 2 0 0 1 2 2v2" /> <path d="M21 17v2a2 2 0 0 1-2 2h-2" /> <path d="M7 21H5a2 2 0 0 1-2-2v-2" /> <circle cx="12" cy="12" r="1" /> <path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0" /></symbol>
+<symbol id="i-bot" viewBox="0 0 24 24"><path d="M12 8V4H8" /> <rect width="16" height="12" x="4" y="8" rx="2" /> <path d="M2 14h2" /> <path d="M20 14h2" /> <path d="M15 13v2" /> <path d="M9 13v2" /></symbol>
+<symbol id="i-stethoscope" viewBox="0 0 24 24"><path d="M11 2v2" /> <path d="M5 2v2" /> <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" /> <path d="M8 15a6 6 0 0 0 12 0v-3" /> <circle cx="20" cy="10" r="2" /></symbol>
+<symbol id="i-palette" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor" /> <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" /> <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" /> <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" /> <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" /></symbol>
+<symbol id="i-file-text" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol>
+<symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /> <path d="M20 3v4" /> <path d="M22 5h-4" /> <path d="M4 17v2" /> <path d="M5 18H3" /></symbol>
+<symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /> <rect width="4" height="12" x="2" y="9" /> <circle cx="4" cy="4" r="2" /></symbol>
+<symbol id="i-graduation-cap" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" /> <path d="M22 10v6" /> <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" /></symbol>
+<symbol id="i-clipboard-list" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" /> <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /> <path d="M12 11h4" /> <path d="M12 16h4" /> <path d="M8 11h.01" /> <path d="M8 16h.01" /></symbol>
+<symbol id="i-pen-tool" viewBox="0 0 24 24"><path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z" /> <path d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18" /> <path d="m2.3 2.3 7.286 7.286" /> <circle cx="11" cy="11" r="2" /></symbol>
+<symbol id="i-file-heart" viewBox="0 0 24 24"><path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v2" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M10.29 10.7a2.43 2.43 0 0 0-2.66-.52c-.29.12-.56.3-.78.53l-.35.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L6.5 18l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z" /></symbol>
+<symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></symbol>
+<symbol id="i-send" viewBox="0 0 24 24"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z" /> <path d="m21.854 2.147-10.94 10.939" /></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" /> <circle cx="12" cy="7" r="4" /></symbol>
+<symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8" /> <path d="m21 21-4.3-4.3" /></symbol>
+<symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" /></symbol>
+</svg>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark" aria-hidden="true">Dg</span>
+        <span><span class="brand__name">Diginosia.com</span><span class="brand__tag">Sara López-Figueredo</span></span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Principal">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="../index.html">Inicio</a></li>
+          <li><a class="site-nav__link" href="../index.html#sobre-mi">Sobre mí</a></li>
+          <li><a class="site-nav__link" href="../index.html#experiencia">Experiencia</a></li>
+          <li><a class="site-nav__link" href="../index.html#mi-historia">Formación y proyectos</a></li>
+          <li><a class="site-nav__link" href="../blog/index.html" aria-current="page">Blog</a></li>
+          <li><a class="site-nav__link" href="../index.html#contactar">Contacto</a></li>
+        </ul>
+        <div class="site-nav__social">
+          <a class="btn btn--outline btn--sm" href="https://www.linkedin.com/in/diginosia/" target="_blank" rel="me noopener noreferrer" data-event="social_click" data-label="linkedin" data-location="menu"><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg> LinkedIn<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a>
+          <a class="btn btn--outline btn--sm" href="https://github.com/diginosiasara" target="_blank" rel="me noopener noreferrer" data-event="social_click" data-label="github" data-location="menu"><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-github"/></svg> GitHub<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a>
+        </div>
+      </nav>
+
+      <div class="site-header__actions">
+        <div class="site-header__social">
+          <a class="icon-link" href="https://www.linkedin.com/in/diginosia/" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn (se abre en una pestaña nueva)" data-event="social_click" data-label="linkedin" data-location="header"><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg></a>
+          <a class="icon-link" href="https://github.com/diginosiasara" target="_blank" rel="me noopener noreferrer" aria-label="GitHub (se abre en una pestaña nueva)" data-event="social_click" data-label="github" data-location="header"><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-github"/></svg></a>
+        </div>
+        <a class="btn btn--solid btn--sm site-header__cta" href="../index.html#contactar" data-event="cta_click" data-label="hablemos" data-location="header">Hablemos</a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menú">
+        <span class="icon-open"><svg class="icon icon--20" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></span><span class="icon-close"><svg class="icon icon--20" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></span>
+      </button>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="blog-hero container" aria-labelledby="blog-title">
+      <p class="eyebrow">Apuntes de trinchera · 74 entradas · Teleasistencia, CIE-10-ES, docencia e IA</p>
+      <div class="blog-hero__row">
+        <div>
+          <h1 id="blog-title">Entradas de blog</h1>
+          <p class="blog-hero__lead">Lo que aprendo en SERMAS, aula y código. De cómo ordenar una historia clínica a cómo montar un RAG para teleasistencia. Notas sin humo.</p>
+        </div>
+        <p class="blog-hero__count theme-sage"><span class="status-dot" aria-hidden="true"></span> 74 publicados · 2025-2026</p>
+      </div>
+    </section>
+
+    <section id="archivo" class="blog-archive container" aria-labelledby="archivo-title">
+      <h2 id="archivo-title" class="visually-hidden">Todas las entradas</h2>
+      <div class="blog-filter" id="blog-filter" role="search" aria-label="Buscar y filtrar entradas" hidden>
+        <div class="blog-filter__search">
+          <label class="visually-hidden" for="blog-search">Buscar en las entradas</label>
+          <span class="blog-filter__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-search"/></svg></span>
+          <input class="input" id="blog-search" type="search" autocomplete="off" placeholder="Buscar: CIE-10, embeddings, teleasistencia…" aria-controls="post-list">
+        </div>
+        <ul class="filter-list" aria-label="Filtrar por tema"><li><button class="filter-chip" type="button" data-topic="" aria-pressed="true">Todos <span>(74)</span></button></li><li><button class="filter-chip" type="button" data-topic="01" aria-pressed="false">Formación profesional <span>(10)</span></button></li><li><button class="filter-chip" type="button" data-topic="02" aria-pressed="false">Salud y organización <span>(8)</span></button></li><li><button class="filter-chip" type="button" data-topic="03" aria-pressed="false">Documentación sanitaria <span>(5)</span></button></li><li><button class="filter-chip" type="button" data-topic="04" aria-pressed="false">SIS <span>(5)</span></button></li><li><button class="filter-chip" type="button" data-topic="05" aria-pressed="false">Codificación CIE-10-ES <span>(9)</span></button></li><li><button class="filter-chip" type="button" data-topic="06" aria-pressed="false">Arquitectura software <span>(3)</span></button></li><li><button class="filter-chip" type="button" data-topic="07" aria-pressed="false">IA local <span>(8)</span></button></li><li><button class="filter-chip" type="button" data-topic="08" aria-pressed="false">Embeddings &amp; PLN <span>(9)</span></button></li><li><button class="filter-chip" type="button" data-topic="09" aria-pressed="false">Teleasistencia <span>(13)</span></button></li><li><button class="filter-chip" type="button" data-topic="10" aria-pressed="false">Trayectoria <span>(4)</span></button></li><li class="filter-status"><span id="blog-status" role="status" aria-live="polite"></span></li></ul>
+      </div>
+      <ul class="post-list" id="post-list">
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="recursos tic para crear una landing page educativa con gamificacion google sites, google forms, kahoot! y un codigo qr para montar un pequeno entorno de aprendizaje digital: diseno, datos minimos, juego con sentido, accesibilidad y proteccion de datos. gamificacion recursos tic aprendizaje activo formacion profesional">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/recursos-tic-landing-page-educativa-con-gamificacion-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><time class="post-card__date" datetime="2026-11-08">8 nov 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 7 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/recursos-tic-landing-page-educativa-con-gamificacion/index.html">Recursos TIC para crear una landing page educativa con gamificación</a></h3>
+          <p class="post-card__summary">Google Sites, Google Forms, Kahoot! y un código QR para montar un pequeño entorno de aprendizaje digital: diseño, datos mínimos, juego con sentido, accesibilidad y protección de datos.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Gamificación</li><li class="chip">Recursos TIC</li><li class="chip">Aprendizaje activo</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="comunicar para participar: competencia digital en comunicacion y colaboracion una practica educativa del area 2 de digcomp: comunicar, compartir y colaborar con situaciones reales, checklist y evaluacion basada en la autonomia. competencia digital digcomp practica educativa formacion profesional">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/comunicar-para-participar-competencia-digital-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><time class="post-card__date" datetime="2026-11-08">8 nov 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 5 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/comunicar-para-participar-competencia-digital/index.html">Comunicar para participar: competencia digital en comunicación y colaboración</a></h3>
+          <p class="post-card__summary">Una práctica educativa del Área 2 de DigComp: comunicar, compartir y colaborar con situaciones reales, checklist y evaluación basada en la autonomía.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Competencia digital</li><li class="chip">DigComp</li><li class="chip">Práctica educativa</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="02" data-pillar="salud" data-search="rehabilitar sin sesgo estadistico: la edad no es un pronostico un protocolo de cuatro fases para decidir a partir de la persona (su historia, su capacidad y su objetivo) y no de su fecha de nacimiento en un centro de rehabilitacion funcional. edadismo rehabilitacion protocolo clinico salud y organizacion">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/protocolo-para-rehabilitar-sin-sesgo-estadistico-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Salud y organización</span><time class="post-card__date" datetime="2026-11-07">7 nov 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 6 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/protocolo-para-rehabilitar-sin-sesgo-estadistico/index.html">Rehabilitar sin sesgo estadístico: la edad no es un pronóstico</a></h3>
+          <p class="post-card__summary">Un protocolo de cuatro fases para decidir a partir de la persona (su historia, su capacidad y su objetivo) y no de su fecha de nacimiento en un Centro de Rehabilitación Funcional.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Edadismo</li><li class="chip">Rehabilitación</li><li class="chip">Protocolo clínico</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="02" data-pillar="salud" data-search="envejecimiento saludable: clasificar recursos y herramientas para evaluar su impacto un mapa visual para distinguir que recursos mejoran de verdad la vida de las personas mayores: tipos, ambitos, funciones, herramientas clave y cinco preguntas para elegir bien. envejecimiento saludable recursos y herramientas evaluacion del impacto salud y organizacion">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/envejecimiento-saludable-recursos-y-herramientas-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Salud y organización</span><time class="post-card__date" datetime="2026-11-07">7 nov 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 7 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/envejecimiento-saludable-recursos-y-herramientas/index.html">Envejecimiento saludable: clasificar recursos y herramientas para evaluar su impacto</a></h3>
+          <p class="post-card__summary">Un mapa visual para distinguir qué recursos mejoran de verdad la vida de las personas mayores: tipos, ámbitos, funciones, herramientas clave y cinco preguntas para elegir bien.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Envejecimiento saludable</li><li class="chip">Recursos y herramientas</li><li class="chip">Evaluación del impacto</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="02" data-pillar="salud" data-search="envejecer no es solo cumplir anos: es toda una vida envejecimiento demografico, envejecimiento saludable y enfoque del curso vital: tres ideas para entender por que cada etapa de la vida deja huella en las siguientes. envejecimiento demografico envejecimiento saludable curso vital salud y organizacion">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/envejecer-toda-una-vida-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Salud y organización</span><time class="post-card__date" datetime="2026-11-07">7 nov 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 7 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/envejecer-toda-una-vida/index.html">Envejecer no es solo cumplir años: es toda una vida</a></h3>
+          <p class="post-card__summary">Envejecimiento demográfico, envejecimiento saludable y enfoque del curso vital: tres ideas para entender por qué cada etapa de la vida deja huella en las siguientes.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Envejecimiento demográfico</li><li class="chip">Envejecimiento saludable</li><li class="chip">Curso vital</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="02" data-pillar="salud" data-search="edadismo en el entorno sanitario identidad social, internalizacion de estereotipos y construccion de la dependencia evitable: cuando la edad se convierte en diagnostico antes que la persona. edadismo dependencia evitable atencion centrada en la persona salud y organizacion">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/edadismo-en-el-entorno-sanitario-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Salud y organización</span><time class="post-card__date" datetime="2026-11-06">6 nov 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 6 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/edadismo-en-el-entorno-sanitario/index.html">Edadismo en el entorno sanitario</a></h3>
+          <p class="post-card__summary">Identidad social, internalización de estereotipos y construcción de la dependencia evitable: cuando la edad se convierte en diagnóstico antes que la persona.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Edadismo</li><li class="chip">Dependencia evitable</li><li class="chip">Atención centrada en la persona</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="02" data-pillar="salud" data-search="el edadismo como determinante de salud justificacion sanitaria, estrategia vivencial e impacto neurocognitivo en la practica clinica: por que combatir el edadismo es cuidar la salud de todas las edades. edadismo determinantes de salud formacion clinica salud y organizacion">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/el-edadismo-como-determinante-de-salud-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Salud y organización</span><time class="post-card__date" datetime="2026-11-06">6 nov 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 4 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/el-edadismo-como-determinante-de-salud/index.html">El edadismo como determinante de salud</a></h3>
+          <p class="post-card__summary">Justificación sanitaria, estrategia vivencial e impacto neurocognitivo en la práctica clínica: por qué combatir el edadismo es cuidar la salud de todas las edades.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Edadismo</li><li class="chip">Determinantes de salud</li><li class="chip">Formación clínica</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="10" data-pillar="aula" data-search="mi carrera no ha sido una linea recta, ha sido una evolucion estrategica. una trayectoria nacida de la curiosidad por la tecnologia: del desarrollo de software y la docencia a la sanidad, los datos y la ia. trayectoria ia datos trayectoria profesional">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/mi-carrera-no-ha-sido-una-linea-recta-ha-sido-una-evolucion-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Trayectoria</span><time class="post-card__date" datetime="2026-10-11">11 oct 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/mi-carrera-no-ha-sido-una-linea-recta-ha-sido-una-evolucion/index.html">Mi carrera no ha sido una línea recta, ha sido una evolución estratégica.</a></h3>
+          <p class="post-card__summary">Una trayectoria nacida de la curiosidad por la tecnología: del desarrollo de software y la docencia a la sanidad, los datos y la IA.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Trayectoria</li><li class="chip">IA</li><li class="chip">Datos</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="la gestion de la informacion en teleasistencia: cuando registrar bien tambien significa cuidar mejor registrar, organizar y gestionar bien la informacion garantiza continuidad, coordinacion y calidad asistencial en teleasistencia. teleasistencia gestion de la informacion calidad teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/la-gestion-de-la-informacion-en-teleasistencia-cuando-registrar-bien-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><time class="post-card__date" datetime="2026-07-19">19 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/la-gestion-de-la-informacion-en-teleasistencia-cuando-registrar-bien/index.html">La gestión de la información en teleasistencia: cuando registrar bien también significa cuidar mejor</a></h3>
+          <p class="post-card__summary">Registrar, organizar y gestionar bien la información garantiza continuidad, coordinación y calidad asistencial en teleasistencia.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Teleasistencia</li><li class="chip">Gestión de la información</li><li class="chip">Calidad</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="la importancia de una llamada bien hecha en los servicios de teleasistencia la llamada como herramienta de prevencion y cuidado: protocolos y comunicacion que dan seguridad y cercania. teleasistencia comunicacion protocolos teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/la-importancia-de-una-llamada-bien-hecha-en-los-servicios-de-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><time class="post-card__date" datetime="2026-07-19">19 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/la-importancia-de-una-llamada-bien-hecha-en-los-servicios-de/index.html">La importancia de una llamada bien hecha en los servicios de teleasistencia</a></h3>
+          <p class="post-card__summary">La llamada como herramienta de prevención y cuidado: protocolos y comunicación que dan seguridad y cercanía.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Teleasistencia</li><li class="chip">Comunicación</li><li class="chip">Protocolos</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="la organizacion de la jornada de trabajo en teleasistencia: mucho mas que responder llamadas la jornada en teleasistencia es mucho mas que responder llamadas: planificacion, protocolos, herramientas y profesionales cualificados. teleasistencia organizacion atencion sociosanitaria teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/la-organizacion-de-la-jornada-de-trabajo-en-teleasistencia-mucho-mas-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><time class="post-card__date" datetime="2026-07-19">19 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 3 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/la-organizacion-de-la-jornada-de-trabajo-en-teleasistencia-mucho-mas/index.html">La organización de la jornada de trabajo en Teleasistencia: mucho más que responder llamadas</a></h3>
+          <p class="post-card__summary">La jornada en teleasistencia es mucho más que responder llamadas: planificación, protocolos, herramientas y profesionales cualificados.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Teleasistencia</li><li class="chip">Organización</li><li class="chip">Atención sociosanitaria</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="ensenar desarrollo web en la era de la ia: como mi evolucion como ingeniera esta transformando mi forma de ensenar como su evolucion como ingeniera transforma la forma de ensenar desarrollo web en la era de la ia: del codigo a la arquitectura y el criterio. desarrollo web ia docencia formacion profesional y docencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/ensenar-desarrollo-web-en-la-era-de-la-ia-como-mi-evolucion-como-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><time class="post-card__date" datetime="2026-07-18">18 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 5 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/ensenar-desarrollo-web-en-la-era-de-la-ia-como-mi-evolucion-como/index.html">Enseñar desarrollo web en la era de la IA: cómo mi evolución como ingeniera está transformando mi forma de enseñar</a></h3>
+          <p class="post-card__summary">Cómo su evolución como ingeniera transforma la forma de enseñar desarrollo web en la era de la IA: del código a la arquitectura y el criterio.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Desarrollo web</li><li class="chip">IA</li><li class="chip">Docencia</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="¿puede una ia entender el sarcasmo? cuando el significado deja de estar en las palabras y pasa a depender de la intencion ¿puede una ia entender el sarcasmo? el significado depende de la intencion mas que de las palabras. sarcasmo nlp intencion embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/puede-una-ia-entender-el-sarcasmo-cuando-el-significado-deja-de-estar-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><time class="post-card__date" datetime="2026-07-18">18 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 5 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/puede-una-ia-entender-el-sarcasmo-cuando-el-significado-deja-de-estar/index.html">¿Puede una IA entender el sarcasmo? Cuando el significado deja de estar en las palabras y pasa a depender de la intención</a></h3>
+          <p class="post-card__summary">¿Puede una IA entender el sarcasmo? El significado depende de la intención más que de las palabras.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Sarcasmo</li><li class="chip">NLP</li><li class="chip">Intención</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="cuando los embeddings dejan de representar palabras y empiezan a capturar significado: una mirada al lenguaje, la cultura y el contexto como un mismo modelo entiende textos en espanol, japones o arabe: embeddings multilingues, cultura y contexto. multilingue cultura contexto embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/cuando-los-embeddings-dejan-de-representar-palabras-y-empiezan-a-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><time class="post-card__date" datetime="2026-07-18">18 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 6 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/cuando-los-embeddings-dejan-de-representar-palabras-y-empiezan-a/index.html">Cuando los embeddings dejan de representar palabras y empiezan a capturar significado: una mirada al lenguaje, la cultura y el contexto</a></h3>
+          <p class="post-card__summary">Cómo un mismo modelo entiende textos en español, japonés o árabe: embeddings multilingües, cultura y contexto.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Multilingüe</li><li class="chip">Cultura</li><li class="chip">Contexto</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="cuando un vector deja de ser una lista de numeros: comprender como la ia representa el significado un embedding es mucho mas que una lista de numeros: lo importante es como el modelo construye el significado. embeddings ia significado embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/cuando-un-vector-deja-de-ser-una-lista-de-numeros-comprender-como-la-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><time class="post-card__date" datetime="2026-07-18">18 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 3 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/cuando-un-vector-deja-de-ser-una-lista-de-numeros-comprender-como-la/index.html">Cuando un vector deja de ser una lista de números: comprender cómo la IA representa el significado</a></h3>
+          <p class="post-card__summary">Un embedding es mucho más que una lista de números: lo importante es cómo el modelo construye el significado.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Embeddings</li><li class="chip">IA</li><li class="chip">Significado</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="del lenguaje a la mente: cuando los embeddings empiezan a representar como pensamos ¿puede una ia representar como pensamos? embeddings, estilo de escritura y ciencia cognitiva. ciencia cognitiva nlp embeddings embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/del-lenguaje-a-la-mente-cuando-los-embeddings-empiezan-a-representar-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><time class="post-card__date" datetime="2026-07-18">18 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 4 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/del-lenguaje-a-la-mente-cuando-los-embeddings-empiezan-a-representar/index.html">Del lenguaje a la mente: cuando los embeddings empiezan a representar cómo pensamos</a></h3>
+          <p class="post-card__summary">¿Puede una IA representar cómo pensamos? Embeddings, estilo de escritura y ciencia cognitiva.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Ciencia cognitiva</li><li class="chip">NLP</li><li class="chip">Embeddings</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="embeddings en inteligencia artificial: ¿todos los vectores representan el significado de la misma forma? explica que no todos los embeddings se construyen igual y por que eso condiciona la busqueda semantica y los resultados de los modelos. embeddings busqueda semantica nlp embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/embeddings-en-inteligencia-artificial-todos-los-vectores-representan-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><time class="post-card__date" datetime="2026-07-18">18 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 3 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/embeddings-en-inteligencia-artificial-todos-los-vectores-representan/index.html">Embeddings en Inteligencia Artificial: ¿todos los vectores representan el significado de la misma forma?</a></h3>
+          <p class="post-card__summary">Explica que no todos los embeddings se construyen igual y por qué eso condiciona la búsqueda semántica y los resultados de los modelos.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Embeddings</li><li class="chip">Búsqueda semántica</li><li class="chip">NLP</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="07" data-pillar="arquitectura" data-search="aprender ia no es solo usar herramientas, es cambiar la forma de pensar. diferencia entre ia generativa, ia agentica y agentes de ia, y como cambio la arquitectura de una plataforma de procesamiento inteligente de documentos. ia agentica agentes arquitectura ia local, desarrollo con ia y aprendizaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/aprender-ia-no-es-solo-usar-herramientas-es-cambiar-la-forma-de-pensar-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">IA local</span><time class="post-card__date" datetime="2026-07-17">17 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 3 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/aprender-ia-no-es-solo-usar-herramientas-es-cambiar-la-forma-de-pensar/index.html">Aprender IA no es solo usar herramientas, es cambiar la forma de pensar.</a></h3>
+          <p class="post-card__summary">Diferencia entre IA generativa, IA agéntica y agentes de IA, y cómo cambió la arquitectura de una plataforma de procesamiento inteligente de documentos.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">IA agéntica</li><li class="chip">Agentes</li><li class="chip">Arquitectura</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="07" data-pillar="arquitectura" data-search="cuando un nuevo concepto conecta todas las piezas del puzle segunda parte: como la ia local, los pipelines inteligentes y la ia agentica resultan ser piezas de un mismo puzle. ia agentica aprendizaje pipelines ia local, desarrollo con ia y aprendizaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/cuando-un-nuevo-concepto-conecta-todas-las-piezas-del-puzle-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">IA local</span><time class="post-card__date" datetime="2026-07-17">17 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 15 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/cuando-un-nuevo-concepto-conecta-todas-las-piezas-del-puzle/index.html">Cuando un nuevo concepto conecta todas las piezas del puzle</a></h3>
+          <p class="post-card__summary">Segunda parte: cómo la IA local, los pipelines inteligentes y la IA agéntica resultan ser piezas de un mismo puzle.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">IA agéntica</li><li class="chip">Aprendizaje</li><li class="chip">Pipelines</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="07" data-pillar="arquitectura" data-search="desarrollar software con ia: cuando el problema ya no es escribir codigo, sino hacer que todo el sistema funcione desarrollar con ia no elimina los problemas de ingenieria: el desafio pasa de escribir codigo a lograr que todo el sistema funcione. ia y desarrollo ingenieria arquitectura ia local, desarrollo con ia y aprendizaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/desarrollar-software-con-ia-cuando-el-problema-ya-no-es-escribir-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">IA local</span><time class="post-card__date" datetime="2026-07-14">14 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 4 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/desarrollar-software-con-ia-cuando-el-problema-ya-no-es-escribir/index.html">Desarrollar software con IA: cuando el problema ya no es escribir código, sino hacer que todo el sistema funcione</a></h3>
+          <p class="post-card__summary">Desarrollar con IA no elimina los problemas de ingeniería: el desafío pasa de escribir código a lograr que todo el sistema funcione.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">IA y desarrollo</li><li class="chip">Ingeniería</li><li class="chip">Arquitectura</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="07" data-pillar="arquitectura" data-search="inteligencia artificial local: el reto es la arquitectura, no el modelo lecciones de dos proyectos (ai dataset engine y fabrica de captions) para procesar informacion integramente en el equipo del usuario, sin apis externas ni nube. ia local mlops arquitectura ia local, desarrollo con ia y aprendizaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/inteligencia-artificial-local-el-reto-es-la-arquitectura-no-el-modelo-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">IA local</span><time class="post-card__date" datetime="2026-07-13">13 jul 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 4 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/inteligencia-artificial-local-el-reto-es-la-arquitectura-no-el-modelo/index.html">Inteligencia Artificial Local: el reto es la arquitectura, no el modelo</a></h3>
+          <p class="post-card__summary">Lecciones de dos proyectos (AI Dataset Engine y Fábrica de Captions) para procesar información íntegramente en el equipo del usuario, sin APIs externas ni nube.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">IA local</li><li class="chip">MLOps</li><li class="chip">Arquitectura</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="06" data-pillar="arquitectura" data-search="arquitectura de software: lo ideal vs la realidad en empresas reales la arquitectura en empresas reales no es una escalera ordenada, sino una negociacion constante entre lo ideal y lo posible. arquitectura realidad empresarial ingenieria arquitectura de software">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/arquitectura-de-software-lo-ideal-vs-la-realidad-en-empresas-reales-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Arquitectura software</span><time class="post-card__date" datetime="2026-05-23">23 may 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 4 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/arquitectura-de-software-lo-ideal-vs-la-realidad-en-empresas-reales/index.html">Arquitectura de software: lo ideal vs la realidad en empresas reales</a></h3>
+          <p class="post-card__summary">La arquitectura en empresas reales no es una escalera ordenada, sino una negociación constante entre lo ideal y lo posible.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Arquitectura</li><li class="chip">Realidad empresarial</li><li class="chip">Ingeniería</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="06" data-pillar="arquitectura" data-search="arquitectura evolutiva escalable: como crecer sin reescribir todo arquitectura evolutiva: empezar simple pero preparado para crecer, evitando reescribir el proyecto desde cero. arquitectura evolutiva escalabilidad python arquitectura de software">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/arquitectura-evolutiva-escalable-como-crecer-sin-reescribir-todo-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Arquitectura software</span><time class="post-card__date" datetime="2026-05-23">23 may 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/arquitectura-evolutiva-escalable-como-crecer-sin-reescribir-todo/index.html">Arquitectura Evolutiva Escalable: cómo crecer sin reescribir todo</a></h3>
+          <p class="post-card__summary">Arquitectura evolutiva: empezar simple pero preparado para crecer, evitando reescribir el proyecto desde cero.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Arquitectura evolutiva</li><li class="chip">Escalabilidad</li><li class="chip">Python</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="06" data-pillar="arquitectura" data-search="de crear interfaces a disenar arquitectura real como la programacion, la docencia y la escalabilidad cambian la forma de pensar el software: del primer programa en un solo archivo a una arquitectura que crece. arquitectura de software escalabilidad docencia arquitectura de software">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/de-crear-interfaces-a-disenar-arquitectura-real-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Arquitectura software</span><time class="post-card__date" datetime="2026-05-23">23 may 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 4 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/de-crear-interfaces-a-disenar-arquitectura-real/index.html">De crear interfaces a diseñar arquitectura real</a></h3>
+          <p class="post-card__summary">Cómo la programación, la docencia y la escalabilidad cambian la forma de pensar el software: del primer programa en un solo archivo a una arquitectura que crece.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Arquitectura de software</li><li class="chip">Escalabilidad</li><li class="chip">Docencia</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="comprendiendo la codificacion cie-10-es y su normativa: guia para estudiantes de documentacion sanitaria guia para estudiantes de la uf6: como aplicar las normativas de codificacion cie-10-es para registrar bien la informacion clinica. cie-10-es normativa uf6 codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/comprendiendo-la-codificacion-cie-10-es-y-su-normativa-guia-para-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><time class="post-card__date" datetime="2026-03-10">10 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 4 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/comprendiendo-la-codificacion-cie-10-es-y-su-normativa-guia-para/index.html">Comprendiendo la Codificación CIE-10-ES y su Normativa: Guía para estudiantes de Documentación Sanitaria</a></h3>
+          <p class="post-card__summary">Guía para estudiantes de la UF6: cómo aplicar las normativas de codificación CIE-10-ES para registrar bien la información clínica.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">CIE-10-ES</li><li class="chip">Normativa</li><li class="chip">UF6</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="¿que es la codificacion clinica y por que es clave en los sistemas sanitarios? por que la codificacion clinica estandariza diagnosticos y procedimientos, y que aporta a la gestion y el analisis del sistema sanitario. codificacion clinica datos en salud gestion codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/que-es-la-codificacion-clinica-y-por-que-es-clave-en-los-sistemas-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><time class="post-card__date" datetime="2026-03-06">6 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/que-es-la-codificacion-clinica-y-por-que-es-clave-en-los-sistemas/index.html">¿Qué es la codificación clínica y por qué es clave en los sistemas sanitarios?</a></h3>
+          <p class="post-card__summary">Por qué la codificación clínica estandariza diagnósticos y procedimientos, y qué aporta a la gestión y el análisis del sistema sanitario.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Codificación clínica</li><li class="chip">Datos en salud</li><li class="chip">Gestión</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="como entender la cie-10-es de diagnosticos sin volverse loco: guia sencilla guia sencilla de la estructura y las reglas basicas de la cie-10-es de diagnosticos para estudiantes y profesionales. cie-10-es diagnosticos guia codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/como-entender-la-cie-10-es-de-diagnosticos-sin-volverse-loco-guia-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><time class="post-card__date" datetime="2026-03-06">6 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 3 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/como-entender-la-cie-10-es-de-diagnosticos-sin-volverse-loco-guia/index.html">Cómo entender la CIE-10-ES de diagnósticos sin volverse loco: guía sencilla</a></h3>
+          <p class="post-card__summary">Guía sencilla de la estructura y las reglas básicas de la CIE-10-ES de diagnósticos para estudiantes y profesionales.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">CIE-10-ES</li><li class="chip">Diagnósticos</li><li class="chip">Guía</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="como seleccionar correctamente los codigos en la cie: guia rapida para profesionales de la salud proceso paso a paso para seleccionar el codigo correcto en la cie: identificar el episodio asistencial y aplicar las reglas de codificacion. cie codificacion medica guia rapida codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/como-seleccionar-correctamente-los-codigos-en-la-cie-guia-rapida-para-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><time class="post-card__date" datetime="2026-03-06">6 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/como-seleccionar-correctamente-los-codigos-en-la-cie-guia-rapida-para/index.html">Cómo Seleccionar Correctamente los Códigos en la CIE: Guía Rápida para Profesionales de la Salud</a></h3>
+          <p class="post-card__summary">Proceso paso a paso para seleccionar el código correcto en la CIE: identificar el episodio asistencial y aplicar las reglas de codificación.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">CIE</li><li class="chip">Codificación médica</li><li class="chip">Guía rápida</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="la cie-10 y la codificacion clinica: clave para la gestion de la informacion sanitaria legislacion clave en espana y aplicacion de la cie-10 para codificar diagnosticos y procedimientos con calidad y cumplimiento normativo. cie-10 legislacion codificacion codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/la-cie-10-y-la-codificacion-clinica-clave-para-la-gestion-de-la-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><time class="post-card__date" datetime="2026-03-06">6 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/la-cie-10-y-la-codificacion-clinica-clave-para-la-gestion-de-la/index.html">La CIE-10 y la codificación clínica: Clave para la gestión de la información sanitaria</a></h3>
+          <p class="post-card__summary">Legislación clave en España y aplicación de la CIE-10 para codificar diagnósticos y procedimientos con calidad y cumplimiento normativo.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">CIE-10</li><li class="chip">Legislación</li><li class="chip">Codificación</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="como evaluo a mis alumnos para prepararlos al mundo laboral como evalua a su alumnado de certificados de profesionalidad simulando el trabajo en empresas reales: vision, criterios y preparacion para el mundo laboral. evaluacion certificados de profesionalidad empleabilidad formacion profesional y docencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/como-evaluo-a-mis-alumnos-para-prepararlos-al-mundo-laboral-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><time class="post-card__date" datetime="2026-03-05">5 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/como-evaluo-a-mis-alumnos-para-prepararlos-al-mundo-laboral/index.html">Cómo Evalúo a Mis Alumnos para Prepararlos al Mundo Laboral</a></h3>
+          <p class="post-card__summary">Cómo evalúa a su alumnado de certificados de profesionalidad simulando el trabajo en empresas reales: visión, criterios y preparación para el mundo laboral.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Evaluación</li><li class="chip">Certificados de profesionalidad</li><li class="chip">Empleabilidad</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="la importancia de una arquitectura de archivos bien organizada en proyectos web por que la estructura de archivos es la base de un proyecto web y como ensenar buenas practicas de organizacion desde el primer dia. desarrollo web buenas practicas docencia formacion profesional y docencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/la-importancia-de-una-arquitectura-de-archivos-bien-organizada-en-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><time class="post-card__date" datetime="2026-03-05">5 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/la-importancia-de-una-arquitectura-de-archivos-bien-organizada-en/index.html">La Importancia de una Arquitectura de Archivos Bien Organizada en Proyectos Web</a></h3>
+          <p class="post-card__summary">Por qué la estructura de archivos es la base de un proyecto web y cómo enseñar buenas prácticas de organización desde el primer día.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Desarrollo web</li><li class="chip">Buenas prácticas</li><li class="chip">Docencia</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="04" data-pillar="salud" data-search="sistemas de informacion sanitaria: clave para la gestion y calidad en salud que es la informacion sanitaria y como se organiza el sis para apoyar la toma de decisiones, la planificacion y la calidad asistencial. informacion sanitaria sis calidad sistemas de informacion sanitaria">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/sistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">SIS</span><time class="post-card__date" datetime="2026-03-05">5 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/sistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en/index.html">Sistemas de Información Sanitaria: Clave para la gestión y calidad en salud</a></h3>
+          <p class="post-card__summary">Qué es la información sanitaria y cómo se organiza el SIS para apoyar la toma de decisiones, la planificación y la calidad asistencial.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Información sanitaria</li><li class="chip">SIS</li><li class="chip">Calidad</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="04" data-pillar="salud" data-search="sistemas de informacion y clasificacion sanitarios: guia visual para estudiantes resumen visual y practico para estudiantes sobre sistemas de informacion y clasificacion sanitarios. guia visual estudiantes clasificacion sistemas de informacion sanitaria">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/sistemas-de-informacion-y-clasificacion-sanitarios-guia-visual-para-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">SIS</span><time class="post-card__date" datetime="2026-03-05">5 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/sistemas-de-informacion-y-clasificacion-sanitarios-guia-visual-para/index.html">Sistemas de Información y Clasificación Sanitarios: Guía Visual para Estudiantes</a></h3>
+          <p class="post-card__summary">Resumen visual y práctico para estudiantes sobre sistemas de información y clasificación sanitarios.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Guía visual</li><li class="chip">Estudiantes</li><li class="chip">Clasificación</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="04" data-pillar="salud" data-search="sistemas de informacion y clasificacion sanitarios: una mirada desde la documentacion sanitaria introduccion a la gestion de la informacion en el sistema sanitario: que datos se recogen y analizan, historia clinica, cmbd y sistemas de clasificacion. sistemas de informacion cmbd clasificaciones sistemas de informacion sanitaria">
+        <div class="post-card__cover">
+          <span class="post-card__placeholder" aria-hidden="true"><span>Tema 04</span><svg class="icon icon--36" aria-hidden="true" focusable="false"><use href="#i-file-text"/></svg></span>
+          <p class="post-card__labels"><span class="post-card__badge">SIS</span><time class="post-card__date" datetime="2026-03-05">5 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 5 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/sistemas-de-informacion-y-clasificacion-sanitarios-una-mirada-desde/index.html">Sistemas de Información y Clasificación Sanitarios: una mirada desde la Documentación Sanitaria</a></h3>
+          <p class="post-card__summary">Introducción a la gestión de la información en el sistema sanitario: qué datos se recogen y analizan, historia clínica, CMBD y sistemas de clasificación.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Sistemas de información</li><li class="chip">CMBD</li><li class="chip">Clasificaciones</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="diferencia entre cie-10-es diagnosticos y cie-10-es procedimientos diferencias entre cie-10-es diagnosticos y cie-10-es procedimientos, y entre diagnostico principal y secundario, explicadas de forma sencilla para estudiantes. cie-10-es diagnosticos procedimientos codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/diferencia-entre-cie-10-es-diagnosticos-y-cie-10-es-procedimientos-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><time class="post-card__date" datetime="2026-03-05">5 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/diferencia-entre-cie-10-es-diagnosticos-y-cie-10-es-procedimientos/index.html">Diferencia entre CIE-10-ES Diagnósticos y CIE-10-ES Procedimientos</a></h3>
+          <p class="post-card__summary">Diferencias entre CIE-10-ES Diagnósticos y CIE-10-ES Procedimientos, y entre diagnóstico principal y secundario, explicadas de forma sencilla para estudiantes.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">CIE-10-ES</li><li class="chip">Diagnósticos</li><li class="chip">Procedimientos</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="02" data-pillar="salud" data-search="organizacion sanitaria compendio de estudio: evolucion del concepto de salud, determinantes (modelo de lalonde), modelos de sistemas sanitarios, sns espanol, niveles de asistencia y documentacion sanitaria. organizacion sanitaria sns determinantes de salud salud y organizacion sanitaria">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/organizacion-sanitaria-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Salud y organización</span><time class="post-card__date" datetime="2026-03-04">4 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/organizacion-sanitaria/index.html">Organización Sanitaria</a></h3>
+          <p class="post-card__summary">Compendio de estudio: evolución del concepto de salud, determinantes (modelo de Lalonde), modelos de sistemas sanitarios, SNS español, niveles de asistencia y documentación sanitaria.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Organización sanitaria</li><li class="chip">SNS</li><li class="chip">Determinantes de salud</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="03" data-pillar="salud" data-search="calidad de la documentacion clinica: claves para administrativos y profesionales sanitarios la calidad de las historias clinicas como herramienta de seguridad del paciente: iso 9000, efqm, joint commission, control de calidad y comision de historias clinicas. calidad iso 9000 seguridad del paciente documentacion sanitaria e historia clinica">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/calidad-de-la-documentacion-clinica-claves-para-administrativos-y-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Documentación sanitaria</span><time class="post-card__date" datetime="2026-03-04">4 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/calidad-de-la-documentacion-clinica-claves-para-administrativos-y/index.html">Calidad de la Documentación Clínica: Claves para Administrativos y Profesionales Sanitarios</a></h3>
+          <p class="post-card__summary">La calidad de las historias clínicas como herramienta de seguridad del paciente: ISO 9000, EFQM, Joint Commission, control de calidad y Comisión de Historias Clínicas.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Calidad</li><li class="chip">ISO 9000</li><li class="chip">Seguridad del paciente</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="03" data-pillar="salud" data-search="diseno y normalizacion de documentos clinico-asistenciales como disenar documentos clinicos (formato externo e interno), su normalizacion y legislacion, y las ventajas de la historia clinica electronica. normalizacion hce legislacion documentacion sanitaria e historia clinica">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/diseno-y-normalizacion-de-documentos-clinico-asistenciales-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Documentación sanitaria</span><time class="post-card__date" datetime="2026-03-04">4 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/diseno-y-normalizacion-de-documentos-clinico-asistenciales/index.html">Diseño y Normalización de Documentos Clínico-Asistenciales</a></h3>
+          <p class="post-card__summary">Cómo diseñar documentos clínicos (formato externo e interno), su normalización y legislación, y las ventajas de la historia clínica electrónica.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Normalización</li><li class="chip">HCE</li><li class="chip">Legislación</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="03" data-pillar="salud" data-search="la importancia de la documentacion sanitaria: guia para administrativos guia para administrativos: que es un documento sanitario, fuentes documentales, tipos (administrativa, clinica y medico-legal), circuitos de informacion y consejos para recordar lo esencial. documentacion historia clinica circuitos documentacion sanitaria e historia clinica">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/la-importancia-de-la-documentacion-sanitaria-guia-para-administrativos-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Documentación sanitaria</span><time class="post-card__date" datetime="2026-03-04">4 mar 2026</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 3 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/la-importancia-de-la-documentacion-sanitaria-guia-para-administrativos/index.html">La Importancia de la Documentación Sanitaria: Guía para Administrativos</a></h3>
+          <p class="post-card__summary">Guía para administrativos: qué es un documento sanitario, fuentes documentales, tipos (administrativa, clínica y médico-legal), circuitos de información y consejos para recordar lo esencial.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Documentación</li><li class="chip">Historia clínica</li><li class="chip">Circuitos</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="hacia una formacion profesional flexible, inclusiva y basada en el valor critica a la rigidez de la fp en espana (sin reconocimiento de competencias, presencialidad obligatoria, poca formacion pedagogica online) y propuesta de un modelo online flexible sobre canvas, con itinerarios hibridos y certificacion oficial. fp educacion online canvas inclusion formacion profesional y docencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/hacia-una-formacion-profesional-flexible-inclusiva-y-basada-en-el-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><time class="post-card__date" datetime="2025-10-30">30 oct 2025</time></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 3 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/hacia-una-formacion-profesional-flexible-inclusiva-y-basada-en-el/index.html">Hacia una Formación Profesional flexible, inclusiva y basada en el valor</a></h3>
+          <p class="post-card__summary">Crítica a la rigidez de la FP en España (sin reconocimiento de competencias, presencialidad obligatoria, poca formación pedagógica online) y propuesta de un modelo online flexible sobre Canvas, con itinerarios híbridos y certificación oficial.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">FP</li><li class="chip">Educación online</li><li class="chip">Canvas</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="¿eres un formador del siglo xx o del xxi? reflexion a partir de una infografia sobre cuatro enfoques de ensenanza transformadora: evaluacion por competencias, assessment for learning y mas. docencia evaluacion formacion formacion profesional y docencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/eres-un-formador-del-siglo-xx-o-del-xxi-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/eres-un-formador-del-siglo-xx-o-del-xxi/index.html">¿Eres un formador del siglo XX o del XXI?</a></h3>
+          <p class="post-card__summary">Reflexión a partir de una infografía sobre cuatro enfoques de enseñanza transformadora: evaluación por competencias, assessment for learning y más.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Docencia</li><li class="chip">Evaluación</li><li class="chip">Formación</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="¿esta cambiando la forma de ensenar desarrollo web? publicacion con infografia: el verdadero reto es ensenar a pensar como arquitectos de software, incluso con ia. desarrollo web docencia infografia formacion profesional y docencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/esta-cambiando-la-forma-de-ensenar-desarrollo-web-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/esta-cambiando-la-forma-de-ensenar-desarrollo-web/index.html">¿Está cambiando la forma de enseñar desarrollo web?</a></h3>
+          <p class="post-card__summary">Publicación con infografía: el verdadero reto es enseñar a pensar como arquitectos de software, incluso con IA.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Desarrollo web</li><li class="chip">Docencia</li><li class="chip">Infografía</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="¿que significa realmente aprender a desarrollar paginas web? publicacion del certificado ifc297_2: el aprendizaje va mas alla de html, css y javascript, hacia analizar problemas y trabajar como profesionales. desarrollo web ifc297_2 docencia formacion profesional y docencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/que-significa-realmente-aprender-a-desarrollar-paginas-web-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/que-significa-realmente-aprender-a-desarrollar-paginas-web/index.html">¿Qué significa realmente aprender a desarrollar páginas web?</a></h3>
+          <p class="post-card__summary">Publicación del certificado IFC297_2: el aprendizaje va más allá de HTML, CSS y JavaScript, hacia analizar problemas y trabajar como profesionales.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Desarrollo web</li><li class="chip">IFC297_2</li><li class="chip">Docencia</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="01" data-pillar="aula" data-search="mi compromiso como docente de fp en desarrollo declaracion de mision: formar desarrolladores competentes, empleables y eticos; evaluar con transparencia y acompanar el progreso de cada estudiante. fp informatica compromiso docente empleabilidad formacion profesional y docencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/mi-compromiso-como-docente-de-fp-en-desarrollo-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Formación profesional</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/mi-compromiso-como-docente-de-fp-en-desarrollo/index.html">Mi compromiso como docente de FP en Desarrollo</a></h3>
+          <p class="post-card__summary">Declaración de misión: formar desarrolladores competentes, empleables y éticos; evaluar con transparencia y acompañar el progreso de cada estudiante.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">FP Informática</li><li class="chip">Compromiso docente</li><li class="chip">Empleabilidad</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="02" data-pillar="salud" data-search="fisiologia respiratoria: volumenes y capacidades pulmonares publicacion divulgativa sobre volumen corriente, reservas y capacidad vital, y su utilidad para interpretar espirometrias, con un parrafo emocional y otro tecnico. fisiologia espirometria ciencias de la salud salud y organizacion sanitaria">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/fisiologia-respiratoria-volumenes-y-capacidades-pulmonares-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Salud y organización</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/fisiologia-respiratoria-volumenes-y-capacidades-pulmonares/index.html">Fisiología respiratoria: volúmenes y capacidades pulmonares</a></h3>
+          <p class="post-card__summary">Publicación divulgativa sobre volumen corriente, reservas y capacidad vital, y su utilidad para interpretar espirometrías, con un párrafo emocional y otro técnico.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Fisiología</li><li class="chip">Espirometría</li><li class="chip">Ciencias de la salud</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="02" data-pillar="salud" data-search="organizacion sanitaria: publicacion de presentacion publicacion de linkedin que presenta el compendio de organizacion sanitaria: historia de la salud, hipocrates, vesalio y determinantes de lalonde. historia de la salud lalonde gestion sanitaria salud y organizacion sanitaria">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/organizacion-sanitaria-publicacion-de-presentacion-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Salud y organización</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/organizacion-sanitaria-publicacion-de-presentacion/index.html">Organización sanitaria: publicación de presentación</a></h3>
+          <p class="post-card__summary">Publicación de LinkedIn que presenta el compendio de organización sanitaria: historia de la salud, Hipócrates, Vesalio y determinantes de Lalonde.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Historia de la salud</li><li class="chip">Lalonde</li><li class="chip">Gestión sanitaria</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="03" data-pillar="salud" data-search="calidad de la documentacion clinica: resumen en linkedin resumen en formato publicacion: estandares de la joint commission, iso 9000 y efqm, controles de calidad y papel de la comision de historias clinicas. calidad joint commission historias clinicas documentacion sanitaria e historia clinica">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/calidad-de-la-documentacion-clinica-resumen-en-linkedin-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Documentación sanitaria</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/calidad-de-la-documentacion-clinica-resumen-en-linkedin/index.html">Calidad de la documentación clínica: resumen en LinkedIn</a></h3>
+          <p class="post-card__summary">Resumen en formato publicación: estándares de la Joint Commission, ISO 9000 y EFQM, controles de calidad y papel de la Comisión de Historias Clínicas.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Calidad</li><li class="chip">Joint Commission</li><li class="chip">Historias clínicas</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="03" data-pillar="salud" data-search="documentos clinicos: publicacion de presentacion publicacion breve sobre digitalizacion y estandarizacion de los documentos clinicos y su impacto en la seguridad del paciente. salud digital historia clinica estandarizacion documentacion sanitaria e historia clinica">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/documentos-clinicos-publicacion-de-presentacion-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Documentación sanitaria</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/documentos-clinicos-publicacion-de-presentacion/index.html">Documentos clínicos: publicación de presentación</a></h3>
+          <p class="post-card__summary">Publicación breve sobre digitalización y estandarización de los documentos clínicos y su impacto en la seguridad del paciente.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Salud digital</li><li class="chip">Historia clínica</li><li class="chip">Estandarización</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="04" data-pillar="salud" data-search="sistemas de informacion: material grafico de apoyo entrada de apoyo con contenido visual, sin texto propio, complementaria a la guia visual. infografia sistemas de informacion sistemas de informacion sanitaria">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/sistemas-de-informacion-material-grafico-de-apoyo-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">SIS</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/sistemas-de-informacion-material-grafico-de-apoyo/index.html">Sistemas de información: material gráfico de apoyo</a></h3>
+          <p class="post-card__summary">Entrada de apoyo con contenido visual, sin texto propio, complementaria a la guía visual.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Infografía</li><li class="chip">Sistemas de información</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="04" data-pillar="salud" data-search="tema 1: sistemas de informacion sanitaria resumen de estudio del sis: historia clinica, cmbd, indicadores de salud y su papel en la gestion, la planificacion y la investigacion. sis cmbd indicadores sistemas de informacion sanitaria">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/tema-1-sistemas-de-informacion-sanitaria-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">SIS</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/tema-1-sistemas-de-informacion-sanitaria/index.html">Tema 1: Sistemas de Información Sanitaria</a></h3>
+          <p class="post-card__summary">Resumen de estudio del SIS: historia clínica, CMBD, indicadores de salud y su papel en la gestión, la planificación y la investigación.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">SIS</li><li class="chip">CMBD</li><li class="chip">Indicadores</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="codificacion cie-10 (uf6): legislacion y normativa resumen de estudio de la uf6: ley 41/2002, rd 69/2015, lo 3/2018 y demas normativa estatal sobre historia clinica, rae-cmbd y proteccion de datos. uf6 legislacion rae-cmbd codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/codificacion-cie-10-uf6-legislacion-y-normativa-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/codificacion-cie-10-uf6-legislacion-y-normativa/index.html">Codificación CIE-10 (UF6): legislación y normativa</a></h3>
+          <p class="post-card__summary">Resumen de estudio de la UF6: Ley 41/2002, RD 69/2015, LO 3/2018 y demás normativa estatal sobre historia clínica, RAE-CMBD y protección de datos.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">UF6</li><li class="chip">Legislación</li><li class="chip">RAE-CMBD</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="codificacion clinica: material grafico de apoyo entrada de apoyo con contenido visual, sin texto propio, ligada a la codificacion clinica. infografia codificacion clinica codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/codificacion-clinica-material-grafico-de-apoyo-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/codificacion-clinica-material-grafico-de-apoyo/index.html">Codificación clínica: material gráfico de apoyo</a></h3>
+          <p class="post-card__summary">Entrada de apoyo con contenido visual, sin texto propio, ligada a la codificación clínica.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Infografía</li><li class="chip">Codificación clínica</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="05" data-pillar="salud" data-search="seleccion de codigos cie: material grafico de apoyo entrada de apoyo con contenido visual, sin texto propio, complementaria a la guia rapida de codificacion. infografia cie codificacion clinica y cie-10-es">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/seleccion-de-codigos-cie-material-grafico-de-apoyo-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Codificación CIE-10-ES</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/seleccion-de-codigos-cie-material-grafico-de-apoyo/index.html">Selección de códigos CIE: material gráfico de apoyo</a></h3>
+          <p class="post-card__summary">Entrada de apoyo con contenido visual, sin texto propio, complementaria a la guía rápida de codificación.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Infografía</li><li class="chip">CIE</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="07" data-pillar="arquitectura" data-search="¿escribir codigo con ia? eso es lo de menos publicacion sobre una infografia: la ia genera buen codigo, pero la arquitectura y la integracion siguen siendo responsabilidad humana. codigo con ia arquitectura infografia ia local, desarrollo con ia y aprendizaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/escribir-codigo-con-ia-eso-es-lo-de-menos-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">IA local</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/escribir-codigo-con-ia-eso-es-lo-de-menos/index.html">¿Escribir código con IA? Eso es lo de menos</a></h3>
+          <p class="post-card__summary">Publicación sobre una infografía: la IA genera buen código, pero la arquitectura y la integración siguen siendo responsabilidad humana.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Código con IA</li><li class="chip">Arquitectura</li><li class="chip">Infografía</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="07" data-pillar="arquitectura" data-search="aprender ia: una nueva forma de pensar publicacion que resume como un concepto teorico cambio la direccion del proyecto, con infografia. ia agentica reflexion infografia ia local, desarrollo con ia y aprendizaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/aprender-ia-una-nueva-forma-de-pensar-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">IA local</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/aprender-ia-una-nueva-forma-de-pensar/index.html">Aprender IA: una nueva forma de pensar</a></h3>
+          <p class="post-card__summary">Publicación que resume cómo un concepto teórico cambió la dirección del proyecto, con infografía.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">IA agéntica</li><li class="chip">Reflexión</li><li class="chip">Infografía</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="07" data-pillar="arquitectura" data-search="el concepto que hace que todo cobre sentido publicacion con infografia sobre el momento en que arquitectura, ia local, pipelines e ia agentica encajan. ia agentica aprendizaje infografia ia local, desarrollo con ia y aprendizaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/el-concepto-que-hace-que-todo-cobre-sentido-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">IA local</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/el-concepto-que-hace-que-todo-cobre-sentido/index.html">El concepto que hace que todo cobre sentido</a></h3>
+          <p class="post-card__summary">Publicación con infografía sobre el momento en que arquitectura, IA local, pipelines e IA agéntica encajan.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">IA agéntica</li><li class="chip">Aprendizaje</li><li class="chip">Infografía</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="07" data-pillar="arquitectura" data-search="ia local: mas que un modelo, una arquitectura completa publicacion con las claves de una arquitectura de ia local robusta: gestion de mas de 16 modelos locales, estabilidad y uso eficiente del hardware. ia local modelos vlm hardware ia local, desarrollo con ia y aprendizaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/ia-local-mas-que-un-modelo-una-arquitectura-completa-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">IA local</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/ia-local-mas-que-un-modelo-una-arquitectura-completa/index.html">IA Local: más que un modelo, una arquitectura completa</a></h3>
+          <p class="post-card__summary">Publicación con las claves de una arquitectura de IA local robusta: gestión de más de 16 modelos locales, estabilidad y uso eficiente del hardware.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">IA local</li><li class="chip">Modelos VLM</li><li class="chip">Hardware</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="¿llevas anos entendiendo mal que es un embedding? publicacion que anticipa el cambio de perspectiva: el valor no esta en el vector, sino en como se construye el significado. embeddings rag busqueda semantica embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/llevas-anos-entendiendo-mal-que-es-un-embedding-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/llevas-anos-entendiendo-mal-que-es-un-embedding/index.html">¿Llevas años entendiendo mal qué es un embedding?</a></h3>
+          <p class="post-card__summary">Publicación que anticipa el cambio de perspectiva: el valor no está en el vector, sino en cómo se construye el significado.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Embeddings</li><li class="chip">RAG</li><li class="chip">Búsqueda semántica</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="¿puede una ia detectar cuando le estas tomando el pelo? publicacion con la misma frase y significados opuestos: el sarcasmo como gran reto para la ia actual. sarcasmo ia contexto embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/puede-una-ia-detectar-cuando-le-estas-tomando-el-pelo-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/puede-una-ia-detectar-cuando-le-estas-tomando-el-pelo/index.html">¿Puede una IA detectar cuando le estás tomando el pelo?</a></h3>
+          <p class="post-card__summary">Publicación con la misma frase y significados opuestos: el sarcasmo como gran reto para la IA actual.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Sarcasmo</li><li class="chip">IA</li><li class="chip">Contexto</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="del lenguaje a la mente publicacion que resume la revelacion: pasar de representar palabras a preguntarse si la ia puede representar el pensamiento. ciencia cognitiva machine learning embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/del-lenguaje-a-la-mente-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/del-lenguaje-a-la-mente/index.html">Del lenguaje a la mente</a></h3>
+          <p class="post-card__summary">Publicación que resume la revelación: pasar de representar palabras a preguntarse si la IA puede representar el pensamiento.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Ciencia cognitiva</li><li class="chip">Machine learning</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-blue" data-topic="08" data-pillar="arquitectura" data-search="dos embeddings con la misma forma, significados distintos publicacion con infografia sobre por que vectores iguales en forma pueden representar el significado de modo diferente. embeddings rag infografia embeddings y procesamiento del lenguaje">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/dos-embeddings-con-la-misma-forma-significados-distintos-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Embeddings &amp; PLN</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/dos-embeddings-con-la-misma-forma-significados-distintos/index.html">Dos embeddings con la misma forma, significados distintos</a></h3>
+          <p class="post-card__summary">Publicación con infografía sobre por qué vectores iguales en forma pueden representar el significado de modo diferente.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Embeddings</li><li class="chip">RAG</li><li class="chip">Infografía</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="¿estamos preparados para el reto del envejecimiento? tendencias del sector sociosanitario: salud mental, prevencion de la demencia, teleasistencia e innovacion en el cuidado de mayores. envejecimiento personas mayores innovacion teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/estamos-preparados-para-el-reto-del-envejecimiento-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/estamos-preparados-para-el-reto-del-envejecimiento/index.html">¿Estamos preparados para el reto del envejecimiento?</a></h3>
+          <p class="post-card__summary">Tendencias del sector sociosanitario: salud mental, prevención de la demencia, teleasistencia e innovación en el cuidado de mayores.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Envejecimiento</li><li class="chip">Personas mayores</li><li class="chip">Innovación</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="¿que hace efectiva una llamada de teleasistencia? publicacion con esquema de fases, tecnicas y buenas practicas que convierten una llamada en una intervencion profesional y humana. teleasistencia comunicacion efectiva teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/que-hace-efectiva-una-llamada-de-teleasistencia-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/que-hace-efectiva-una-llamada-de-teleasistencia/index.html">¿Qué hace efectiva una llamada de teleasistencia?</a></h3>
+          <p class="post-card__summary">Publicación con esquema de fases, técnicas y buenas prácticas que convierten una llamada en una intervención profesional y humana.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Teleasistencia</li><li class="chip">Comunicación efectiva</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="¿que hay detras de una simple llamada de teleasistencia? hoja de ruta de una intervencion de calidad: de la gestion rutinaria a la deteccion temprana de emergencias. teleasistencia intervencion dependencia teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/que-hay-detras-de-una-simple-llamada-de-teleasistencia-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/que-hay-detras-de-una-simple-llamada-de-teleasistencia/index.html">¿Qué hay detrás de una simple llamada de teleasistencia?</a></h3>
+          <p class="post-card__summary">Hoja de ruta de una intervención de calidad: de la gestión rutinaria a la detección temprana de emergencias.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Teleasistencia</li><li class="chip">Intervención</li><li class="chip">Dependencia</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="¿quienes hacen posible la teleasistencia? los seis perfiles profesionales del equipo, de la direccion del proyecto a la primera respuesta en domicilio. equipo humano perfiles servicios sociales teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/quienes-hacen-posible-la-teleasistencia-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/quienes-hacen-posible-la-teleasistencia/index.html">¿Quiénes hacen posible la teleasistencia?</a></h3>
+          <p class="post-card__summary">Los seis perfiles profesionales del equipo, de la dirección del proyecto a la primera respuesta en domicilio.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Equipo humano</li><li class="chip">Perfiles</li><li class="chip">Servicios sociales</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="derechos y deberes en teleasistencia los pilares de una atencion humana y eficaz: derechos fundamentales y deberes de la persona teleoperadora. derechos deberes calidad asistencial teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/derechos-y-deberes-en-teleasistencia-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/derechos-y-deberes-en-teleasistencia/index.html">Derechos y deberes en teleasistencia</a></h3>
+          <p class="post-card__summary">Los pilares de una atención humana y eficaz: derechos fundamentales y deberes de la persona teleoperadora.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Derechos</li><li class="chip">Deberes</li><li class="chip">Calidad asistencial</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="los 5 libros de registro de la teleasistencia los registros obligatorios que garantizan trazabilidad, cumplimiento normativo y calidad asistencial. trazabilidad registros normativa teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/los-5-libros-de-registro-de-la-teleasistencia-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/los-5-libros-de-registro-de-la-teleasistencia/index.html">Los 5 libros de registro de la teleasistencia</a></h3>
+          <p class="post-card__summary">Los registros obligatorios que garantizan trazabilidad, cumplimiento normativo y calidad asistencial.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Trazabilidad</li><li class="chip">Registros</li><li class="chip">Normativa</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="no todas las llamadas de teleasistencia son iguales guia para priorizar agendas, por ejemplo entre una medicacion urgente y un seguimiento importante. agendas priorizacion teleasistencia teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/no-todas-las-llamadas-de-teleasistencia-son-iguales-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/no-todas-las-llamadas-de-teleasistencia-son-iguales/index.html">No todas las llamadas de teleasistencia son iguales</a></h3>
+          <p class="post-card__summary">Guía para priorizar agendas, por ejemplo entre una medicación urgente y un seguimiento importante.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Agendas</li><li class="chip">Priorización</li><li class="chip">Teleasistencia</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="una agenda bien gestionada puede salvar vidas la gestion de agendas como acto de cuidado: detectar necesidades, prevenir emergencias y crear vinculos de confianza. gestion de agendas prevencion confianza teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/una-agenda-bien-gestionada-puede-salvar-vidas-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/una-agenda-bien-gestionada-puede-salvar-vidas/index.html">Una agenda bien gestionada puede salvar vidas</a></h3>
+          <p class="post-card__summary">La gestión de agendas como acto de cuidado: detectar necesidades, prevenir emergencias y crear vínculos de confianza.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Gestión de agendas</li><li class="chip">Prevención</li><li class="chip">Confianza</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="una llamada puede marcar la diferencia entre soledad y seguridad tipos de llamadas (informales, estructuradas, de seguimiento) y como adaptar su duracion a cada necesidad. tipos de llamada comunicacion cuidado teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/una-llamada-puede-marcar-la-diferencia-entre-soledad-y-seguridad-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 2 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/una-llamada-puede-marcar-la-diferencia-entre-soledad-y-seguridad/index.html">Una llamada puede marcar la diferencia entre soledad y seguridad</a></h3>
+          <p class="post-card__summary">Tipos de llamadas (informales, estructuradas, de seguimiento) y cómo adaptar su duración a cada necesidad.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Tipos de llamada</li><li class="chip">Comunicación</li><li class="chip">Cuidado</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-sage" data-topic="09" data-pillar="salud" data-search="una sola palabra puede marcar la diferencia como adaptar la comunicacion a cada perfil de persona usuaria: mayores, victimas de violencia, discapacidad y cuidadores. comunicacion personalizacion humanizacion teleasistencia">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/una-sola-palabra-puede-marcar-la-diferencia-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Teleasistencia</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/una-sola-palabra-puede-marcar-la-diferencia/index.html">Una sola palabra puede marcar la diferencia</a></h3>
+          <p class="post-card__summary">Cómo adaptar la comunicación a cada perfil de persona usuaria: mayores, víctimas de violencia, discapacidad y cuidadores.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Comunicación</li><li class="chip">Personalización</li><li class="chip">Humanización</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="10" data-pillar="aula" data-search="la salud tambien se construye desde la gestion y la tecnologia cierre de trayectoria: la diversidad de experiencias converge en la salud digital y la gestion del conocimiento. salud digital gestion trayectoria trayectoria profesional">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/la-salud-tambien-se-construye-desde-la-gestion-y-la-tecnologia-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Trayectoria</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/la-salud-tambien-se-construye-desde-la-gestion-y-la-tecnologia/index.html">La salud también se construye desde la gestión y la tecnología</a></h3>
+          <p class="post-card__summary">Cierre de trayectoria: la diversidad de experiencias converge en la salud digital y la gestión del conocimiento.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Salud digital</li><li class="chip">Gestión</li><li class="chip">Trayectoria</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="10" data-pillar="aula" data-search="mi hipotesis de futuro: una carrera como mapa de conexiones ejercicio de estrategia profesional: integradora que conecta sanidad, ia, datos, comunicacion y gestion del cambio. marca personal estrategia transformacion digital trayectoria profesional">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/mi-hipotesis-de-futuro-una-carrera-como-mapa-de-conexiones-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Trayectoria</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/mi-hipotesis-de-futuro-una-carrera-como-mapa-de-conexiones/index.html">Mi Hipótesis de Futuro: una carrera como mapa de conexiones</a></h3>
+          <p class="post-card__summary">Ejercicio de estrategia profesional: integradora que conecta sanidad, IA, datos, comunicación y gestión del cambio.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Marca personal</li><li class="chip">Estrategia</li><li class="chip">Transformación digital</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      <li class="post-card card card--hover theme-terra" data-topic="10" data-pillar="aula" data-search="mi trayectoria no ha sido lineal todas las etapas, del software a la documentacion clinica, forman una misma evolucion con proposito. trayectoria evolucion profesional trayectoria profesional">
+        <div class="post-card__cover">
+          <img src="../assets/img/blog/mi-trayectoria-no-ha-sido-lineal-cover.webp" width="640" height="360" alt="" loading="lazy" decoding="async">
+          <p class="post-card__labels"><span class="post-card__badge">Trayectoria</span><span class="post-card__date">Publicación</span></p>
+          <span class="post-card__icon" aria-hidden="true"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-image"/></svg></span>
+        </div>
+        <div class="post-card__body">
+          <p class="post-card__byline"><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-user"/></svg> Sara López-Figueredo</span><span><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-timer"/></svg> 1 min</span></p>
+          <h3 class="post-card__title"><a href="../blog/mi-trayectoria-no-ha-sido-lineal/index.html">Mi trayectoria no ha sido lineal</a></h3>
+          <p class="post-card__summary">Todas las etapas, del software a la documentación clínica, forman una misma evolución con propósito.</p>
+          <ul class="chip-list post-card__tags"><li class="chip">Trayectoria</li><li class="chip">Evolución profesional</li></ul>
+          <p class="post-card__cta"><span class="btn btn--accent" aria-hidden="true">Leer entrada <svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></span></p>
+        </div>
+      </li>
+      </ul>
+      <div class="blog-empty" id="blog-empty" hidden><p>No hay entradas que coincidan con tu búsqueda.</p><p><button class="btn btn--outline btn--sm" type="button" id="blog-reset">Quitar filtros</button></p></div>
+      <p class="blog-more">
+        <a class="btn btn--outline" href="https://www.linkedin.com/in/diginosia/" target="_blank" rel="me noopener noreferrer" data-event="social_click" data-label="linkedin" data-location="blog"><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg> Seguir en LinkedIn<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a>
+        <a class="btn btn--outline" href="../blog/feed.xml" data-event="cta_click" data-label="rss" data-location="blog">RSS</a>
+      </p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div>
+        <p class="site-footer__brand"><span class="brand__mark" aria-hidden="true">Dg</span> Diginosia <small>Sara López-Figueredo</small></p>
+        <h2 class="site-footer__title">¿Hacemos que lo <br><em>complejo sea sencillo?</em></h2>
+        <p class="site-footer__text">20 años tejiendo perfil capa a capa. No elegí un solo camino, los fui construyendo todos. Hoy: TSDAS en formación, FPE acreditada, DigiNOSIA + IA aplicada a salud.</p>
+        <ul class="chip-list">
+          <li class="chip">#HealthTech</li><li class="chip">#SaludDigital</li><li class="chip">#TransformaciónDigital</li><li class="chip">#InteligenciaArtificial</li><li class="chip">#GestiónSanitaria</li><li class="chip">#SERMAS</li><li class="chip">#TSDAS</li><li class="chip">#DigiNOSIA</li><li class="chip">#IAGenerativa</li>
+        </ul>
+        <div class="site-footer__links">
+          <a class="btn btn--light btn--sm" href="mailto:hola@diginosia.com" data-event="cta_click" data-label="email_footer" data-location="footer"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg> hola@diginosia.com</a>
+          <a class="btn btn--outline-light btn--sm" href="https://www.linkedin.com/in/diginosia/" target="_blank" rel="me noopener noreferrer" data-event="social_click" data-label="linkedin" data-location="footer"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-linkedin"/></svg> LinkedIn<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a>
+          <a class="btn btn--outline-light btn--sm" href="https://github.com/diginosiasara" target="_blank" rel="me noopener noreferrer" data-event="social_click" data-label="github" data-location="footer"><svg class="icon icon--16" aria-hidden="true" focusable="false"><use href="#i-github"/></svg> GitHub<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a>
+        </div>
+        <p class="site-footer__cvs"><span>Mis CVs:</span>
+          <a class="btn btn--outline-light btn--sm" href="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/Sanitario-Administrativo/" target="_blank" rel="noopener noreferrer" data-event="cta_click" data-label="cv_sanitario" data-location="footer"><svg class="icon icon--12" aria-hidden="true" focusable="false"><use href="#i-file-text"/></svg> Sanitario-Administrativo<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a>
+          <a class="btn btn--outline-light btn--sm" href="https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/docencia/" target="_blank" rel="noopener noreferrer" data-event="cta_click" data-label="cv_docente" data-location="footer"><svg class="icon icon--12" aria-hidden="true" focusable="false"><use href="#i-graduation-cap"/></svg> Docencia<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a>
+          <a class="btn btn--outline-light btn--sm" href="https://github.com/diginosiasara" target="_blank" rel="me noopener noreferrer" data-event="cta_click" data-label="github_dev" data-location="footer"><svg class="icon icon--12" aria-hidden="true" focusable="false"><use href="#i-code-xml"/></svg> Dev + IA<span class="visually-hidden"> (se abre en una pestaña nueva)</span></a>
+        </p>
+      </div>
+
+      <div class="site-footer__side">
+        <div class="footer-box">
+          <p class="eyebrow">Disponibilidad</p>
+          <p class="footer-box__row"><span class="status-dot status-dot--live" aria-hidden="true"></span> Abierta a colaboraciones · remoto / híbrido</p>
+          <p class="footer-box__row footer-box__row--muted"><svg class="icon icon--14" aria-hidden="true" focusable="false"><use href="#i-map-pin"/></svg> Base España · SERMAS + DigiNOSIA</p>
+        </div>
+        <figure class="footer-box footer-box--light">
+          <p class="eyebrow">Manifiesto final</p>
+          <blockquote><p class="quote">“No elegí un solo camino. Los fui construyendo todos. Y hoy, esa suma es mi mayor fortaleza. No soy solo sanitaria, ni solo tecnóloga, ni solo formadora. Soy la suma de todo ello.”</p></blockquote>
+          <figcaption class="footer-box__by">— Sara · DigiNOSIA · TSDAS + FPE + IA aplicada</figcaption>
+        </figure>
+        <p class="site-footer__legal">© 2007-2026 Diginosia.com · 20 años capa a capa. Hecho con criterio y cariño humano.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

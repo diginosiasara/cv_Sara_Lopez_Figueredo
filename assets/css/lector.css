@@ -1,0 +1,341 @@
+/* Lector de voz accesible · mini-reproductor compacto */
+.lector {
+  --lector-bar: #1a1a1a;
+  --lector-bar-texto: #fffcf8;
+  --lector-bar-borde: rgb(255 255 255 / 0.22);
+  --lector-bg: var(--surface, var(--card, #ffffff));
+  --lector-texto: var(--text, var(--text-primary, #1a1a1a));
+  --lector-muted: var(--muted, var(--text-secondary, #5c5c5c));
+  --lector-borde: var(--line-strong, var(--line, #cfc6bb));
+  --lector-acento: var(--focus, #2e5a8b);
+
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  max-width: calc(100vw - 1.5rem);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--lector-texto);
+}
+.lector *,
+.lector *::before,
+.lector *::after {
+  box-sizing: border-box;
+}
+.lector [hidden] {
+  display: none !important;
+}
+
+/* ---------- Botón "Escuchar" (cerrado) ---------- */
+.lector__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.5rem 1.1rem 0.5rem 0.95rem;
+  border: 1px solid var(--lector-bar-borde);
+  border-radius: 999px;
+  background: var(--lector-bar);
+  color: var(--lector-bar-texto);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.22);
+}
+.lector__toggle:hover {
+  background: #2c2c2c;
+}
+
+/* ---------- Barra del reproductor (abierto) ---------- */
+.lector__barra {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.5rem 0.5rem 0.4rem;
+  border: 1px solid var(--lector-bar-borde);
+  border-radius: 999px;
+  background: var(--lector-bar);
+  color: var(--lector-bar-texto);
+  box-shadow: 0 12px 32px rgb(0 0 0 / 0.28);
+  overflow: hidden;
+}
+.lector__avance {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  top: 0;
+  height: 3px;
+  border-radius: 0 0 3px 3px;
+  background: rgb(255 255 255 / 0.18);
+  overflow: hidden;
+}
+.lector__avance-relleno {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: #8ba888;
+  transition: width 0.25s linear;
+}
+
+.lector__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex: none;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.lector__btn:hover {
+  background: rgb(255 255 255 / 0.14);
+}
+.lector__btn--play {
+  background: var(--lector-bar-texto);
+  color: var(--lector-bar);
+  margin: 0 0.15rem;
+}
+.lector__btn--play:hover {
+  background: #ffffff;
+}
+.lector__btn--vel {
+  width: auto;
+  min-width: 52px;
+  padding: 0 0.6rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  border: 1px solid var(--lector-bar-borde);
+}
+.lector__btn[aria-expanded="true"] {
+  background: rgb(255 255 255 / 0.22);
+}
+
+.lector__icono {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.lector__icono--lleno {
+  fill: currentColor;
+}
+.lector__i-play,
+.lector__i-pausa {
+  display: inline-flex;
+}
+
+/* ---------- Ajustes plegables ---------- */
+.lector__ajustes {
+  width: min(20rem, calc(100vw - 1.5rem));
+  padding: 0.85rem;
+  border: 1px solid var(--lector-borde);
+  border-radius: 18px;
+  background: var(--lector-bg);
+  color: var(--lector-texto);
+  box-shadow: 0 16px 40px rgb(0 0 0 / 0.22);
+  display: grid;
+  gap: 0.6rem;
+}
+.lector__campo {
+  display: grid;
+  gap: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--lector-muted);
+}
+.lector__select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.4rem 0.6rem;
+  border: 1.5px solid var(--lector-borde);
+  border-radius: 12px;
+  background: var(--lector-bg);
+  color: var(--lector-texto);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-overflow: ellipsis;
+}
+.lector__progreso {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--lector-muted);
+}
+.lector__progreso:empty {
+  display: none;
+}
+.lector__ayuda {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--lector-muted);
+}
+
+/* Mensajes para lectores de pantalla (no visibles) */
+.lector__estado {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Foco visible (WCAG 2.4.7 / 2.4.11) ---------- */
+.lector__btn:focus-visible,
+.lector__toggle:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px #1a1a1a;
+}
+.lector__btn--play:focus-visible {
+  outline-color: #ffffff;
+}
+.lector select:focus-visible,
+.lector-salto:focus-visible {
+  outline: 3px solid var(--lector-acento);
+  outline-offset: 3px;
+}
+
+/* ---------- Enlace de salto ---------- */
+.lector-salto {
+  position: fixed;
+  left: 1rem;
+  top: -5rem;
+  z-index: 1001;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  background: var(--text, var(--text-primary, #1a1a1a));
+  color: var(--bg, #fffcf8);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.lector-salto:focus {
+  top: 1rem;
+}
+
+/* ---------- Texto que se está leyendo ---------- */
+.lector-activo {
+  outline: 3px solid var(--focus, #2e5a8b);
+  outline-offset: 4px;
+  border-radius: 6px;
+  background-color: color-mix(in srgb, var(--focus, #2e5a8b) 14%, transparent);
+  scroll-margin-top: 22vh;
+}
+
+/* ---------- Pantallas pequeñas ---------- */
+@media (max-width: 40rem) {
+  .lector {
+    left: max(0.5rem, env(safe-area-inset-left));
+    right: max(0.5rem, env(safe-area-inset-right));
+    bottom: max(0.5rem, env(safe-area-inset-bottom));
+    max-width: none;
+  }
+  .lector__barra {
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+  .lector__btn {
+    width: 42px;
+    height: 42px;
+  }
+  .lector__btn--vel {
+    width: auto;
+    min-width: 46px;
+    padding: 0 0.4rem;
+  }
+  .lector__ajustes {
+    width: 100%;
+  }
+  .lector__ayuda {
+    display: none;
+  }
+  .lector__toggle {
+    width: 52px;
+    height: 52px;
+    min-height: 52px;
+    padding: 0;
+    justify-content: center;
+  }
+  .lector__toggle-txt {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .lector-activo {
+    scroll-margin-top: 84px;
+  }
+}
+
+/* ---------- Movimiento reducido ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .lector__avance-relleno {
+    transition: none;
+  }
+}
+
+/* ---------- Contraste forzado ---------- */
+@media (forced-colors: active) {
+  .lector__toggle,
+  .lector__barra,
+  .lector__btn,
+  .lector__ajustes,
+  .lector__select {
+    border: 2px solid ButtonText;
+    background: ButtonFace;
+    color: ButtonText;
+  }
+  .lector__avance-relleno {
+    background: Highlight;
+  }
+  .lector-activo {
+    outline: 3px solid Highlight;
+    background-color: transparent;
+  }
+  .lector__btn:focus-visible,
+  .lector__toggle:focus-visible,
+  .lector select:focus-visible,
+  .lector-salto:focus-visible {
+    outline: 3px solid Highlight;
+    box-shadow: none;
+  }
+}
+
+/* ---------- Impresión ---------- */
+@media print {
+  .lector,
+  .lector-salto {
+    display: none !important;
+  }
+  .lector-activo {
+    outline: none;
+    background: none;
+  }
+}

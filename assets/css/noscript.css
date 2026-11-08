@@ -1,0 +1,4 @@
+/* Solo se carga dentro de <noscript>: sin JS el menú queda siempre visible. */
+.nav-toggle { display: none !important; }
+.site-nav { display: flex !important; position: static !important; width: 100%; }
+.site-header__inner { flex-wrap: wrap; height: auto; padding-block: .5rem; }
