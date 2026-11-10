@@ -1,0 +1,4 @@
+Contact: mailto:nosia_sl@hotmail.com
+Expires: 2027-11-01T00:00:00.000Z
+Preferred-Languages: es
+Canonical: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/.well-known/security.txt

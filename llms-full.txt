@@ -1,0 +1,539 @@
+# Diginosia · Sara López-Figueredo Sainz — contenido ampliado
+
+> Versión ampliada de llms.txt: texto principal de la portada y resumen de cada página del sitio. Fuente: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/. Idioma: español (es-ES). Última actualización: 2026-11-10.
+
+## Portada: perfil profesional
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/
+# Sara López Figueredo Sainz
+No soy solo sanitaria. Ni solo tecnóloga. Soy la suma.
+Gestión sanitaria · Administración · Docencia · Desarrollo de aplicaciones · IA aplicada. Una identidad profesional que conecta personas, procesos, conocimiento y tecnología.
+
+## La salud también se construye desde la gestión, la tecnología y el conocimiento.
+Durante casi 20 años he ido tejiendo mi perfil profesional capa a capa, sin renunciar a ninguna de mis pasiones. Empecé en audiovisual y comunicación visual —Técnico Superior en Imagen—, pasé por diseño gráfico, marketing y branding, por administración y back office en empresas como INDRA, AISGE o Sephora, y en 2021 entré en el SERMAS.
+Desde entonces llevo más de 5 años en el SERMAS, en Atención Primaria y en el ámbito hospitalario. Me formé con un MBA en EAE Business School y un Máster en Marketing Digital y Comercio Electrónico (UB), y desde 2024 estoy volcada en inteligencia artificial aplicada, innovación y divulgación con mi proyecto DigiNOSIA — artículos sobre IA, PLN, teleasistencia y transformación digital.
+
+## Tejiendo perfil capa a capa
+Cada etapa aporta una capa que hoy suma valor. De la imagen al dato, del mostrador al agente inteligente.
+- Edición y postproducción
+- Comunicación visual
+- Maquetación
+- Marketing
+- Comunicación
+- Gestión documental
+- Back office
+- Atención telefónica
+- Software y multimedia
+- MBA · EAE (2023)
+- Máster Marketing Digital (2021)
+- Citas y agendas
+- Lista de espera quirúrgica
+- PLN, RAG y teleasistencia
+- TSDAS en curso
+
+## Tres ideas que guían mi trabajo
+Sin ruido, con intención.
+
+### Visión multidisciplinar
+Conecto sanidad, tecnología, comunicación y formación. No son caminos separados, son capas que se potencian.
+
+### Traducir técnico ↔ humano
+Hago simple lo complejo y útil lo técnico. Del lenguaje clínico al lenguaje de negocio, del prompt a la persona.
+
+### Innovación responsable
+Mejorar procesos, personas y sistemas: no por moda, por impacto.
+
+## Tres mundos que se potencian
+No exploro por dispersión, sino por conexión. Cada capa me da un lenguaje distinto para resolver el mismo problema: cómo hacer que los sistemas sirvan a las personas.
+
+### Sanitaria · SERMAS
+Más de 5 años en el SERMAS: Atención Primaria y Hospital Clínico San Carlos (Admisión y Documentación Clínica). Central de atención telefónica sanitarizada (CAT-AP), citas y agendas, listas de espera quirúrgicas, facturación y gestión administrativa de centros de salud. Actualmente en el CS Isla de Oza.
+
+### Formación · TSDAS + FPE
+Formadora acreditada en FPE y teleformación; docente de IFCD0110 (Confección y publicación de páginas web). TSDAS en curso, orientada a la gestión de información clínica. Transformar lo complejo en práctico.
+
+### IA · DigiNOSIA + proyectos
+DigiNOSIA: salud, tecnología e innovación. PLN, RAG, embeddings y teleasistencia. Artículos sobre IA y envejecimiento saludable, y repositorios en GitHub.
+
+## Siempre aprendiendo
+Aprender es lo que une todas las capas. Lo aplico en el trabajo diario, en el aula y en DigiNOSIA, mi proyecto propio de divulgación y prototipos de IA.
+- 2023 MBA · EAE Business School + IL3-Universidad de Barcelona
+- 2021 Máster en Marketing Digital y Comercio Electrónico · EAE + UB
+- En curso Técnico Superior en Documentación Sanitaria (TSDAS)
+- Desde 2025 Docente de formación profesional para el empleo (IFCD0110)
+
+## Rutas del Alma: Ecos y Sombras
+Un viaje hacia lo que somos, lo que ocultamos y lo que podemos llegar a ser.
+Fantasía transformacional · 2024 — Actualidad
+
+### La aventura exterior como espejo de la interior
+Mi proyecto literario une fantasía, psicología y autoconocimiento para explorar lo que mostramos, lo que ocultamos y lo que podemos llegar a ser. Con Jung, Freud y la Ventana de Johari como brújula, sus personajes —Liam, Elara y Aides— viajan por la identidad, la sombra y la transformación personal.
+- Fantasía transformacional
+- Autoconocimiento
+- La sombra y la identidad
+- Sept. 2024 Primera referencia pública localizada de la colección
+- Jun. 2025 Se publica Ruta del Alma: Viajes internos y despertar
+- Ecos del Alma Segundo libro de la serie, en desarrollo
+
+## Entradas de Blog
+Notas sin humo, con criterio y experiencia real.
+
+### Teleasistencia, documentación sanitaria, CIE-10-ES, docencia y desarrollo con IA.
+Artículos sobre gestión sanitaria, formación, arquitectura de software, IA local y embeddings. Experiencias del trabajo diario, del aula y de los prototipos DigiNOSIA, contadas con utilidad práctica.
+
+### Recursos TIC para crear una landing page educativa con gamificación
+Google Sites, Google Forms, Kahoot! y un código QR para montar un pequeño entorno de aprendizaje digital: diseño, datos mínimos, juego con…
+
+### Comunicar para participar: competencia digital en comunicación y colaboración
+Una práctica educativa del Área 2 de DigComp: comunicar, compartir y colaborar con situaciones reales, checklist y evaluación basada en la autonomía.
+
+### Rehabilitar sin sesgo estadístico: la edad no es un pronóstico
+Un protocolo de cuatro fases para decidir a partir de la persona (su historia, su capacidad y su objetivo) y no de su fecha de nacimiento en un…
+
+## Hablemos
+¿Trabajas en transformación digital sanitaria, innovación en salud, formación o IA aplicada? Escríbeme. Respondo personalmente desde nosia_sl@hotmail.com
+
+### 1 · Por trabajo / oportunidad
+Gestión sanitaria, documentación clínica, calidad asistencial y transformación digital en el ámbito sanitario.
+
+### 2 · Ver mis CVs
+Sanitario-administrativo, docencia FPE, y proyectos con IA.
+
+### 3 · Contenido / colaboración
+IA, PLN, RAG, teleasistencia, envejecimiento saludable. Colaboraciones, charlas, artículos.
+“Mejorar procesos, personas y sistemas. No por moda, por impacto. Automatizar lo repetible para liberar lo irrepetible: el cuidado.”
+
+## CV sanitario-administrativo
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/Sanitario-Administrativo/
+Profesional de administración sanitaria con experiencia en el SERMAS, atención primaria, admisión hospitalaria, atención al usuario y gestión documental.
+
+Secciones: Presentación profesional · Fortalezas · Experiencia Profesional · CS Cercedilla · CS Isla de Oza · Auxiliar Administrativo · Admisión y Documentación Clínica · Auxiliar Administrativo C2 (EE Eventual) · Trayectoria profesional fuera del SERMAS · Hoja de Servicios SERMAS Oficial · Experiencia Docente IFCD0110 · Más experiencia docente · Evaluaciones SERMAS · Proyectos tecnológicos · CodiSalud: simulador docente de codificación sanitaria CIE-10-ES · Competencias Digitales · Software Sanitario · Competencias con evidencia · Experiencia aplicada · Proyectos propios · Formación técnica · Formación & Certificación Oficial · Registro Estatal de Formación Profesional Certificado Oficial Verificable en sede.administracion.gob.es — CSV: 109371280720155854001978 · Otras titulaciones · Acreditada como Formadora · Sara López-Figueredo Sainz
+
+## CV docencia
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/docencia/
+Docente acreditada en el Registro de Formadores de la Comunidad de Madrid (28/01243), con 87 acreditaciones. Teleformación, IA aplicada y marketing digital.
+
+Secciones: AULA VIRTUAL DOCENTE · MODALIDAD & OBJETIVO DOCENTE · Enseñar es diseñar experiencias que transforman · Aprendizaje activo · Acompañamiento individualizado · Aula virtual viva · Evaluación competencial · Base multidisciplinar: empresa, marketing, sanidad y diseño · Contacto directo • Solo email · Timeline docente · Evidencias oficiales de mi práctica docente · Certificado de Funciones Docentes · Acreditación como Tutora FUNDAE · Base académica universitaria que sustenta mi docencia · MBA – Dirección y Administración de Empresas · Máster en Marketing Digital y Comercio Electrónico · Técnico Superior en Documentación Sanitaria · Registro Estatal de Formación Profesional - Ministerio · Grados E y D - Formación Profesional · Grados C y B - Certificados Profesionales · Acreditación de competencias asociadas a experiencia (ECP) · 87 acreditaciones verificadas y vigentes · Distribución por familias profesionales · Fichas de asignatura — 87 acreditaciones · Adjunto a la dirección
+
+## Rutas del Alma: Ecos y Sombras
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/rutas-del-alma/
+Fantasía transformacional de Sara López-Figueredo Sainz: un viaje por la identidad, la sombra y la transformación personal con Jung, Freud y la Ventana de Johari.
+
+Secciones: Cinco ideas para mirar hacia dentro · Autoconocimiento · La sombra · La identidad · El inconsciente · La transformación · Más allá de lo evidente · La identidad visible · El sentido · Una brújula psicológica y filosófica · Carl Gustav Jung · Sigmund Freud · Ventana de Johari · Una colección, un universo · Ruta del Alma: Viajes Internos y Despertar · Ecos y Sombras · Qué pretende conseguir · Literario · Psicológico · Educativo · Humano · Del primer indicio a hoy · De dónde nace el proyecto
+
+## Blog «Apuntes de trinchera» (74 artículos)
+Índice: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/ · Feed RSS: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/feed.xml
+
+### Comunicar para participar: competencia digital en comunicación y colaboración
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/comunicar-para-participar-competencia-digital/
+Publicado: 2026-11-08 · Tema: Formación profesional
+Una práctica educativa del Área 2 de DigComp: comunicar, compartir y colaborar con situaciones reales, checklist y evaluación basada en la autonomía.
+Apartados: ¿Qué es comunicarse en digital? · Área 2: comunicación y colaboración · ¿Hacia dónde vamos? · Cinco situaciones, un checklist · Un proceso progresivo, mensaje a mensaje · La tecnología como medio de inclusión, autonomía y participación activa · Bibliografía simplificada
+
+### Recursos TIC para crear una landing page educativa con gamificación
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/recursos-tic-landing-page-educativa-con-gamificacion/
+Publicado: 2026-11-08 · Tema: Formación profesional
+Google Sites, Google Forms, Kahoot! y un código QR para montar un pequeño entorno de aprendizaje digital: diseño, datos mínimos, juego con sentido, accesibilidad y protección de datos.
+Apartados: Una landing clara, atractiva y fácil de recorrer · Menos datos, mejor experiencia · El juego empieza cuando el aprendizaje ya está en marcha · Un acceso fácil, desde cualquier dispositivo · Primero, preguntarnos si el dato es necesario · El recorrido, paso a paso · Más que una página: un pequeño entorno de aprendizaje digital · Bibliografía y webgrafía
+
+### Envejecer no es solo cumplir años: es toda una vida
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/envejecer-toda-una-vida/
+Publicado: 2026-11-07 · Tema: Salud y organización
+Envejecimiento demográfico, envejecimiento saludable y enfoque del curso vital: tres ideas para entender por qué cada etapa de la vida deja huella en las siguientes.
+Apartados: ¿Por qué importa? · Cuando una población entera cumple más años · Salud no es solo ausencia de enfermedad · La vida es un camino, no una foto fija · Tres distinciones que cambian la mirada · El envejecimiento saludable se construye a lo largo de toda la vida · Tres ideas para seguir pensando · Para seguir leyendo
+
+### Envejecimiento saludable: clasificar recursos y herramientas para evaluar su impacto
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/envejecimiento-saludable-recursos-y-herramientas/
+Publicado: 2026-11-07 · Tema: Salud y organización
+Un mapa visual para distinguir qué recursos mejoran de verdad la vida de las personas mayores: tipos, ámbitos, funciones, herramientas clave y cinco preguntas para elegir bien.
+Apartados: ¿Por qué importa ahora? · Ocho conceptos para hablar con precisión · Tres formas de ordenar el mismo territorio · Recursos que ya están transformando el cuidado · Cuando el entorno se convierte en recurso · Cinco preguntas antes de decir que sí · Pasar de clasificar recursos a evaluar su impacto real · Para seguir explorando
+
+### Rehabilitar sin sesgo estadístico: la edad no es un pronóstico
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/protocolo-para-rehabilitar-sin-sesgo-estadistico/
+Publicado: 2026-11-07 · Tema: Salud y organización
+Un protocolo de cuatro fases para decidir a partir de la persona (su historia, su capacidad y su objetivo) y no de su fecha de nacimiento en un Centro de Rehabilitación Funcional.
+Apartados: El sesgo estadístico también rehabilita. O deja de hacerlo. · Cuatro pilares para decidir mejor · Las 4 fases, paso a paso · Herramientas con límites claros · 10 estudios clave que sostienen el protocolo · El cambio se mide en cuatro lugares · Cinco decisiones claras para el equipo · Rehabilitar es devolver posibilidades, no administrar resignaciones
+
+### Edadismo en el entorno sanitario
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/edadismo-en-el-entorno-sanitario/
+Publicado: 2026-11-06 · Tema: Salud y organización
+Identidad social, internalización de estereotipos y construcción de la dependencia evitable: cuando la edad se convierte en diagnóstico antes que la persona.
+Apartados: ¿Qué es el edadismo? · Tajfel y Turner (1979) · Levy (2009): lo que se escucha, se habita · El cuidado puede infantilizar · La profecía autocumplida · No es una anécdota. Es un patrón. · 78 años. Fractura de cadera. Misma persona. · Cambiar la mirada, cambiar la práctica
+
+### El edadismo como determinante de salud
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/el-edadismo-como-determinante-de-salud/
+Publicado: 2026-11-06 · Tema: Salud y organización
+Justificación sanitaria, estrategia vivencial e impacto neurocognitivo en la práctica clínica: por qué combatir el edadismo es cuidar la salud de todas las edades.
+Apartados: El edadismo: un determinante social con impacto real en la salud · Inmersión vivencial y modelo de Kolb para cambiar la mirada · La amenaza del estereotipo puede afectar al rendimiento cognitivo · El edadismo no solo enferma: también resta autonomía, identidad y dignidad · Bibliografía
+
+### Mi carrera no ha sido una línea recta, ha sido una evolución estratégica.
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/mi-carrera-no-ha-sido-una-linea-recta-ha-sido-una-evolucion/
+Publicado: 2026-10-11 · Tema: Trayectoria profesional
+Una trayectoria nacida de la curiosidad por la tecnología: del desarrollo de software y la docencia a la sanidad, los datos y la IA.
+
+### La gestión de la información en teleasistencia: cuando registrar bien también significa cuidar mejor
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-gestion-de-la-informacion-en-teleasistencia-cuando-registrar-bien/
+Publicado: 2026-07-19 · Tema: Teleasistencia
+Registrar, organizar y gestionar bien la información garantiza continuidad, coordinación y calidad asistencial en teleasistencia.
+Apartados: Registrar información es mucho más que escribir datos · La calidad también se documenta · La codificación: un lenguaje común para actuar con rapidez · Información que protege a las personas... y también a los profesionales · Tecnología, calidad y compromiso
+
+### La importancia de una llamada bien hecha en los servicios de teleasistencia
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-importancia-de-una-llamada-bien-hecha-en-los-servicios-de/
+Publicado: 2026-07-19 · Tema: Teleasistencia
+La llamada como herramienta de prevención y cuidado: protocolos y comunicación que dan seguridad y cercanía.
+Apartados: La comunicación como herramienta de cuidado · Las cuatro fases de una llamada profesional · Mucho más que seguir un protocolo · Humanizar la atención a través de la comunicación
+
+### La organización de la jornada de trabajo en Teleasistencia: mucho más que responder llamadas
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-organizacion-de-la-jornada-de-trabajo-en-teleasistencia-mucho-mas/
+Publicado: 2026-07-19 · Tema: Teleasistencia
+La jornada en teleasistencia es mucho más que responder llamadas: planificación, protocolos, herramientas y profesionales cualificados.
+Apartados: La agenda: el corazón de la organización · La importancia de una agenda bien gestionada · La tecnología organiza, pero las personas cuidan · Planificar para actuar con eficacia · Calidad, formación y mejora continua · Mucho más que un servicio de emergencias
+
+### Cuando los embeddings dejan de representar palabras y empiezan a capturar significado: una mirada al…
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-los-embeddings-dejan-de-representar-palabras-y-empiezan-a/
+Publicado: 2026-07-18 · Tema: Embeddings y procesamiento del lenguaje
+Cómo un mismo modelo entiende textos en español, japonés o árabe: embeddings multilingües, cultura y contexto.
+Apartados: El lenguaje humano es mucho más que palabras · Los embeddings intentan representar ese contexto · Del lenguaje a los números · Las matemáticas son universales. Las representaciones no. · Las formas de aprender también cambian · El lenguaje también refleja la cultura · ¿Puede una IA comprender emociones? · Los embeddings buscan una representación común
+
+### Cuando un vector deja de ser una lista de números: comprender cómo la IA representa el significado
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-un-vector-deja-de-ser-una-lista-de-numeros-comprender-como-la/
+Publicado: 2026-07-18 · Tema: Embeddings y procesamiento del lenguaje
+Un embedding es mucho más que una lista de números: lo importante es cómo el modelo construye el significado.
+Apartados: El error más habitual · ¿Cómo decidió el modelo generar esos números? · Todos los embeddings son vectores · El contexto cambia completamente la representación · El salto de los modelos bidireccionales · Un cambio que parece pequeño... pero cambia toda la IA · Lo importante no es el vector
+
+### Del lenguaje a la mente: cuando los embeddings empiezan a representar cómo pensamos
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/del-lenguaje-a-la-mente-cuando-los-embeddings-empiezan-a-representar/
+Publicado: 2026-07-18 · Tema: Embeddings y procesamiento del lenguaje
+¿Puede una IA representar cómo pensamos? Embeddings, estilo de escritura y ciencia cognitiva.
+Apartados: ¿Cómo representa una IA el lenguaje? · ¿Puede una IA representar la forma en que pensamos? · El lenguaje es una huella de nuestra mente · Un embedding no sabe qué pensamos... · Pensar también genera patrones · Las matemáticas son universales. El razonamiento no siempre. · La cultura también modifica el significado · Las emociones también tienen geometría
+
+### Embeddings en Inteligencia Artificial: ¿todos los vectores representan el significado de la misma forma?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/embeddings-en-inteligencia-artificial-todos-los-vectores-representan/
+Publicado: 2026-07-18 · Tema: Embeddings y procesamiento del lenguaje
+Explica que no todos los embeddings se construyen igual y por qué eso condiciona la búsqueda semántica y los resultados de los modelos.
+Apartados: ¿Todos los embeddings se construyen igual? · ¿Qué es realmente un embedding? · Todos los embeddings tienen la misma forma · Primera generación: embeddings estáticos · Segunda generación: embeddings contextuales · ¿Qué significa esto en una aplicación real? · La idea más importante
+
+### Enseñar desarrollo web en la era de la IA: cómo mi evolución como ingeniera está transformando mi forma de…
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/ensenar-desarrollo-web-en-la-era-de-la-ia-como-mi-evolucion-como/
+Publicado: 2026-07-18 · Tema: Formación profesional y docencia
+Cómo su evolución como ingeniera transforma la forma de enseñar desarrollo web en la era de la IA: del código a la arquitectura y el criterio.
+Apartados: Estaba enseñando una forma de pensar. · La arquitectura comienza mucho antes del código · ¿Qué ha cambiado entonces en mis clases? · La IA no sustituye este aprendizaje · Lo que realmente intento enseñar
+
+### ¿Puede una IA entender el sarcasmo? Cuando el significado deja de estar en las palabras y pasa a depender…
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/puede-una-ia-entender-el-sarcasmo-cuando-el-significado-deja-de-estar/
+Publicado: 2026-07-18 · Tema: Embeddings y procesamiento del lenguaje
+¿Puede una IA entender el sarcasmo? El significado depende de la intención más que de las palabras.
+Apartados: El sarcasmo. · El significado de una frase no siempre está dentro de las palabras. · Cuando las palabras dicen una cosa y la mente entiende otra · El significado no vive en las palabras · El sarcasmo es un problema de intención · lo que queremos transmitir. · ¿Cómo intenta resolverlo una IA? · Los embeddings también tienen dificultades con la ironía
+
+### Aprender IA no es solo usar herramientas, es cambiar la forma de pensar.
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/aprender-ia-no-es-solo-usar-herramientas-es-cambiar-la-forma-de-pensar/
+Publicado: 2026-07-17 · Tema: IA local, desarrollo con IA y aprendizaje
+Diferencia entre IA generativa, IA agéntica y agentes de IA, y cómo cambió la arquitectura de una plataforma de procesamiento inteligente de documentos.
+Apartados: Aprender de forma autodidacta · Un modelo que refleja muy bien este proceso · Lo que más valoro de este proceso
+
+### Cuando un nuevo concepto conecta todas las piezas del puzle
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/cuando-un-nuevo-concepto-conecta-todas-las-piezas-del-puzle/
+Publicado: 2026-07-17 · Tema: IA local, desarrollo con IA y aprendizaje
+Segunda parte: cómo la IA local, los pipelines inteligentes y la IA agéntica resultan ser piezas de un mismo puzle.
+Apartados: Todo empezó hablando de arquitectura · Después llegaron dos proyectos completamente distintos · El verdadero problema nunca fue ejecutar un modelo. · El concepto que hizo encajar todas las piezas · Lo más interesante vino después: la conversación · La IA agéntica no es únicamente un problema de modelos. Es, sobre todo, un problema de infraestructura. · Aprender también consiste en conectar ideas · 📚 Artículos relacionados: evolución de mi aprendizaje en arquitectura de software e Inteligencia Artificial
+
+### Desarrollar software con IA: cuando el problema ya no es escribir código, sino hacer que todo el sistema…
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/desarrollar-software-con-ia-cuando-el-problema-ya-no-es-escribir/
+Publicado: 2026-07-14 · Tema: IA local, desarrollo con IA y aprendizaje
+Desarrollar con IA no elimina los problemas de ingeniería: el desafío pasa de escribir código a lograr que todo el sistema funcione.
+Apartados: El aprendizaje detrás del código · El código parece correcto... pero el sistema no funciona · La IA escribe código. La arquitectura sigue siendo responsabilidad del desarrollador. · Otro enemigo silencioso: las dependencias · Los errores más difíciles son los que no producen errores · comprender el flujo completo del sistema. · Programar con IA también significa aprender a auditar el código que genera · La ingeniería sigue siendo el factor diferencial
+
+### Inteligencia Artificial Local: el reto es la arquitectura, no el modelo
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/inteligencia-artificial-local-el-reto-es-la-arquitectura-no-el-modelo/
+Publicado: 2026-07-13 · Tema: IA local, desarrollo con IA y aprendizaje
+Lecciones de dos proyectos (AI Dataset Engine y Fábrica de Captions) para procesar información íntegramente en el equipo del usuario, sin APIs externas…
+Apartados: La IA es solo una pieza del sistema · El cuello de botella nunca fue la IA. Siempre fue la memoria. · La arquitectura importa más que el modelo · IA Local como disciplina de ingeniería
+
+### Arquitectura de software: lo ideal vs la realidad en empresas reales
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/arquitectura-de-software-lo-ideal-vs-la-realidad-en-empresas-reales/
+Publicado: 2026-05-23 · Tema: Arquitectura de software
+La arquitectura en empresas reales no es una escalera ordenada, sino una negociación constante entre lo ideal y lo posible.
+Apartados: 🧱 1. El modelo ideal: arquitectura como evolución ordenada · 🏢 2. La realidad en empresas: sistemas que nunca empiezan desde cero · ⚖️ 3. El contraste clave: diseño perfecto vs restricciones reales · 🟣 En el modelo ideal: · 🔵 En la realidad: · 🧩 4. Microservicios: el mayor malentendido · ⚙️ 5. El verdadero motor de la arquitectura: el negocio · 🧠 6. El rol del desarrollador: de diseñador a gestor de complejidad
+
+### Arquitectura Evolutiva Escalable: cómo crecer sin reescribir todo
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/arquitectura-evolutiva-escalable-como-crecer-sin-reescribir-todo/
+Publicado: 2026-05-23 · Tema: Arquitectura de software
+Arquitectura evolutiva: empezar simple pero preparado para crecer, evitando reescribir el proyecto desde cero.
+Apartados: 🧱 1. El principio base: el monolito controlado · 🚀 2. La evolución natural: separación progresiva · ⚙️ 3. Manejo de carga pesada: workers · 🧩 4. Microservicios: el destino, no el punto de partida · 📈 5. La brújula de evolución · 💡 Idea clave final
+
+### De crear interfaces a diseñar arquitectura real
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/de-crear-interfaces-a-disenar-arquitectura-real/
+Publicado: 2026-05-23 · Tema: Arquitectura de software
+Cómo la programación, la docencia y la escalabilidad cambian la forma de pensar el software: del primer programa en un solo archivo a una arquitectura…
+Apartados: cómo la programación, la docencia y la escalabilidad transforman la forma de pensar el software · El inicio: cuando todo parece suficiente · Enseñar programación también cambia la forma de desarrollar · El verdadero cambio mental: dejar de pensar en ventanas · FastAPI y la separación de responsabilidades · React y la mentalidad declarativa · Qt/QML y la entrada a arquitectura desktop avanzada · El error más común cuando un proyecto crece
+
+### Comprendiendo la Codificación CIE-10-ES y su Normativa: Guía para estudiantes de Documentación Sanitaria
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/comprendiendo-la-codificacion-cie-10-es-y-su-normativa-guia-para/
+Publicado: 2026-03-10 · Tema: Codificación clínica y CIE-10-ES
+Guía para estudiantes de la UF6: cómo aplicar las normativas de codificación CIE-10-ES para registrar bien la información clínica.
+Apartados: 1️⃣ Legislación vigente en España · 2️⃣ Sistemas de codificación en EE.UU.: un referente internacional · 3️⃣ Boletines y cuadernos de codificación · 4️⃣ Manuales de codificación · 5️⃣ La Unidad Técnica de la CIE-10-ES · 6️⃣ Codificación específica: lesiones y causas externas · ✅ Claves para estudiar y aplicar
+
+### Cómo entender la CIE-10-ES de diagnósticos sin volverse loco: guía sencilla
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-entender-la-cie-10-es-de-diagnosticos-sin-volverse-loco-guia/
+Publicado: 2026-03-06 · Tema: Codificación clínica y CIE-10-ES
+Guía sencilla de la estructura y las reglas básicas de la CIE-10-ES de diagnósticos para estudiantes y profesionales.
+Apartados: 1️⃣ Dos partes fundamentales: dónde buscar y dónde confirmar · “Índice para buscar, Lista Tabular para confirmar.” · 2️⃣ El término principal: la clave de la búsqueda · 3️⃣ Modificadores esenciales y no esenciales · 4️⃣ La jerarquía de los códigos · 5️⃣ El séptimo carácter y el marcador “X” · 6️⃣ Convenciones importantes que aparecen en la clasificación · 7️⃣ Etiología y manifestación: el orden correcto
+
+### Cómo Seleccionar Correctamente los Códigos en la CIE: Guía Rápida para Profesionales de la Salud
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-seleccionar-correctamente-los-codigos-en-la-cie-guia-rapida-para/
+Publicado: 2026-03-06 · Tema: Codificación clínica y CIE-10-ES
+Proceso paso a paso para seleccionar el código correcto en la CIE: identificar el episodio asistencial y aplicar las reglas de codificación.
+Apartados: 🔹 Paso 1: Identificar el episodio asistencial · 🔹 Paso 2: Revisar la documentación · 🔹 Paso 3: Buscar términos clave · 🔹 Paso 4: Selección de códigos · 🔹 Paso 5: Aplicar normas generales
+
+### La CIE-10 y la codificación clínica: Clave para la gestión de la información sanitaria
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-cie-10-y-la-codificacion-clinica-clave-para-la-gestion-de-la/
+Publicado: 2026-03-06 · Tema: Codificación clínica y CIE-10-ES
+Legislación clave en España y aplicación de la CIE-10 para codificar diagnósticos y procedimientos con calidad y cumplimiento normativo.
+Apartados: 🏛 Legislación clave en España · 🌐 Codificación en España vs Estados Unidos · Sistemas principales en EE. UU.: · 📚 Recursos esenciales para codificación en España · 👥 Unidad Técnica de la CIE-10-ES · 💡 Claves para profesionales administrativos y sanitarios · Más versiones gráficas
+
+### ¿Qué es la codificación clínica y por qué es clave en los sistemas sanitarios?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/que-es-la-codificacion-clinica-y-por-que-es-clave-en-los-sistemas/
+Publicado: 2026-03-06 · Tema: Codificación clínica y CIE-10-ES
+Por qué la codificación clínica estandariza diagnósticos y procedimientos, y qué aporta a la gestión y el análisis del sistema sanitario.
+Apartados: 🔎 ¿En qué consiste la codificación clínica? · 📚 Sistemas de clasificación utilizados · ⚙️ ¿Para qué sirve la codificación clínica?
+
+### Cómo Evalúo a Mis Alumnos para Prepararlos al Mundo Laboral
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/como-evaluo-a-mis-alumnos-para-prepararlos-al-mundo-laboral/
+Publicado: 2026-03-05 · Tema: Formación profesional y docencia
+Cómo evalúa a su alumnado de certificados de profesionalidad simulando el trabajo en empresas reales: visión, criterios y preparación para el mundo…
+Apartados: 🌟 Visión · 🔵 Mi Círculo de Oro · 📊 Resultados de mis evaluaciones de muestra
+
+### Diferencia entre CIE-10-ES Diagnósticos y CIE-10-ES Procedimientos
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/diferencia-entre-cie-10-es-diagnosticos-y-cie-10-es-procedimientos/
+Publicado: 2026-03-05 · Tema: Codificación clínica y CIE-10-ES
+Diferencias entre CIE-10-ES Diagnósticos y CIE-10-ES Procedimientos, y entre diagnóstico principal y secundario, explicadas de forma sencilla para…
+Apartados: 🏥 CIE-10-ES Diagnósticos · 📌 Diferencia entre diagnóstico principal y diagnóstico secundario · 💡 Truco rápido para identificar códigos en un examen
+
+### La Importancia de una Arquitectura de Archivos Bien Organizada en Proyectos Web
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-importancia-de-una-arquitectura-de-archivos-bien-organizada-en/
+Publicado: 2026-03-05 · Tema: Formación profesional y docencia
+Por qué la estructura de archivos es la base de un proyecto web y cómo enseñar buenas prácticas de organización desde el primer día.
+Apartados: 🏗️ Por qué la estructura de archivos es fundamental · 📂 Mi enfoque como docente
+
+### Sistemas de Información Sanitaria: Clave para la gestión y calidad en salud
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en/
+Publicado: 2026-03-05 · Tema: Sistemas de información sanitaria
+Qué es la información sanitaria y cómo se organiza el SIS para apoyar la toma de decisiones, la planificación y la calidad asistencial.
+Apartados: ¿Qué debemos saber? · 🔹 Recomendaciones para profesionales y estudiantes
+
+### Sistemas de Información y Clasificación Sanitarios: Guía Visual para Estudiantes
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-y-clasificacion-sanitarios-guia-visual-para/
+Publicado: 2026-03-05 · Tema: Sistemas de información sanitaria
+Resumen visual y práctico para estudiantes sobre sistemas de información y clasificación sanitarios.
+Apartados: 📚 Sistemas de Información y Clasificación Sanitarios: Guía Visual para Estudiantes · 🔹 Tema 1: Sistemas de Información Sanitaria · 1️⃣ Sistema de Información Sanitaria (SIS) · 2️⃣ Características de la información sanitaria · 3️⃣ Historia Clínica (HC) 📋 · 4️⃣ CMBD (Conjunto Mínimo Básico de Datos) · 5️⃣ Indicadores Clave del SNS · 6️⃣ Información por niveles asistenciales
+
+### Sistemas de Información y Clasificación Sanitarios: una mirada desde la Documentación Sanitaria
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-y-clasificacion-sanitarios-una-mirada-desde/
+Publicado: 2026-03-05 · Tema: Sistemas de información sanitaria
+Introducción a la gestión de la información en el sistema sanitario: qué datos se recogen y analizan, historia clínica, CMBD y sistemas de clasificación.
+Apartados: 🏥 TEMA 1: SISTEMAS DE INFORMACIÓN SANITARIA · Características de la información sanitaria · La Historia Clínica · El Conjunto Mínimo Básico de Datos (CMBD) · Indicadores Clave del Sistema Nacional de Salud · Información según el nivel asistencial · 📊 TEMA 2: CODIFICACIÓN Y CLASIFICACIONES SANITARIAS · ¿Qué significa codificar?
+
+### Calidad de la Documentación Clínica: Claves para Administrativos y Profesionales Sanitarios
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/calidad-de-la-documentacion-clinica-claves-para-administrativos-y/
+Publicado: 2026-03-04 · Tema: Documentación sanitaria e historia clínica
+La calidad de las historias clínicas como herramienta de seguridad del paciente: ISO 9000, EFQM, Joint Commission, control de calidad y Comisión de…
+Apartados: 🔹 Sistemas de Gestión de Calidad · 🔹 Control de Calidad: Principios Clave · 🔹 Objetivos y Funciones · 🔹 Enfoques del Control de Calidad
+
+### Diseño y Normalización de Documentos Clínico-Asistenciales
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/diseno-y-normalizacion-de-documentos-clinico-asistenciales/
+Publicado: 2026-03-04 · Tema: Documentación sanitaria e historia clínica
+Cómo diseñar documentos clínicos (formato externo e interno), su normalización y legislación, y las ventajas de la historia clínica electrónica.
+Apartados: Diseño de Documentos Clínicos · Historia Clínica Electrónica (HCE)
+
+### La Importancia de la Documentación Sanitaria: Guía para Administrativos
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-importancia-de-la-documentacion-sanitaria-guia-para-administrativos/
+Publicado: 2026-03-04 · Tema: Documentación sanitaria e historia clínica
+Guía para administrativos: qué es un documento sanitario, fuentes documentales, tipos (administrativa, clínica y médico-legal), circuitos de información…
+Apartados: ¿Qué es un documento y por qué importa? · Fuentes Documentales: de la evidencia al conocimiento · Tipos de Documentación Sanitaria · B. Clínica: La Historia Clínica · Circuitos de Información: cómo fluye la documentación · Consejos prácticos para recordar lo esencial
+
+### Organización Sanitaria
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/organizacion-sanitaria/
+Publicado: 2026-03-04 · Tema: Salud y organización sanitaria
+Compendio de estudio: evolución del concepto de salud, determinantes (modelo de Lalonde), modelos de sistemas sanitarios, SNS español, niveles de…
+Apartados: 1. Evolución del concepto de salud · 2. Determinantes de la salud (Modelo de Lalonde) · 3. Modelos de sistemas sanitarios · 4. Sistema Nacional de Salud (SNS) español · 5. Niveles de asistencia sanitaria · 6. Documentación sanitaria
+
+### Hacia una Formación Profesional flexible, inclusiva y basada en el valor
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/hacia-una-formacion-profesional-flexible-inclusiva-y-basada-en-el/
+Publicado: 2025-10-30 · Tema: Formación profesional y docencia
+Crítica a la rigidez de la FP en España (sin reconocimiento de competencias, presencialidad obligatoria, poca formación pedagógica online) y propuesta de…
+Apartados: 1. Contexto y desafíos de la formación técnica en España · 2. Necesidad de una formación flexible y adaptada a la realidad del estudiante · 3. Propuesta de valor para la formación online · 4. Características clave de la formación online basada en Canvas · 5. En resumen
+
+### Aprender IA: una nueva forma de pensar
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/aprender-ia-una-nueva-forma-de-pensar/
+Tema: IA local, desarrollo con IA y aprendizaje
+Publicación que resume cómo un concepto teórico cambió la dirección del proyecto, con infografía.
+
+### Calidad de la documentación clínica: resumen en LinkedIn
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/calidad-de-la-documentacion-clinica-resumen-en-linkedin/
+Tema: Documentación sanitaria e historia clínica
+Resumen en formato publicación: estándares de la Joint Commission, ISO 9000 y EFQM, controles de calidad y papel de la Comisión de Historias Clínicas.
+Apartados: Más versiones gráficas
+
+### Codificación CIE-10 (UF6): legislación y normativa
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/codificacion-cie-10-uf6-legislacion-y-normativa/
+Tema: Codificación clínica y CIE-10-ES
+Resumen de estudio de la UF6: Ley 41/2002, RD 69/2015, LO 3/2018 y demás normativa estatal sobre historia clínica, RAE-CMBD y protección de datos.
+Apartados: La CIE-10 y la codificación clínica: Clave para la gestión de la información sanitaria
+
+### Codificación clínica: material gráfico de apoyo
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/codificacion-clinica-material-grafico-de-apoyo/
+Tema: Codificación clínica y CIE-10-ES
+Entrada de apoyo con contenido visual, sin texto propio, ligada a la codificación clínica.
+Apartados: Más versiones gráficas
+
+### Del lenguaje a la mente
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/del-lenguaje-a-la-mente/
+Tema: Embeddings y procesamiento del lenguaje
+Publicación que resume la revelación: pasar de representar palabras a preguntarse si la IA puede representar el pensamiento.
+
+### Derechos y deberes en teleasistencia
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/derechos-y-deberes-en-teleasistencia/
+Tema: Teleasistencia
+Los pilares de una atención humana y eficaz: derechos fundamentales y deberes de la persona teleoperadora.
+
+### Documentos clínicos: publicación de presentación
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/documentos-clinicos-publicacion-de-presentacion/
+Tema: Documentación sanitaria e historia clínica
+Publicación breve sobre digitalización y estandarización de los documentos clínicos y su impacto en la seguridad del paciente.
+
+### Dos embeddings con la misma forma, significados distintos
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/dos-embeddings-con-la-misma-forma-significados-distintos/
+Tema: Embeddings y procesamiento del lenguaje
+Publicación con infografía sobre por qué vectores iguales en forma pueden representar el significado de modo diferente.
+
+### El concepto que hace que todo cobre sentido
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/el-concepto-que-hace-que-todo-cobre-sentido/
+Tema: IA local, desarrollo con IA y aprendizaje
+Publicación con infografía sobre el momento en que arquitectura, IA local, pipelines e IA agéntica encajan.
+
+### ¿Eres un formador del siglo XX o del XXI?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/eres-un-formador-del-siglo-xx-o-del-xxi/
+Tema: Formación profesional y docencia
+Reflexión a partir de una infografía sobre cuatro enfoques de enseñanza transformadora: evaluación por competencias, assessment for learning y más.
+
+### ¿Escribir código con IA? Eso es lo de menos
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/escribir-codigo-con-ia-eso-es-lo-de-menos/
+Tema: IA local, desarrollo con IA y aprendizaje
+Publicación sobre una infografía: la IA genera buen código, pero la arquitectura y la integración siguen siendo responsabilidad humana.
+
+### ¿Está cambiando la forma de enseñar desarrollo web?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/esta-cambiando-la-forma-de-ensenar-desarrollo-web/
+Tema: Formación profesional y docencia
+Publicación con infografía: el verdadero reto es enseñar a pensar como arquitectos de software, incluso con IA.
+
+### ¿Estamos preparados para el reto del envejecimiento?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/estamos-preparados-para-el-reto-del-envejecimiento/
+Tema: Teleasistencia
+Tendencias del sector sociosanitario: salud mental, prevención de la demencia, teleasistencia e innovación en el cuidado de mayores.
+
+### Fisiología respiratoria: volúmenes y capacidades pulmonares
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/fisiologia-respiratoria-volumenes-y-capacidades-pulmonares/
+Tema: Salud y organización sanitaria
+Publicación divulgativa sobre volumen corriente, reservas y capacidad vital, y su utilidad para interpretar espirometrías, con un párrafo emocional y…
+
+### IA Local: más que un modelo, una arquitectura completa
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/ia-local-mas-que-un-modelo-una-arquitectura-completa/
+Tema: IA local, desarrollo con IA y aprendizaje
+Publicación con las claves de una arquitectura de IA local robusta: gestión de más de 16 modelos locales, estabilidad y uso eficiente del hardware.
+
+### La salud también se construye desde la gestión y la tecnología
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/la-salud-tambien-se-construye-desde-la-gestion-y-la-tecnologia/
+Tema: Trayectoria profesional
+Cierre de trayectoria: la diversidad de experiencias converge en la salud digital y la gestión del conocimiento.
+
+### ¿Llevas años entendiendo mal qué es un embedding?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/llevas-anos-entendiendo-mal-que-es-un-embedding/
+Tema: Embeddings y procesamiento del lenguaje
+Publicación que anticipa el cambio de perspectiva: el valor no está en el vector, sino en cómo se construye el significado.
+
+### Los 5 libros de registro de la teleasistencia
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/los-5-libros-de-registro-de-la-teleasistencia/
+Tema: Teleasistencia
+Los registros obligatorios que garantizan trazabilidad, cumplimiento normativo y calidad asistencial.
+
+### Mi compromiso como docente de FP en Desarrollo
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/mi-compromiso-como-docente-de-fp-en-desarrollo/
+Tema: Formación profesional y docencia
+Declaración de misión: formar desarrolladores competentes, empleables y éticos; evaluar con transparencia y acompañar el progreso de cada estudiante.
+
+### Mi Hipótesis de Futuro: una carrera como mapa de conexiones
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/mi-hipotesis-de-futuro-una-carrera-como-mapa-de-conexiones/
+Tema: Trayectoria profesional
+Ejercicio de estrategia profesional: integradora que conecta sanidad, IA, datos, comunicación y gestión del cambio.
+
+### Mi trayectoria no ha sido lineal
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/mi-trayectoria-no-ha-sido-lineal/
+Tema: Trayectoria profesional
+Todas las etapas, del software a la documentación clínica, forman una misma evolución con propósito.
+
+### No todas las llamadas de teleasistencia son iguales
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/no-todas-las-llamadas-de-teleasistencia-son-iguales/
+Tema: Teleasistencia
+Guía para priorizar agendas, por ejemplo entre una medicación urgente y un seguimiento importante.
+
+### Organización sanitaria: publicación de presentación
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/organizacion-sanitaria-publicacion-de-presentacion/
+Tema: Salud y organización sanitaria
+Publicación de LinkedIn que presenta el compendio de organización sanitaria: historia de la salud, Hipócrates, Vesalio y determinantes de Lalonde.
+
+### ¿Puede una IA detectar cuando le estás tomando el pelo?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/puede-una-ia-detectar-cuando-le-estas-tomando-el-pelo/
+Tema: Embeddings y procesamiento del lenguaje
+Publicación con la misma frase y significados opuestos: el sarcasmo como gran reto para la IA actual.
+
+### ¿Qué hace efectiva una llamada de teleasistencia?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/que-hace-efectiva-una-llamada-de-teleasistencia/
+Tema: Teleasistencia
+Publicación con esquema de fases, técnicas y buenas prácticas que convierten una llamada en una intervención profesional y humana.
+
+### ¿Qué hay detrás de una simple llamada de teleasistencia?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/que-hay-detras-de-una-simple-llamada-de-teleasistencia/
+Tema: Teleasistencia
+Hoja de ruta de una intervención de calidad: de la gestión rutinaria a la detección temprana de emergencias.
+Apartados: Más versiones gráficas
+
+### ¿Qué significa realmente aprender a desarrollar páginas web?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/que-significa-realmente-aprender-a-desarrollar-paginas-web/
+Tema: Formación profesional y docencia
+Publicación del certificado IFC297_2: el aprendizaje va más allá de HTML, CSS y JavaScript, hacia analizar problemas y trabajar como profesionales.
+
+### ¿Quiénes hacen posible la teleasistencia?
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/quienes-hacen-posible-la-teleasistencia/
+Tema: Teleasistencia
+Los seis perfiles profesionales del equipo, de la dirección del proyecto a la primera respuesta en domicilio.
+
+### Selección de códigos CIE: material gráfico de apoyo
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/seleccion-de-codigos-cie-material-grafico-de-apoyo/
+Tema: Codificación clínica y CIE-10-ES
+Entrada de apoyo con contenido visual, sin texto propio, complementaria a la guía rápida de codificación.
+
+### Sistemas de información: material gráfico de apoyo
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/sistemas-de-informacion-material-grafico-de-apoyo/
+Tema: Sistemas de información sanitaria
+Entrada de apoyo con contenido visual, sin texto propio, complementaria a la guía visual.
+
+### Tema 1: Sistemas de Información Sanitaria
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema-1-sistemas-de-informacion-sanitaria/
+Tema: Sistemas de información sanitaria
+Resumen de estudio del SIS: historia clínica, CMBD, indicadores de salud y su papel en la gestión, la planificación y la investigación.
+Apartados: Tema 1: Sistemas de Información Sanitaria El Sistema de Información Sanitaria (SIS) recoge y analiza datos del sistema de salud para mejorar la gestión, la planificación y la investigación. Incluye herramientas como la Historia Clínica, que contiene datos clínicos y no clínicos del paciente, y el CMBD, una base de datos hospitalaria usada para estadísticas y evaluación sanitaria. También se utilizan indicadores de salud para medir el estado de salud de la población y el funcionamiento del sistema sanitario. · Tema 2: Codificación y clasificaciones La codificación sanitaria consiste en transformar la información clínica en códigos alfanuméricos normalizados para facilitar el registro, análisis y comparación de datos de salud. Las clasificaciones más importantes son CIE-9-MC (antigua), CIE-10-ES (actual en España) y CIE-11 (nueva versión digital). Tema 3: CIE-10-ES Procedimientos Los procedimientos se codifican con códigos de 7 caracteres, donde cada posición indica una característica del procedimiento (sección, sistema corporal, tipo, localización, abordaje, dispositivo y calificador). Para codificar se utilizan el índice alfabético, la lista tabular y varios anexos, siendo muy importante conocer los tipos de abordaje.
+
+### Una agenda bien gestionada puede salvar vidas
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/una-agenda-bien-gestionada-puede-salvar-vidas/
+Tema: Teleasistencia
+La gestión de agendas como acto de cuidado: detectar necesidades, prevenir emergencias y crear vínculos de confianza.
+
+### Una llamada puede marcar la diferencia entre soledad y seguridad
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/una-llamada-puede-marcar-la-diferencia-entre-soledad-y-seguridad/
+Tema: Teleasistencia
+Tipos de llamadas (informales, estructuradas, de seguimiento) y cómo adaptar su duración a cada necesidad.
+
+### Una sola palabra puede marcar la diferencia
+URL: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/una-sola-palabra-puede-marcar-la-diferencia/
+Tema: Teleasistencia
+Cómo adaptar la comunicación a cada perfil de persona usuaria: mayores, víctimas de violencia, discapacidad y cuidadores.
+

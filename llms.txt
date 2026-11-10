@@ -25,4 +25,5 @@
 - [Rutas del Alma: Ecos y Sombras](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/rutas-del-alma/): fantasía transformacional.
 
 ## Más
-- [Sitemap](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/sitemap.xml)
+- [Versión ampliada para IA (llms-full.txt)](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/llms-full.txt)
+- [Sitemap](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/sitemap-index.xml)

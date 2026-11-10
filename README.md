@@ -32,3 +32,13 @@
 - Imágenes sociales nuevas: `assets/img/social/home.jpg` y `assets/img/social/docencia.jpg` (1200×630).
 - `sitemap.xml` (89 URL canónicas + PDF del CV), `robots.txt` y `llms.txt` en la raíz. Ojo: los rastreadores solo leen `robots.txt` en la raíz del host (`diginosiasara.github.io/robots.txt`), no en una subcarpeta de proyecto; el sitemap hay que enviarlo en Search Console / Bing Webmaster Tools.
 - `docencia/`: añadidos canonical, robots, `og:url`, `og:image` y Twitter Cards. `Sanitario-Administrativo/documents/cv-fuente.html` pasa a `noindex`.
+
+### Analítica y verificación (portada)
+- `google0eb2bd5a41d5e035.html` y la meta `google-site-verification` están en la raíz/portada para Search Console.
+- Google Tag Manager (`GTM-TKJF6CM8`) se carga desde `assets/js/analytics-home.js` **solo tras aceptar** en el aviso (Consent Mode v2 por defecto denegado). Comparte la clave `cv-analytics-consent` con el CV sanitario. El pie de la home tiene el botón «Preferencias de analítica».
+- El bundle de React ya no reescribe `description`, `robots` ni `og:*` en tiempo de ejecución: mandan las etiquetas del `<head>`.
+
+### Noviembre 2026 (2.ª revisión)
+- La portada enlaza a la política de privacidad (pie y nota del formulario → `Sanitario-Administrativo/index.html#ct-priv`) y el texto de privacidad menciona Google Tag Manager.
+- Imagen hero responsive: `hero-sara-lopez-640.webp`, `-1100.webp` y `hero-sara-lopez.webp` (1600), con `srcset` y preload adaptativo.
+- Para que `robots.txt`, `sitemap.xml` y `llms.txt` se encuentren en la raíz del host hace falta un repositorio `diginosiasara.github.io` (ver paquete aparte).

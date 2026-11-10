@@ -1,0 +1,16 @@
+/* EQUIPO */
+Autora, diseño y contenido: Sara López-Figueredo Sainz
+Rol: auxiliar administrativa en el SERMAS, formadora acreditada FPE y desarrolladora
+Sitio: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/
+LinkedIn: https://www.linkedin.com/in/diginosia/
+GitHub: https://github.com/diginosiasara
+Ubicación: Madrid, España
+
+/* SITIO */
+Última actualización: 2026/11/10
+Idioma: español (es-ES)
+Estándares: HTML5, CSS3, JSON-LD (Schema.org), Open Graph
+Componentes: React, Tailwind CSS
+Tipografías (autoalojadas): Inter, Playfair Display, JetBrains Mono
+Alojamiento: GitHub Pages
+Accesibilidad: lector de contenido integrado («Escuchar»), enlace de salto al contenido y navegación por teclado
