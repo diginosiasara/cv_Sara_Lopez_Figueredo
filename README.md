@@ -24,3 +24,11 @@
 - Lee el contenido de `<main>` bloque a bloque (títulos, párrafos, listas, citas, tablas y texto alternativo de imágenes) y resalta lo que lee. Omite menús, migas, botones, formularios y código. Si hay texto seleccionado al pulsar «Reproducir», empieza desde ahí.
 - Accesibilidad: foco visible, objetivos táctiles de 42–44 px, mensajes de estado para lectores de pantalla (`role="status"`), `prefers-reduced-motion`, modo oscuro y contraste forzado. Auditado con axe-core (WCAG 2.2 AA) sin violaciones.
 - Para usarlo en otra página basta con incluir el CSS y el JS (con `defer`).
+
+## SEO / AEO (auditoría de noviembre 2026)
+
+- `index.html` (home): `<head>` completo (description, canonical, robots, Open Graph, Twitter Cards, iconos, JSON-LD `Person` + `WebSite` + `ProfilePage` con `@id` `…/#person` que reutilizan los artículos). El contenido de la home se guarda ya renderizado dentro de `#root` (lo sustituye React al arrancar), así que se lee sin JavaScript. **Si cambias textos de la home en el bundle, hay que regenerar ese contenido.**
+- La foto de cabecera ya no va en base64 dentro del JS: `assets/img/hero-sara-lopez.webp` (precargada, con `width`/`height`). Las fuentes son locales (`assets/css/fuentes.css`) en vez del `@import` de Google Fonts.
+- Imágenes sociales nuevas: `assets/img/social/home.jpg` y `assets/img/social/docencia.jpg` (1200×630).
+- `sitemap.xml` (89 URL canónicas + PDF del CV), `robots.txt` y `llms.txt` en la raíz. Ojo: los rastreadores solo leen `robots.txt` en la raíz del host (`diginosiasara.github.io/robots.txt`), no en una subcarpeta de proyecto; el sitemap hay que enviarlo en Search Console / Bing Webmaster Tools.
+- `docencia/`: añadidos canonical, robots, `og:url`, `og:image` y Twitter Cards. `Sanitario-Administrativo/documents/cv-fuente.html` pasa a `noindex`.
