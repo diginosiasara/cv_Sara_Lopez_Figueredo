@@ -1,7 +1,0 @@
-# robots.txt del proyecto.
-# Nota: los rastreadores solo leen /robots.txt en la raíz del host (https://diginosiasara.github.io/robots.txt);
-# este archivo documenta la política y declara el sitemap. Se permite el rastreo general sin bloquear bots de IA.
-User-agent: *
-Allow: /
-
-Sitemap: https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/sitemap.xml
