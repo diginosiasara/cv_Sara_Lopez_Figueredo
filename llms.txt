@@ -1,0 +1,28 @@
+# Diginosia · Sara López-Figueredo Sainz
+
+> Portfolio profesional de Sara López-Figueredo Sainz: auxiliar administrativa en Atención Primaria (SERMAS), formadora acreditada FPE y desarrolladora. Documentación sanitaria, codificación CIE-10-ES, teleasistencia, IA aplicada a la salud y docencia. Autoría y contenido propios.
+
+## Perfil
+- [Portada y perfil profesional](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/): experiencia en 7 capas, propuesta de valor, áreas profesionales y contacto.
+- [CV sanitario-administrativo](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/Sanitario-Administrativo/): experiencia en el SERMAS, formación y proyectos (CodiSalud).
+- [CV docencia](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/docencia/): docente acreditada en el Registro de Formadores de la Comunidad de Madrid.
+
+## Blog «Apuntes de trinchera»
+- [Índice del blog](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/): artículos con buscador y filtros por tema.
+- [Codificación CIE-10-ES](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/codificacion-cie-10-es/)
+- [Documentación sanitaria](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/documentacion-sanitaria/)
+- [Sistemas de información sanitaria](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/sistemas-de-informacion-sanitaria/)
+- [Teleasistencia](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/teleasistencia/)
+- [Salud y organización](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/salud-y-organizacion/)
+- [Formación profesional](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/formacion-profesional/)
+- [IA local](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/ia-local/)
+- [Embeddings y PLN](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/embeddings-y-pln/)
+- [Arquitectura de software](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/arquitectura-de-software/)
+- [Trayectoria docente](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/tema/trayectoria-docente/)
+- [Feed RSS](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/feed.xml)
+
+## Proyecto literario
+- [Rutas del Alma: Ecos y Sombras](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/rutas-del-alma/): fantasía transformacional.
+
+## Más
+- [Sitemap](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/sitemap.xml)
