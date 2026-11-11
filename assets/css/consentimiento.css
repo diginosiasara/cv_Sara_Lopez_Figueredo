@@ -1,4 +1,4 @@
-.cc{position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:90;max-width:720px;margin:0 auto;background:#0f172a;color:#fff;border-radius:20px;padding:1.1rem 1.25rem;box-shadow:0 20px 50px -12px rgba(0,0,0,.45);font-size:14px;line-height:1.5}
+.cc{position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:1100;max-width:720px;margin:0 auto;background:#0f172a;color:#fff;border-radius:20px;padding:1.1rem 1.25rem;box-shadow:0 20px 50px -12px rgba(0,0,0,.45);font-size:14px;line-height:1.5}
 .cc p{margin:0 0 .75rem}.cc a{color:#9cc4ff;text-decoration:underline}
 .cc-b{display:flex;flex-wrap:wrap;gap:.6rem}
 .cc button{min-height:44px;padding:0 1.25rem;border-radius:999px;font-weight:700;font-size:14px;cursor:pointer;border:2px solid #fff;background:transparent;color:#fff}
@@ -7,3 +7,5 @@
 @media print{.cc,.link-btn{display:none!important}}
 body:has(.cc){padding-bottom:9rem}
 @media(max-width:600px){body:has(.cc){padding-bottom:13rem}}
+/* En la portada, el lector de voz se oculta mientras el aviso está visible para que no tape los botones */
+body:has(.cc) .lector{visibility:hidden}

@@ -42,3 +42,8 @@
 - La portada enlaza a la política de privacidad (pie y nota del formulario → `Sanitario-Administrativo/index.html#ct-priv`) y el texto de privacidad menciona Google Tag Manager.
 - Imagen hero responsive: `hero-sara-lopez-640.webp`, `-1100.webp` y `hero-sara-lopez.webp` (1600), con `srcset` y preload adaptativo.
 - Para que `robots.txt`, `sitemap.xml` y `llms.txt` se encuentren en la raíz del host hace falta un repositorio `diginosiasara.github.io` (ver paquete aparte).
+
+### Bundle de la portada
+- El JavaScript de la portada (React) vive ahora en `assets/js/app.js` (antes estaba incrustado en `index.html`, que pasa de 326 KB a ~122 KB). Si editas textos de la home hay que regenerar también el contenido ya renderizado dentro de `#root`.
+- Los enlaces de icono (LinkedIn/GitHub) llevan texto oculto visualmente además de `aria-label`.
+- Mientras el aviso de analítica está visible, el lector de voz se oculta para no tapar los botones.

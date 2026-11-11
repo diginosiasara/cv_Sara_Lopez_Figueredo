@@ -10,6 +10,8 @@
 - Aviso de consentimiento y carga de Google Tag Manager solo tras aceptar (`assets/js/analytics-home.js`); enlaces a la política de privacidad en la portada.
 - Verificación de Google Search Console (archivo y meta).
 ### Cambiado
+- Bundle de la portada externalizado a `assets/js/app.js` con `modulepreload` (HTML de 326 KB a ~122 KB y cacheable).
+- Enlaces de icono con texto accesible y `title`; el lector de voz no tapa el aviso de analítica.
 - El bundle de la portada ya no reescribe `description`, `robots` ni `og:*` en tiempo de ejecución.
 - `docencia/`: canonical, robots, Open Graph y Twitter Cards completos; descripciones acortadas.
 - `dateModified` del `ProfilePage` en formato ISO 8601 con hora y zona horaria.
