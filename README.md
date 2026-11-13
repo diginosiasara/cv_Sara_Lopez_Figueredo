@@ -47,3 +47,14 @@
 - El JavaScript de la portada (React) vive ahora en `assets/js/app.js` (antes estaba incrustado en `index.html`, que pasa de 326 KB a ~122 KB). Si editas textos de la home hay que regenerar también el contenido ya renderizado dentro de `#root`.
 - Los enlaces de icono (LinkedIn/GitHub) llevan texto oculto visualmente además de `aria-label`.
 - Mientras el aviso de analítica está visible, el lector de voz se oculta para no tapar los botones.
+
+### Compartir y reacciones en el blog
+- Cada artículo incluye, antes de la caja de autora, botones de compartir (WhatsApp, LinkedIn, X, Facebook, Telegram, correo, copiar enlace y el menú nativo del móvil) y «me gusta» + reacciones +1 / −1 (una por persona y artículo, se pueden cambiar o retirar).
+- Archivos: `assets/css/blog-interacciones.css`, `assets/js/blog-interacciones.js`, `assets/js/blog-config.js`. Los enlaces de compartir son HTML estático (funcionan sin JavaScript).
+- Sin configurar, las reacciones se guardan solo en el navegador y no se muestran recuentos. Para recuentos compartidos sigue `docs/interacciones-firebase.md` (reglas en `docs/firebase.rules.json`) y pon la URL en `blog-config.js`.
+- Los artículos nuevos deben copiar el bloque `<section class="bi" data-bi data-slug="…">`, el CSS y los dos scripts de cualquier artículo existente (el `data-slug` es el nombre de su carpeta).
+
+### Catálogo de formación desplegable (portada)
+- El botón «Catálogo completo de formación» (sección «Siempre aprendiendo») ya no abre otra página: despliega bajo él un panel con el dashboard (cifras clave) y la «Biblioteca de cursos» con los 266 cursos por 9 grupos, buscador, filtro por año y «Abrir/Cerrar todos los grupos». Enlace directo: `/#catalogo`. Sin JavaScript, el botón sigue llevando al CV sanitario.
+- Archivos: `assets/catalogo/catalogo-datos.js` (datos; se carga solo al abrir, con una etiqueta script, así que funciona también abriendo el archivo desde el disco), `assets/css/catalogo-formacion.css`, `assets/js/catalogo-formacion.js`, tipografía Poppins en `assets/fonts/`.
+- Los datos salen del mismo registro que el CV sanitario (`Sanitario-Administrativo/index.html`). **Si añades o cambias cursos allí, hay que regenerar también `catalogo-datos.js`** (o pedirme que lo haga).

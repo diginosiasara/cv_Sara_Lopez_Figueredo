@@ -45,6 +45,7 @@
   <link rel="stylesheet" href="../../assets/css/lector.css">
   <link rel="stylesheet" href="../../assets/css/sigue-leyendo.css">
   <link rel="stylesheet" href="../../assets/css/animaciones-articulo.css">
+  <link rel="stylesheet" href="../../assets/css/blog-interacciones.css">
   <noscript><link rel="stylesheet" href="../../assets/css/noscript.css"></noscript>
   <script defer src="../../assets/js/main.EAHMBMUR.js"></script>
   <script defer src="../../assets/js/lector.js"></script>
@@ -174,7 +175,42 @@
       </div>
       <footer class="post__footer">
         <ul class="chip-list post__hashtags" aria-label="Etiquetas"><li class="chip chip--muted">#SaludDigital</li><li class="chip chip--muted">#SistemasDeInformaciónSanitaria</li><li class="chip chip--muted">#HistoriaClínica</li><li class="chip chip--muted">#CMBD</li><li class="chip chip--muted">#GestiónSanitaria</li><li class="chip chip--muted">#CalidadEnSalud</li><li class="chip chip--muted">#InnovaciónEnSalud</li><li class="chip chip--muted">#EducaciónSanitaria</li></ul>
-        <div class="author-box card">
+        <section class="bi" aria-labelledby="bi-t" data-bi data-slug="sistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en">
+  <svg class="bi__sprite" aria-hidden="true" focusable="false"><defs>
+<symbol id="bi-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+<symbol id="bi-up" viewBox="0 0 24 24"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></symbol>
+<symbol id="bi-down" viewBox="0 0 24 24"><path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z"/></symbol>
+<symbol id="bi-wa" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+<symbol id="bi-in" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+<symbol id="bi-x" viewBox="0 0 24 24"><path d="M4 4h4l12 16h-4z"/><path d="M4 20l7-7.5"/><path d="M13 11.5 20 4"/></symbol>
+<symbol id="bi-fb" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+<symbol id="bi-tg" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+<symbol id="bi-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+<symbol id="bi-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5"/></symbol>
+<symbol id="bi-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></symbol>
+</defs></svg>
+  <h2 class="bi__title" id="bi-t">¿Te ha resultado útil?</h2>
+  <p class="bi__sub">Dale a «me gusta» o valora este artículo con +1 o −1. Puedes cambiar de opinión cuando quieras.</p>
+  <div class="bi__row" role="group" aria-label="Reacciones al artículo">
+    <button type="button" class="bi__btn" data-bi-like aria-pressed="false"><svg class="bi__ic bi__ic--fill" aria-hidden="true" focusable="false"><use href="#bi-heart"/></svg><span class="bi__txt">Me gusta</span><span class="bi__n" hidden></span></button>
+    <button type="button" class="bi__btn" data-bi-vote="1" aria-pressed="false" aria-label="Valorar a favor, más uno"><svg class="bi__ic bi__ic--fill" aria-hidden="true" focusable="false"><use href="#bi-up"/></svg><span>+1</span><span class="bi__n" hidden></span></button>
+    <button type="button" class="bi__btn" data-bi-vote="-1" aria-pressed="false" aria-label="Valorar en contra, menos uno"><svg class="bi__ic bi__ic--fill" aria-hidden="true" focusable="false"><use href="#bi-down"/></svg><span>−1</span><span class="bi__n" hidden></span></button>
+  </div>
+  <p class="bi__label" id="bi-s">Compartir este artículo</p>
+  <ul class="bi__list" aria-labelledby="bi-s">
+    <li><a class="bi__link" href="https://api.whatsapp.com/send?text=Sistemas%20de%20Informaci%C3%B3n%20Sanitaria%3A%20Clave%20para%20la%20gesti%C3%B3n%20y%20calidad%20en%20salud%20https%3A%2F%2Fdiginosiasara.github.io%2Fcv_Sara_Lopez_Figueredo%2Fblog%2Fsistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en%2F" target="_blank" rel="noopener noreferrer" data-event="share_click" data-label="whatsapp" data-location="post_reactions"><svg class="bi__ic" aria-hidden="true" focusable="false"><use href="#bi-wa"/></svg><span>WhatsApp</span><span class="bi__vh"> (se abre en una ventana nueva)</span></a></li>
+    <li><a class="bi__link" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdiginosiasara.github.io%2Fcv_Sara_Lopez_Figueredo%2Fblog%2Fsistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en%2F" target="_blank" rel="noopener noreferrer" data-event="share_click" data-label="linkedin" data-location="post_reactions"><svg class="bi__ic" aria-hidden="true" focusable="false"><use href="#bi-in"/></svg><span>LinkedIn</span><span class="bi__vh"> (se abre en una ventana nueva)</span></a></li>
+    <li><a class="bi__link" href="https://x.com/intent/post?text=Sistemas%20de%20Informaci%C3%B3n%20Sanitaria%3A%20Clave%20para%20la%20gesti%C3%B3n%20y%20calidad%20en%20salud&amp;url=https%3A%2F%2Fdiginosiasara.github.io%2Fcv_Sara_Lopez_Figueredo%2Fblog%2Fsistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en%2F" target="_blank" rel="noopener noreferrer" data-event="share_click" data-label="x" data-location="post_reactions"><svg class="bi__ic" aria-hidden="true" focusable="false"><use href="#bi-x"/></svg><span>X</span><span class="bi__vh"> (se abre en una ventana nueva)</span></a></li>
+    <li><a class="bi__link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdiginosiasara.github.io%2Fcv_Sara_Lopez_Figueredo%2Fblog%2Fsistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en%2F" target="_blank" rel="noopener noreferrer" data-event="share_click" data-label="facebook" data-location="post_reactions"><svg class="bi__ic" aria-hidden="true" focusable="false"><use href="#bi-fb"/></svg><span>Facebook</span><span class="bi__vh"> (se abre en una ventana nueva)</span></a></li>
+    <li><a class="bi__link" href="https://t.me/share/url?url=https%3A%2F%2Fdiginosiasara.github.io%2Fcv_Sara_Lopez_Figueredo%2Fblog%2Fsistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en%2F&amp;text=Sistemas%20de%20Informaci%C3%B3n%20Sanitaria%3A%20Clave%20para%20la%20gesti%C3%B3n%20y%20calidad%20en%20salud" target="_blank" rel="noopener noreferrer" data-event="share_click" data-label="telegram" data-location="post_reactions"><svg class="bi__ic" aria-hidden="true" focusable="false"><use href="#bi-tg"/></svg><span>Telegram</span><span class="bi__vh"> (se abre en una ventana nueva)</span></a></li>
+    <li><a class="bi__link" href="mailto:?subject=Sistemas%20de%20Informaci%C3%B3n%20Sanitaria%3A%20Clave%20para%20la%20gesti%C3%B3n%20y%20calidad%20en%20salud&amp;body=https%3A%2F%2Fdiginosiasara.github.io%2Fcv_Sara_Lopez_Figueredo%2Fblog%2Fsistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en%2F" data-event="share_click" data-label="email" data-location="post_reactions"><svg class="bi__ic" aria-hidden="true" focusable="false"><use href="#bi-mail"/></svg><span>Correo</span></a></li>
+    <li><button type="button" class="bi__link" data-bi-copy data-event="share_click" data-label="copy_link" data-location="post_reactions"><svg class="bi__ic" aria-hidden="true" focusable="false"><use href="#bi-link"/></svg><span>Copiar enlace</span></button></li>
+    <li data-bi-native hidden><button type="button" class="bi__link" data-event="share_click" data-label="native" data-location="post_reactions"><svg class="bi__ic" aria-hidden="true" focusable="false"><use href="#bi-share"/></svg><span>Más opciones…</span></button></li>
+  </ul>
+  <p class="bi__status" role="status" aria-live="polite"></p>
+  <p class="bi__priv" hidden>Las reacciones se guardan de forma anónima con un identificador aleatorio. <a href="../../Sanitario-Administrativo/index.html#ct-priv">Más información sobre privacidad</a>.</p>
+</section>
+<div class="author-box card">
           <span class="brand__mark" aria-hidden="true">Dg</span>
           <div>
             <p class="author-box__name">Sara López-Figueredo</p>
@@ -275,5 +311,7 @@
       </div>
     </div>
   </footer>
+<script src="../../assets/js/blog-config.js"></script>
+<script defer src="../../assets/js/blog-interacciones.js"></script>
 </body>
 </html>

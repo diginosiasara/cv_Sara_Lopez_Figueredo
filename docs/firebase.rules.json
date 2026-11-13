@@ -1,0 +1,19 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "r": {
+      "$slug": {
+        ".read": true,
+        ".validate": "$slug.matches(/^[a-z0-9-]{3,120}$/)",
+        "$uid": {
+          ".write": "$uid.matches(/^[a-z0-9]{16,32}$/)",
+          ".validate": "newData.hasChildren(['l', 'v'])",
+          "l": { ".validate": "newData.val() === 0 || newData.val() === 1" },
+          "v": { ".validate": "newData.val() === -1 || newData.val() === 0 || newData.val() === 1" },
+          "$other": { ".validate": false }
+        }
+      }
+    }
+  }
+}

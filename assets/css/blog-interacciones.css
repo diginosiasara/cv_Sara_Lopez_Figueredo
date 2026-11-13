@@ -1,0 +1,24 @@
+/* Compartir y reacciones del blog */
+.bi{margin-block:2rem;padding:1.5rem;border:1px solid var(--line);border-radius:var(--radius-lg,1rem);background:var(--surface)}
+.bi__title{margin:0 0 .25rem;font-family:var(--font-serif);font-size:var(--fs-h3,1.25rem);line-height:1.25;color:var(--text)}
+.bi__sub{margin:0 0 1rem;color:var(--muted);font-size:var(--fs-sm,.9rem)}
+.bi__row,.bi__list{display:flex;flex-wrap:wrap;gap:.5rem;margin:0;padding:0;list-style:none}
+.bi__row{margin-bottom:1.25rem}
+.bi__label{margin:0 0 .5rem;font-size:var(--fs-xs,.8rem);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.bi__btn,.bi__link{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:2.75rem;padding-inline:1rem;border:1px solid var(--line-strong);border-radius:var(--radius-pill,999px);background:transparent;color:var(--text);font:inherit;font-size:var(--fs-sm,.9rem);font-weight:500;line-height:1.2;text-decoration:none;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s}
+.bi__btn:hover,.bi__link:hover{background:var(--bg-alt);border-color:var(--text)}
+.bi__btn:focus-visible,.bi__link:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.bi__btn[aria-pressed="true"]{background:var(--sage-strong);border-color:var(--sage-strong);color:#fff}
+.bi__btn[data-bi-vote="-1"][aria-pressed="true"]{background:var(--terra-strong,#a94b27);border-color:var(--terra-strong,#a94b27)}
+.bi__btn[disabled]{opacity:.6;cursor:progress}
+.bi__ic{width:1.1rem;height:1.1rem;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.bi__btn[aria-pressed="true"] .bi__ic--fill{fill:currentColor}
+.bi__n{min-width:1.25em;padding:.05rem .45rem;border-radius:999px;background:var(--bg-alt);color:var(--text);font-size:var(--fs-xs,.8rem);font-variant-numeric:tabular-nums}
+.bi__btn[aria-pressed="true"] .bi__n{background:rgb(255 255 255 / .22);color:#fff}
+.bi__status{min-height:1.4em;margin:1rem 0 0;font-size:var(--fs-sm,.9rem);color:var(--muted)}
+.bi__priv{margin:.5rem 0 0;font-size:var(--fs-xs,.8rem);color:var(--muted)}
+.bi__priv a{color:inherit;text-decoration:underline}
+.bi__sprite{position:absolute;width:0;height:0;overflow:hidden}
+.bi__vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media (prefers-reduced-motion:reduce){.bi__btn,.bi__link{transition:none}}
+@media print{.bi{display:none}}

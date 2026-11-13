@@ -9,6 +9,12 @@
 - `sitemap.xml`, `sitemap-images.xml`, `sitemap-index.xml`, `robots.txt`, `llms.txt`, `llms-full.txt`, `humans.txt`, `.well-known/security.txt`, `404.html`, `.nojekyll`, `.gitignore`.
 - Aviso de consentimiento y carga de Google Tag Manager solo tras aceptar (`assets/js/analytics-home.js`); enlaces a la política de privacidad en la portada.
 - Verificación de Google Search Console (archivo y meta).
+### Añadido (blog)
+- Botones de compartir, «me gusta» y reacciones +1/−1 en los 74 artículos (`blog-interacciones`), con recuentos compartidos opcionales mediante Firebase (`docs/interacciones-firebase.md`).
+
+### Añadido (portada)
+- Catálogo de formación desplegable bajo el botón «Catálogo completo de formación»: 266 cursos por 9 grupos, con buscador y filtro por año.
+
 ### Cambiado
 - Bundle de la portada externalizado a `assets/js/app.js` con `modulepreload` (HTML de 326 KB a ~122 KB y cacheable).
 - Enlaces de icono con texto accesible y `title`; el lector de voz no tapa el aviso de analítica.
