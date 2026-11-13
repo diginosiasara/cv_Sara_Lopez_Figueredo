@@ -15,6 +15,10 @@
 ### Añadido (portada)
 - Catálogo de formación desplegable bajo el botón «Catálogo completo de formación»: 266 cursos por 9 grupos, con buscador y filtro por año.
 
+### Privacidad
+- `gtag.js` del CV sanitario solo se carga tras aceptar la analítica (antes se descargaba siempre).
+- `cv-fuente.html` retirado de la publicación (`_desarrollo/`).
+
 ### Cambiado
 - Bundle de la portada externalizado a `assets/js/app.js` con `modulepreload` (HTML de 326 KB a ~122 KB y cacheable).
 - Enlaces de icono con texto accesible y `title`; el lector de voz no tapa el aviso de analítica.

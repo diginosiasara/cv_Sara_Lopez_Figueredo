@@ -10,12 +10,22 @@
   gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: saved === 'granted' ? 'granted' : 'denied', wait_for_update: 500 });
   gtag('js', new Date());
   gtag('config', ID, { allow_google_signals: false, allow_ad_personalization_signals: false });
+  // gtag.js solo se descarga cuando la persona acepta (antes no se contacta con Google).
+  var loaded = false;
+  function loadGa() {
+    if (loaded) return; loaded = true;
+    var s = document.createElement('script'); s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
+    document.head.appendChild(s);
+  }
+  if (saved === 'granted') loadGa();
 
   var banner = null;
   function announce(t) { var s = document.getElementById('estado'); if (s) { s.textContent = t; setTimeout(function () { s.textContent = ''; }, 3000); } }
   function choose(v) {
     try { localStorage.setItem(KEY, v); } catch (e) { /* sin almacenamiento */ }
     gtag('consent', 'update', { analytics_storage: v === 'granted' ? 'granted' : 'denied' });
+    if (v === 'granted') loadGa();
     if (banner) { banner.remove(); banner = null; }
     announce(v === 'granted' ? 'Analítica aceptada' : 'Analítica rechazada');
   }

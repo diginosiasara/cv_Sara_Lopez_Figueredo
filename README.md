@@ -31,7 +31,7 @@
 - La foto de cabecera ya no va en base64 dentro del JS: `assets/img/hero-sara-lopez.webp` (precargada, con `width`/`height`). Las fuentes son locales (`assets/css/fuentes.css`) en vez del `@import` de Google Fonts.
 - Imágenes sociales nuevas: `assets/img/social/home.jpg` y `assets/img/social/docencia.jpg` (1200×630).
 - `sitemap.xml` (89 URL canónicas + PDF del CV), `robots.txt` y `llms.txt` en la raíz. Ojo: los rastreadores solo leen `robots.txt` en la raíz del host (`diginosiasara.github.io/robots.txt`), no en una subcarpeta de proyecto; el sitemap hay que enviarlo en Search Console / Bing Webmaster Tools.
-- `docencia/`: añadidos canonical, robots, `og:url`, `og:image` y Twitter Cards. `Sanitario-Administrativo/documents/cv-fuente.html` pasa a `noindex`.
+- `docencia/`: añadidos canonical, robots, `og:url`, `og:image` y Twitter Cards. `cv-fuente.html` se ha movido a `_desarrollo/` (en `.gitignore`) para que no se publique.
 
 ### Analítica y verificación (portada)
 - `google0eb2bd5a41d5e035.html` y la meta `google-site-verification` están en la raíz/portada para Search Console.
@@ -58,3 +58,7 @@
 - El botón «Catálogo completo de formación» (sección «Siempre aprendiendo») ya no abre otra página: despliega bajo él un panel con el dashboard (cifras clave) y la «Biblioteca de cursos» con los 266 cursos por 9 grupos, buscador, filtro por año y «Abrir/Cerrar todos los grupos». Enlace directo: `/#catalogo`. Sin JavaScript, el botón sigue llevando al CV sanitario.
 - Archivos: `assets/catalogo/catalogo-datos.js` (datos; se carga solo al abrir, con una etiqueta script, así que funciona también abriendo el archivo desde el disco), `assets/css/catalogo-formacion.css`, `assets/js/catalogo-formacion.js`, tipografía Poppins en `assets/fonts/`.
 - Los datos salen del mismo registro que el CV sanitario (`Sanitario-Administrativo/index.html`). **Si añades o cambias cursos allí, hay que regenerar también `catalogo-datos.js`** (o pedirme que lo haga).
+
+### Privacidad y analítica (revisión 13-nov-2026)
+- El CV sanitario y sus páginas de error ya **no** cargan `gtag.js` de Google al entrar: se descarga solo cuando la persona acepta (igual que GTM en la portada). Ambos comparten la clave de consentimiento `cv-analytics-consent`. Siguen existiendo dos identificadores (GTM `GTM-TKJF6CM8` en la portada y GA4 `G-10T6SVEZJX` en el CV): conviene decidir cuál conservar.
+- `_desarrollo/` contiene fuentes que no se publican. Si `cv-fuente.html` ya estaba subido a GitHub, haz `git rm --cached Sanitario-Administrativo/documents/cv-fuente.html` (o simplemente confirma su borrado) y considera que seguirá en el historial de Git.

@@ -7,7 +7,7 @@ Proyecto estático (sin build). Abrir `index.html` o servir la carpeta con cualq
 - `css/`: `styles.css` base · `formadora.css` · `formacion.css` · `experiencia.css` · `proyectos.css` · `contacto.css` · `palabras.css` · `consent.css` (aviso de analítica) · `errores.css` (páginas de error) · `a11y.css` (accesibilidad, contraste, impresión) · `print.css` · `inline.css`.
 - `js/`: `boot.js` · `analytics.js` (Google Analytics 4 con consentimiento) · `main.js` · `formadora.js` · `formacion.js` · `contacto.js` · `errores.js`.
 - `assets/img/`: `hero.jpg`, `perfil.jpg` (JPEG progresivo) y `og-image.jpg` (1200×630 para compartir).
-- `documents/`: CV ejecutivo de 2 páginas en PDF y Word, y su fuente `cv-fuente.html`.
+- `documents/`: CV ejecutivo de 2 páginas en PDF y Word, (la fuente HTML `cv-fuente.html` ya no se publica: está en `_desarrollo/`, excluida de Git).
 - Páginas de aviso con el mismo tema (sin `index` en buscadores): `300`, `301`, `400`, `401`, `403`, `404`, `429`, `502`, `503` y `504` (`.html`). Son informativas: no contienen datos de servidor inventados. `429` y `503` tienen cuenta atrás para reintentar; `301` ofrece una redirección automática **opcional** (con botón para cancelar).
 - SEO: `robots.txt`, `sitemap.xml`, favicon (`favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`) y `google0eb2bd5a41d5e035.html` (verificación de Search Console).
 

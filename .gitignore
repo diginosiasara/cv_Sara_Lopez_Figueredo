@@ -10,3 +10,6 @@ Thumbs.db
 # Dependencias y registros
 node_modules/
 *.log
+
+# Fuentes de desarrollo que no deben publicarse (GitHub Pages sirve todo lo que se sube)
+_desarrollo/
