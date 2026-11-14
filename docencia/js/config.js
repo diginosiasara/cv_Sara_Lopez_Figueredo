@@ -9,7 +9,7 @@ window.CV_CONFIG = Object.freeze({
   registro: Object.freeze({
     csv: '1026717201558854011878',
     fecha: '31 de agosto de 2026',
-    dni: '53715492G',
+    dni: '***1549**',
   }),
   cvFilename: 'CV_Sara_Lopez_Figueredo_Docente_Acreditada_2801243.txt',
   fichasPorDefecto: 12,

@@ -15,6 +15,11 @@
 ### Añadido (portada)
 - Catálogo de formación desplegable bajo el botón «Catálogo completo de formación»: 266 cursos por 9 grupos, con buscador y filtro por año.
 
+### Seguridad y accesibilidad (14-nov)
+- DNI enmascarado en la página y la configuración de docencia.
+- Sitemaps sin páginas `noindex` (22 retiradas: Rutas del Alma y 21 artículos del blog; tres de ellos —recursos TIC, comunicar para participar y protocolo para rehabilitar— están destacados en la portada).
+- Nuevo panel de accesibilidad en 89 páginas (`accesibilidad/`).
+
 ### Privacidad
 - `gtag.js` del CV sanitario solo se carga tras aceptar la analítica (antes se descargaba siempre).
 - `cv-fuente.html` retirado de la publicación (`_desarrollo/`).

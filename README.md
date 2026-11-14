@@ -62,3 +62,8 @@
 ### Privacidad y analítica (revisión 13-nov-2026)
 - El CV sanitario y sus páginas de error ya **no** cargan `gtag.js` de Google al entrar: se descarga solo cuando la persona acepta (igual que GTM en la portada). Ambos comparten la clave de consentimiento `cv-analytics-consent`. Siguen existiendo dos identificadores (GTM `GTM-TKJF6CM8` en la portada y GA4 `G-10T6SVEZJX` en el CV): conviene decidir cuál conservar.
 - `_desarrollo/` contiene fuentes que no se publican. Si `cv-fuente.html` ya estaba subido a GitHub, haz `git rm --cached Sanitario-Administrativo/documents/cv-fuente.html` (o simplemente confirma su borrado) y considera que seguirá en el historial de Git.
+
+### Seguridad y accesibilidad (14-nov-2026)
+- **DNI enmascarado** en `docencia/index.html` y `docencia/js/config.js` (`***1549**`, formato de la AEPD). El DNI completo sigue en el historial de Git (2 commits): si ese repositorio es público, valora reescribir el historial (git filter-repo) y forzar el push, o aceptar el riesgo conscientemente.
+- **Sitemaps** (`sitemap.xml`, `sitemap-images.xml`): ya no incluyen las 22 páginas con `noindex`. La política de indexación de cada página la decides tú (ver CHANGELOG).
+- **Panel «Accesibilidad»** (`accesibilidad/`): botón flotante abajo a la izquierda en todas las páginas (excepto las de error y archivos de verificación). Tamaño de texto, alto contraste, fuente legible (Atkinson Hyperlegible, autoalojada), espaciado, guía de lectura, resaltar enlaces y reducir movimiento. Se guarda en `localStorage` (`diginosia-a11y`), sin envío de datos. Al insertar páginas nuevas, añade el `<link>` y el `<script defer>` de `accesibilidad/`. La lectura en voz alta sigue siendo la del botón «Escuchar» (`assets/js/lector.js`).
