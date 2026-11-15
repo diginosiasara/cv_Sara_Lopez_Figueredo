@@ -15,6 +15,9 @@
 ### Añadido (portada)
 - Catálogo de formación desplegable bajo el botón «Catálogo completo de formación»: 266 cursos por 9 grupos, con buscador y filtro por año.
 
+### Asistente (14-nov)
+- Asistente de búsqueda con el avatar de la autora: índice de 78 páginas, 1.099 fragmentos y 266 cursos; generador `scripts/construir_indice_asistente.py`.
+
 ### Rutas del Alma y documentación (14-nov)
 - Sección literaria de la portada: botón «Descubrir el universo» hacia la web oficial y nuevo botón a Amazon; botones con estilo propio (el dorado nunca llegó al CSS compilado); nodo `Book` en el JSON-LD; `llms.txt` y `llms-full.txt` actualizados.
 - README con las cifras reales del sitemap.

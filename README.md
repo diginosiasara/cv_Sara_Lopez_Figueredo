@@ -72,3 +72,9 @@
 - La sección de la portada enlaza ahora a la **web oficial** (`https://diginosiasara.github.io/rutas-del-alma/`, otro repositorio) y a la ficha de **Amazon** (URL facilitada por la autora, no verificable automáticamente). La página interna `rutas-del-alma/` de este proyecto sigue existiendo (`noindex`) pero ya no se enlaza desde la portada.
 - JSON-LD de la portada: nodo `Book` (`Rutas del Alma: Viajes Internos y Despertar Colectivo`) dentro de la serie `Rutas del Alma: Ecos y Sombras`, con la autora como `Person`.
 - Nomenclatura pendiente de unificar: la portada dice «Ruta del Alma: Viajes internos y despertar»; la web oficial dice «Rutas del Alma: Viajes Internos y Despertar Colectivo».
+
+### Asistente DigiNOSIA (14-nov-2026)
+- Botón con el avatar (abajo a la derecha, sobre «Escuchar») en 89 páginas. **Busca** en el contenido de la web (páginas, 74 artículos del blog y 266 cursos del catálogo) y devuelve enlaces con el fragmento relevante. **No usa IA generativa**, no hace llamadas a ningún servidor y no guarda las preguntas. Atajos: ¿Qué experiencia tiene Sara?, Cursos de Power BI, Artículos sobre teleasistencia, ¿Qué es Rutas del Alma?, ¿Cómo puedo contactar?
+- Archivos: `assets/asistente/asistente.js`, `asistente.css`, `avatar.webp` e `indice.js` (el índice, que se carga solo al abrir el panel).
+- **Mantenimiento:** el índice es una copia del contenido. Tras cambiar páginas, artículos o cursos, ejecuta `python3 scripts/construir_indice_asistente.py` (necesita `beautifulsoup4` y `lxml`) y publica `assets/asistente/indice.js`. Si no, el asistente responderá con información antigua.
+- Evolución posible: sustituir la búsqueda por un modelo (Ollama local o una API detrás de un backend) manteniendo esta interfaz; hoy no existe esa conexión.
