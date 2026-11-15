@@ -83,3 +83,11 @@
 .ra-hero + .post__layout { margin-top: clamp(2rem, 1.5rem + 2vw, 3.25rem); }
 .ra-hero .vz-chips { list-style: none; display: flex; flex-wrap: wrap; gap: .55rem; padding: 0; margin: 1.25rem 0 0; }
 .ra-hero .vz-chips > li { margin: 0; padding: .5rem 1rem; border-radius: 999px; font-size: var(--fs-sm); font-weight: 600; background: rgb(255 255 255 / .09); border: 1px solid rgb(217 180 108 / .45); color: var(--ra-cream); }
+
+.ra-home__cta{display:flex;flex-wrap:wrap;gap:.75rem}
+.ra-home__btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:3rem;padding:0 1.75rem;border-radius:999px;font-size:14px;font-weight:500;line-height:1.2;text-decoration:none;transition:filter .2s,background-color .2s}
+.ra-home__btn--gold{background:#D9B46C;color:#1d1608;border:1px solid #D9B46C}
+.ra-home__btn--gold:hover{filter:brightness(1.07)}
+.ra-home__btn--line{background:transparent;color:#D9B46C;border:1px solid #D9B46C}
+.ra-home__btn--line:hover{background:rgb(217 180 108 / .14)}
+.ra-home__btn:focus-visible{outline:3px solid #fff;outline-offset:3px}

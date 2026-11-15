@@ -15,6 +15,10 @@
 ### Añadido (portada)
 - Catálogo de formación desplegable bajo el botón «Catálogo completo de formación»: 266 cursos por 9 grupos, con buscador y filtro por año.
 
+### Rutas del Alma y documentación (14-nov)
+- Sección literaria de la portada: botón «Descubrir el universo» hacia la web oficial y nuevo botón a Amazon; botones con estilo propio (el dorado nunca llegó al CSS compilado); nodo `Book` en el JSON-LD; `llms.txt` y `llms-full.txt` actualizados.
+- README con las cifras reales del sitemap.
+
 ### Seguridad y accesibilidad (14-nov)
 - DNI enmascarado en la página y la configuración de docencia.
 - Sitemaps sin páginas `noindex` (22 retiradas: Rutas del Alma y 21 artículos del blog; tres de ellos —recursos TIC, comunicar para participar y protocolo para rehabilitar— están destacados en la portada).

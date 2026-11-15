@@ -30,7 +30,7 @@
 - `index.html` (home): `<head>` completo (description, canonical, robots, Open Graph, Twitter Cards, iconos, JSON-LD `Person` + `WebSite` + `ProfilePage` con `@id` `…/#person` que reutilizan los artículos). El contenido de la home se guarda ya renderizado dentro de `#root` (lo sustituye React al arrancar), así que se lee sin JavaScript. **Si cambias textos de la home en el bundle, hay que regenerar ese contenido.**
 - La foto de cabecera ya no va en base64 dentro del JS: `assets/img/hero-sara-lopez.webp` (precargada, con `width`/`height`). Las fuentes son locales (`assets/css/fuentes.css`) en vez del `@import` de Google Fonts.
 - Imágenes sociales nuevas: `assets/img/social/home.jpg` y `assets/img/social/docencia.jpg` (1200×630).
-- `sitemap.xml` (89 URL canónicas + PDF del CV), `robots.txt` y `llms.txt` en la raíz. Ojo: los rastreadores solo leen `robots.txt` en la raíz del host (`diginosiasara.github.io/robots.txt`), no en una subcarpeta de proyecto; el sitemap hay que enviarlo en Search Console / Bing Webmaster Tools.
+- `sitemap.xml` (68 URL canónicas indexables; las páginas con `noindex` no se incluyen), `robots.txt` y `llms.txt` en la raíz. Ojo: los rastreadores solo leen `robots.txt` en la raíz del host (`diginosiasara.github.io/robots.txt`), no en una subcarpeta de proyecto; el sitemap hay que enviarlo en Search Console / Bing Webmaster Tools.
 - `docencia/`: añadidos canonical, robots, `og:url`, `og:image` y Twitter Cards. `cv-fuente.html` se ha movido a `_desarrollo/` (en `.gitignore`) para que no se publique.
 
 ### Analítica y verificación (portada)
@@ -67,3 +67,8 @@
 - **DNI enmascarado** en `docencia/index.html` y `docencia/js/config.js` (`***1549**`, formato de la AEPD). El DNI completo sigue en el historial de Git (2 commits): si ese repositorio es público, valora reescribir el historial (git filter-repo) y forzar el push, o aceptar el riesgo conscientemente.
 - **Sitemaps** (`sitemap.xml`, `sitemap-images.xml`): ya no incluyen las 22 páginas con `noindex`. La política de indexación de cada página la decides tú (ver CHANGELOG).
 - **Panel «Accesibilidad»** (`accesibilidad/`): botón flotante abajo a la izquierda en todas las páginas (excepto las de error y archivos de verificación). Tamaño de texto, alto contraste, fuente legible (Atkinson Hyperlegible, autoalojada), espaciado, guía de lectura, resaltar enlaces y reducir movimiento. Se guarda en `localStorage` (`diginosia-a11y`), sin envío de datos. Al insertar páginas nuevas, añade el `<link>` y el `<script defer>` de `accesibilidad/`. La lectura en voz alta sigue siendo la del botón «Escuchar» (`assets/js/lector.js`).
+
+### Rutas del Alma (14-nov-2026)
+- La sección de la portada enlaza ahora a la **web oficial** (`https://diginosiasara.github.io/rutas-del-alma/`, otro repositorio) y a la ficha de **Amazon** (URL facilitada por la autora, no verificable automáticamente). La página interna `rutas-del-alma/` de este proyecto sigue existiendo (`noindex`) pero ya no se enlaza desde la portada.
+- JSON-LD de la portada: nodo `Book` (`Rutas del Alma: Viajes Internos y Despertar Colectivo`) dentro de la serie `Rutas del Alma: Ecos y Sombras`, con la autora como `Person`.
+- Nomenclatura pendiente de unificar: la portada dice «Ruta del Alma: Viajes internos y despertar»; la web oficial dice «Rutas del Alma: Viajes Internos y Despertar Colectivo».

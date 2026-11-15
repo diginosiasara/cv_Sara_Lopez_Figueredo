@@ -22,7 +22,9 @@
 - [Feed RSS](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/blog/feed.xml)
 
 ## Proyecto literario
-- [Rutas del Alma: Ecos y Sombras](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/rutas-del-alma/): fantasía transformacional.
+- [Rutas del Alma: web oficial](https://diginosiasara.github.io/rutas-del-alma/index.html): libro de fantasía transformacional «Rutas del Alma: Viajes Internos y Despertar Colectivo», primer tomo de la colección «Rutas del Alma: Ecos y Sombras».
+- [Consultar el libro en Amazon](https://www.amazon.co.jp/-/en/SARA-LOPEZ-FIGUEREDO-SAINZ/dp/B0FCF72J74)
+- [Presentación del proyecto en este portfolio](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/rutas-del-alma/)
 
 ## Más
 - [Versión ampliada para IA (llms-full.txt)](https://diginosiasara.github.io/cv_Sara_Lopez_Figueredo/llms-full.txt)
